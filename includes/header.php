@@ -12,7 +12,7 @@
         <!-- Preloader area end -->
         <!-- Mouse cursor area start here -->
         <div class="mouse-cursor cursor-outer"></div>
-        <div class="mouse-cursor cursor-inner"></div>
+       <!-- <div class="mouse-cursor cursor-inner"></div> -->
         <!-- Mouse cursor area end here -->
         <!-- Top header area start here -->
         <div class="header-top d-none d-lg-block">
@@ -168,7 +168,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#0">Blog</a>
+                                    <a href="#0">Galeria</a>
                                     <ul class="sub-menu">
                                         <li>
                                             <a href="blog.html">Blog Grid</a>
