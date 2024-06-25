@@ -718,7 +718,7 @@ include('includes/header.php');
         </main>
         <!-- Footer area start here -->
         <?php
-include('includes/footer.php');
+//include('includes/footer.php');
 ?>
 
         <!-- Footer area end here -->

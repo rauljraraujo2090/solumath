@@ -79,7 +79,29 @@
     </div>
     <!-- Fullscreen search area end here -->
 
-   
+   <!-- Page banner area start here -->
+   <section class="banner__inner-page bg-image pt-180 pb-180 bg-image" data-background="assets/images/banner/banner-inner-page.jpg">
+                <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                </div>
+                <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                </div>
+                <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                </div>
+                <div class="container">
+                    <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Contactos</h2>
+                    <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <a href="index.php">Inicio</a>
+                        <span>
+                            <i class="fa-regular fa-angles-right mx-2"></i>
+                            Contacto
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <!-- Page banner area end here -->
 
         <!-- Contact area start here -->
         <section class="contact-area pt-120 pb-120">
@@ -88,8 +110,7 @@
                     <div class="col-lg-5">
                         <div class="contact__left-item primary-bg">
                             <h3 class="text-white mb-30">Deja tus datos y te contactaremos</h3>
-                            <p class="text-white">Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut
-                                blandit felis odio in turpis. Quisque.</p>
+                            <p class="text-white">Déjanos tus datos para que una asesora se comunique contigo.</p>
                             <ul class="mt-40 mb-40">
                                 <li>
                                     <i>
@@ -221,19 +242,19 @@
         </section>
         <!-- Contact area end here -->
 
-        <!-- Contact map area start here -->
+        <!-- Contact map area start here 
         <div class="contact__map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122897.88733150701!2d-48.09324971503908!3d-15.721541570017282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3d18df9ae275%3A0x738470e469754a24!2sBras%C3%ADlia%20-%20Brasilia%2C%20Federal%20District%2C%20Brazil!5e0!3m2!1sen!2sbd!4v1703471804969!5m2!1sen!2sbd"
+                src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&loading=async&callback=initMa"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <!-- Contact map area end here -->
+         Contact map area end here -->
     </main>
 
       <!-- Footer area start here -->
       <?php
-    include('includes/footer.php');
+   // include('includes/footer.php');
 ?>
 
     <!-- Footer area end here -->

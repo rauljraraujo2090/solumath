@@ -1,4 +1,4 @@
-      <!-- Preloader area start -->
+      <!-- Preloader area start 
       <div class="loading">
             <span class="text-capitalize">S</span>
             <span>o</span>
@@ -8,7 +8,7 @@
             <span>a</span>
           
         </div>
-        <div id="preloader"></div>
+        <div id="preloader"></div>-->
         <!-- Preloader area end -->
         <!-- Mouse cursor area start here -->
         <div class="mouse-cursor cursor-outer"></div>
@@ -71,7 +71,7 @@
             <div class="container header__container">
                 <div class="header__main">
                     <a href="index.html" class="logo">
-                        <img src="assets/images/logo/soluma.svg" class="f" alt="logo">
+                        <img src="#" class="f" alt="logo">
                     </a>
                     <style>
                         .f{
@@ -86,99 +86,46 @@
                                 <li class="has-megamenu">
                                     <a href="index.php">inicio</a>
                                     <ul class="sub-menu mega-menu menu-image">
-                                        <li>
-                                            <div class="image text-center">
-                                                <img src="assets/images/menu/home1-image.jpg" alt="image">
-                                                <div class="btn__group">
-                                                    <a href="index.html" class="btn-one">Multi Page</a>
-                                                    <a href="index-one-page.html" class="btn-one mt-2">One Page</a>
-                                                </div>
-                                                <h6 class="text-white">Home Page 01</h6>
-                                            </div>
-                                            <div class="image text-center">
-                                                <img src="assets/images/menu/home2-image.jpg" alt="image">
-                                                <div class="btn__group">
-                                                    <a href="index-2.html" class="btn-one">Multi Page</a>
-                                                    <a href="index-2-one-page.html" class="btn-one mt-2">One Page</a>
-                                                </div>
-                                                <h6 class="text-white">Home Page 02</h6>
-                                            </div>
-                                            <div class="image text-center">
-                                                <img src="assets/images/menu/home3-image.jpg" alt="image">
-                                                <div class="btn__group">
-                                                    <a href="index-3.html" class="btn-one">Multi Page</a>
-                                                    <a href="index-3-one-page.html" class="btn-one mt-2">One Page</a>
-                                                </div>
-                                                <h6 class="text-white">Home Page 03</h6>
-                                            </div>
-                                            <div class="image text-center">
-                                                <img src="assets/images/menu/home4-image.jpg" alt="image">
-                                                <div class="btn__group">
-                                                    <a href="index-dark.html" class="btn-one">View Page</a>
-                                                </div>
-                                                <h6 class="text-white">Home Dark</h6>
-                                            </div>
-                                        </li>
+                                       
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="sobre_nosotros.php">Sobre Nosotros</a>
+                                    <a href="#">Sobre Nosotros</a>
                                 </li>
                                 <li>
-                                    <a href="#0">Services</a>
+                                    <a href="#0">Servicios</a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="service-solutions.html">IT Solutions</a>
+                                            <a href="servios.html">Soluciones</a>
                                         </li>
                                         <li>
-                                            <a href="service.html">IT Services</a>
+                                            <a href="servicio.html">Servicios</a>
                                         </li>
-                                        <li>
-                                            <a href="service-details.html">Service Details</a>
-                                        </li>
+                                        
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#0">Pages</a>
+                                    <a href="#0">Paginas</a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="case.html">Case Study 01</a>
+                                            <a href="casos.html">Caso</a>
                                         </li>
                                         <li>
-                                            <a href="case-2.html">Case Study 02</a>
+                                            <a href="casos.html">Caso</a>
                                         </li>
-                                        <li>
-                                            <a href="case-details.html">Case Study Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html">Our Team</a>
-                                        </li>
-                                        <li>
-                                            <a href="team-details.html">Team Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="pricing.html">Pricing</a>
-                                        </li>
-                                        <li>
-                                            <a href="faq.html">FAQ's</a>
-                                        </li>
-                                        <li>
-                                            <a href="error.html">404 Error</a>
-                                        </li>
+                                        
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#0">Galeria</a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="blog.html">Blog Grid</a>
+                                            <a href="blog.html">###</a>
                                         </li>
                                         <li>
-                                            <a href="blog-standard.html">Blog Standard</a>
+                                            <a href="blog-.html">###</a>
                                         </li>
-                                        <li>
-                                            <a href="blog-details.html">Blog Details</a>
-                                        </li>
+                                        
                                     </ul>
                                 </li>
                                 <li>

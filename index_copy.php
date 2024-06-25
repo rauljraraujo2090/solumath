@@ -32,366 +32,109 @@
 include('includes/header.php');
 ?>
 
-            <!-- Fullscreen search area start here -->
-            <div class="search-wrap">
-            <div class="search-inner">
-                <i class="fas fa-times search-close" id="search-close"></i>
-                <div class="search-cell">
-                    <form method="get">
-                        <div class="search-field-holder">
-                            <input type="search" class="main-search-input" placeholder="Search...">
+    <!-- Sidebar area start here -->
+    <div id="targetElement" class="sidebar-area sidebar__hide">
+        <div class="sidebar__overlay"></div>
+        <a href="index.html" class="logo mb-40">
+            <img src="assets/images/logo/logo.svg" alt="logo">
+        </a>
+        <div class="sidebar__search mb-30">
+            <input type="text" placeholder="Search...">
+            <i class="fa-regular fa-magnifying-glass"></i>
+        </div>
+        <div class="mobile-menu overflow-hidden"></div>
+        <ul class="info pt-40">
+            <li><i class="fa-solid primary-color fa-location-dot"></i> <a href="#0">example@example.com</a>
+            </li>
+            <li class="py-2"><i class="fa-solid primary-color fa-phone-volume"></i> <a
+                    href="tel:+208-6666-0112">+208-6666-0112</a>
+            </li>
+            <li><i class="fa-solid primary-color fa-paper-plane"></i> <a href="#0">info@example.com</a></li>
+        </ul>
+        <div class="social-icon mt-20">
+            <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#0"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#0"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <button id="closeButton" class="text-white"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <!-- Sidebar area end here -->
+
+    <!-- Fullscreen search area start here -->
+    <div class="search-wrap">
+        <div class="search-inner">
+            <i class="fas fa-times search-close" id="search-close"></i>
+            <div class="search-cell">
+                <form method="get">
+                    <div class="search-field-holder">
+                        <input type="search" class="main-search-input" placeholder="Search...">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Fullscreen search area end here -->
+
+    <main>
+        <!-- Banner area start here -->
+        <div class="banner-three-area">
+            <div class="banner-three__bg">
+                <img class="sway_Y__animation"  src="assets/images/bg/banner-three-bg.png" alt="bg-image">
+            </div>
+
+
+            <div class="banner-three__shape-left wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <img class="sway_Y__animationY" src="assets/images/banner/banner-three-left-shape.png" alt="image">
+            </div>
+            <div class="banner-three__shape-right wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <img class="sway__animationX" src="assets/images/banner/banner-three-right-shape.png" alt="image">
+            </div>
+            <div class="banner-three__container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 order-2 order-lg-1">
+                        <div class="banner-three__content pt-0 pb-0">
+                            <h4 data-animation="slideInRight" data-duration="2s" data-delay=".5s"   class="wow fadeInUp text-white mb-20" id="er"data-wow-delay="00ms" data-wow-duration="1500ms">
+                                BIENVENIDO A SOLUMA
+                            </h4>
+
+                           
+                            <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s"  class="wow fadeInUp text-white" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                Trazando el camino del exito 
+                            </h1>
+                            <p  data-animation="slideInRight" data-duration="2s" data-delay=".5s" class="wow fadeInUp mt-20" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                Fortalece tu base matemática potenciando tu aprendizaje con nosotros 
+                            </p>
+                            <div class="banner-three__info wow fadeInUp mt-50" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=5e3ce6c0-2b1f-4285-8d4b-75ee78787346&scope=openId%20profile%20openid%20offline_access&redirect_uri=https%3A%2F%2Fteams.microsoft.com%2Fv2&client-request-id=829b05a1-f2c9-4064-b683-bf1a31415b56&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=3.7.1&client_info=1&code_challenge=4YEdw0Ii9vru-EAUiUrAmXfz36Kza7hp9x4tTkhmDBs&code_challenge_method=S256&nonce=7a8f25a4-a3a5-435b-92b6-dde02b5f15a6&state=eyJpZCI6IjY3NjgxMjY5LWEyYzYtNDE4Zi05MWNkLTk1ZTQxMWIwNTQ1OCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&sso_reload=true">Aula Virtual  <i class="fa-regular fa-arrow-right-long"></i></a>
+                                <div class="banner-three__video-btn d-flex gap-4 align-items-center">
+                                    <div class="video-btn video-pulse">
+                                        <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
+                                                class="fa-solid fa-play"></i></a>
+                                    </div>
+                                    <h5 data-animation="slideInRight" data-duration="2s" data-delay=".5s"  class="text-white">Bienvido(a)</h5>
+                                </div>
+                            </div>
                         </div>
-                    </form>
+                    </div>
+                    <div class="col-lg-5 order-1 order-lg-2 wow fadeInLeft" data-wow-delay="200ms"
+                        data-wow-duration="1500ms">
+                        <div class="image">
+                            <img src="assets/images/banner/banner-three-image.png" alt="image">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Fullscreen search area end here -->
-        <main>
-            <!-- Banner area start here -->
-            <section class="banner-area">
-                
-                <div class="swiper banner__slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            
-                            
+        <!-- Banner area end here -->
 
 
 
- <!---BANNER LOGOS FLOTANTES -->
-
-                        <div class="banner-three__bg">
-                <img class="sway_Y__animation"  src="assets/images/bg/banner-three-bg.png" alt="bg-image">
-            </div>
-
-
-            <div class="banner-three__shape-left wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img class="sway_Y__animationY" src="assets/images/banner/banner-three-left-shape.png" alt="image">
-            </div>
-            <div class="banner-three__shape-right wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/banner-three-right-shape.png" alt="image">
-            </div>
-
-
-
-
-                            
-                            <!---BANNER-THEREE-AREA   : COLOR AZUL -->
-                            <div class="slide-bg banner-three-area"></div>
-                            <div class="container">
-                                <div class="banner__content">
-                                    <h4 data-animation="slideInRight" data-duration="2s" data-delay=".3s" class="text-white mb-20">
-                                        <svg class="me-1" width="40" height="16" viewBox="0 0 40 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <rect x="0.5" y="0.500183" width="25.6667" height="15" rx="7.5" stroke="white"/>
-                                            <rect x="13.3334" y="0.000183105" width="26.6667" height="16" rx="8" fill="white"/>
-                                        </svg>
-                                        Bienvenido  a Soluma Academy
-                                
-                                    </h4>
-                                    <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s" class="text-white">Trazando el camino hacia el exito 
-                                </h1>
-                                    <p data-animation="slideInRight" data-duration="2s" data-delay=".7s" class="mt-20">
-                                    Fortalece tu base matemática potenciando 
-                                  
-                                    <br>
-                                    tu aprendizaje con nosotros.
-                                
-                                    </p>
-                                    <!----BOTON DE AULA VIRTUAL --->
-                                    <div class="banner-three__info wow fadeInUp mt-50" data-wow-delay="600ms"
-                                data-wow-duration="1500ms">
-                                
-                                <a  data-animation="slideInRight" data-duration="2s" data-delay=".9s" href="about.html" class=" btn-one mt-0">Aula Virtual  <i class="fa-regular fa-arrow-right-long"></i></a>
-                                <div class="banner-three__video-btn d-flex gap-4 align-items-center">
-                                    <div class="video-btn video-pulse">
-                                        <a data-animation="slideInRight" data-duration="2s" data-delay=".9s" class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
-                                                class="fa-solid fa-play"></i></a>
-                                    </div>
-                                    <h5  data-animation="slideInRight" data-duration="2s" data-delay=".9s"  class="text-white">Bienvido(a)</h5>
-                                </div>
-                            </div>
-                                    <!----BOTON DE AULA VIRTUAL FINAL  --->
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        
-                        <div class="swiper-slide">
-
- <!---BANNER LOGOS FLOTANTES -->
-
-                        <div class="banner-three__bg">
-                <img class="sway_Y__animation"  src="assets/images/bg/banner-three-bg.png" alt="bg-image">
-            </div>
-
-
-            <div class="banner-three__shape-left wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img class="sway_Y__animationY" src="assets/images/banner/banner-three-left-shape.png" alt="image">
-            </div>
-            <div class="banner-three__shape-right wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/banner-three-right-shape.png" alt="image">
-            </div>
-                        <!---BANNER-THEREE-AREA   : COLOR AZUL -->
-                            <div class="slide-bg banner-three-area"></div>
-                            <div class="container">
-                                <div class="banner__content">
-                                    <h4 data-animation="slideInRight" data-duration="2s" data-delay=".3s" class="text-white mb-20">
-                                        <svg class="me-1" width="40" height="16" viewBox="0 0 40 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <rect x="0.5" y="0.500183" width="25.6667" height="15" rx="7.5" stroke="white"/>
-                                            <rect x="13.3334" y="0.000183105" width="26.6667" height="16" rx="8" fill="white"/>
-                                        </svg>
-                                        Bienvenido  a Soluma Academy
-                                
-                                    </h4>
-                                    <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s" class="text-white">Talleres   Grupales
-                                       en las matematicas
-                                </h1>
-                                    <p data-animation="slideInRight" data-duration="2s" data-delay=".7s" class="mt-20">
-                                    Clases grupales para alumnos del mismo grado que 
-                                    <br>quieran dominar y amar las matemáticas
-                                
-                                    </p>
-                                    <!----BOTON DE AULA VIRTUAL --->
-                                    <div class="banner-three__info wow fadeInUp mt-50" data-wow-delay="600ms"
-                                data-wow-duration="1500ms">
-                                
-                                <a  data-animation="slideInRight" data-duration="2s" data-delay=".9s" href="about.html" class=" btn-one mt-0">Aula Virtual  <i class="fa-regular fa-arrow-right-long"></i></a>
-                                <div class="banner-three__video-btn d-flex gap-4 align-items-center">
-                                    <div class="video-btn video-pulse">
-                                        <a data-animation="slideInRight" data-duration="2s" data-delay=".9s" class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
-                                                class="fa-solid fa-play"></i></a>
-                                    </div>
-                                    <h5  data-animation="slideInRight" data-duration="2s" data-delay=".9s"  class="text-white">Bienvido(a)</h5>
-                                </div>
-                            </div>
-                                    <!----BOTON DE AULA VIRTUAL FINAL  --->
-                                </div>
-                                
-                            </div>
-                        </div>
-
-
-                            
-                                    
-                    </div>
-                </div>
-                <div class="banner__dot-wrp">
-                    <div class="dot-light banner__dot"></div>
-                </div>
-            </section>
-            <!-- Banner area end here -->
 
 
         
-            <br>
-            <br>
-
-
-
-        <!-- Testimonial area start here -->
-        <section class="testimonial-area bg-image pt-120 pb-120" data-background="assets/images/bg/testimonial-bg.png">
-                <div class="container">
-                    <div class="row g-4">
-                        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="talk-us__item">
-                                <div class="section-header mb-30">
-                                    <h5 class="text-white">
-                                        <svg width="28" height="12" viewBox="0 0 28 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <rect x="0.75" y="0.75" width="18.5" height="10.5" rx="5.25" stroke="white" stroke-width="1.5"/>
-                                            <rect x="8" width="20" height="12" rx="6" fill="white"/>
-                                        </svg>
-                                        Contactanos
-                                
-                                    </h5>
-                                    <h2 class="text-white">¡TE LLAMAMOS!</h2>
-                                    <p class="text-white">Déjanos tus datos para que una asesora se comunique contigo.</p>
-                                </div>
-                                <form action="#">
-                                    <div class="row g-3">
-                                        <div class="col-sm-6">
-                                            <label for="name">Su nombre*</label>
-                                            <input type="text" id="name" placeholder="Ingrese su nombre">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <label for="email">Sus apellidos*</label>
-                                            <input type="text" id="email"  placeholder="Ingrese sus apellidos">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <label for="subject">Su celular*</label>
-                                            <input type="number" id="subject"  placeholder="Ingrese su Numero de celular">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <label for="number">Su correo Electrónico*</label>
-                                            <input type="email" id="number"  placeholder="Ingrese su correo">
-                                        </div>
-                                        <div class="col-12">
-                                            <label for="massage">Mensaje*</label>
-                                            <textarea id="massage" placeholder="Escriba el mensaje"></textarea>
-                                        </div>
-                                    </div>
-                                    <button>Enviar Mensaje</button>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 ps-2 ps-lg-5">
-                            <div class="section-header mb-40">
-                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">Empieza a construir tu futuro desde ahora
-                            
-                                </h5>
-                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Programas Integrales</h2>
-                                <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Totalmente personalizados</p>
-                            </div>
-                            <div class="swiper testimonial__slider wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
-                                            </svg>
-                                            <div class="d-flex align-items-center gap-3">
-                                                <img src="assets/images/testimonial/testimonial-image1.png" alt="image">
-                                                <div class="testi-info">
-                                                    <h4>PROGRAMA MENSUAL</h4>
-                                                    <p>2024</p>
-                                                    <div class="star mt-1">
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star disable"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="mt-30">“ Dale a tu hijo el acompañamiento necesario para absolver sus dudas
-                                                 y que se convierta en un crack en matemáticas. ”</p>
-                                                 <br>
-                                                 <br>
-                                                 <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="">Quiero saver mas <i class="fa-regular fa-arrow-right-long"></i></a>
-                                        </div>
-                                       
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
-                                            </svg>
-                                            <div class="d-flex align-items-center gap-3">
-                                                <img src="assets/images/testimonial/testimonial-image2.png" alt="image">
-                                                <div class="testi-info">
-                                                    <h4>PROGRAMA INTEGRAL</h4>
-                                                    <p>2024</p>
-                                                    <div class="star mt-1">
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star disable"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="mt-30">“ Ayuda a tu hijo a consolidar sus bases matemáticas con un acompañamiento 
-                                                personalizado durante todo el año. ”</p>
-                                                <br>
-                                                 <br>
-                                                 <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="">Quiero saver mas <i class="fa-regular fa-arrow-right-long"></i></a>
-                                        </div>
-                                    </div>
-
-
-
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
-                                            </svg>
-                                            <div class="d-flex align-items-center gap-3">
-                                                <img src="assets/images/testimonial/testimonial-image2.png" alt="image">
-                                                <div class="testi-info">
-                                                    <h4>PROGRAMA
-                                                    DÚO INTEGRAL</h4>
-                                                    <p>2024</p>
-                                                    <div class="star mt-1">
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star disable"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="mt-30">“Aprender en dúo es mucho mejor. Potenciamos sus aprendizajes 
-                                                con nuestras clases para hermanos, primos o amigos. ”</p>
-                                                <br>
-                                                 <br>
-                                                 <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="">Quiero saver mas <i class="fa-regular fa-arrow-right-long"></i></a>
-                                        </div>
-                                    </div>
-
-
-
-
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
-                                            </svg>
-                                            <div class="d-flex align-items-center gap-3">
-                                                <img src="assets/images/testimonial/testimonial-image2.png" alt="image">
-                                                <div class="testi-info">
-                                                    <h4>PROGRAMA BACHILLERATO</h4>
-                                                    <p>2024</p>
-                                                    <div class="star mt-1">
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star disable"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="mt-30">“ Especialmente creado para alumnos del IB, potencia sus conocimientos
-                                                 y tienen acompañamiento personalizado durante todo el año. ”</p>
-                                                 <br>
-                                                 <br>
-                                                 <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="">Quiero saver mas <i class="fa-regular fa-arrow-right-long"></i></a>
-                                        </div>
-                                    </div>
-
-
-
-                                </div>
-                            </div>
-                            <div class="testimonial__arry-btn mt-40 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                <button class="arry-prev testimonial__arry-prev">
-                                    <i class="fa-light fa-chevron-left"></i>
-                                </button>
-                                <button class="arry-next testimonial__arry-next active">
-                                    <i class="fa-light fa-chevron-right"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Testimonial area end here -->
-
-
-        
-        <!-- Service area start here 
+        <!-- Service area start here -->
         <section class="service-three-area pt-120 pb-120">
             <div class="service-three__shape">
                 <img class="sway__animationX" src="assets/images/shape/service-three-shape.png" alt="shape">
@@ -480,9 +223,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-         Service area end here -->
+        <!-- Service area end here -->
 
-        <!-- Brand area start here 
+        <!-- Brand area start here -->
         <div class="brand-three-area bg-image pt-100 pb-100" data-background="assets/images/bg/case-three-bg.jpg">
             <div class="brand-three__line1">
                 <img src="assets/images/shape/brand-three-line1.png" alt="shape">
@@ -528,7 +271,7 @@ Resultados reales.</h2>
                 </div>
             </div>
         </div>
-        Brand area end here ----->
+        <!-- Brand area end here -->
 
 
 
@@ -536,7 +279,7 @@ Resultados reales.</h2>
 
 
 
-        <!-- Testimonial area start here 
+        <!-- Testimonial area start here -->
         <section class="testimonial-area bg-image pt-120 pb-120" data-background="assets/images/bg/testimonial-bg.png">
                 <div class="container">
                     <div class="row g-4">
@@ -658,13 +401,13 @@ Resultados reales.</h2>
                     </div>
                 </div>
             </section>
-            Testimonial area end here -->
+            <!-- Testimonial area end here -->
 
 
 
 
 
-        <!-- About area start here 
+        <!-- About area start here -->
         <section class="about-area about-three-area sub-bg pt-120">
             <div class="about__shape wow slideInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
                 <img src="assets/images/shape/about-three-line.png" alt="shape">
@@ -779,9 +522,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-        About area end here -->
+        <!-- About area end here -->
 
-        <!-- Counter area start here 
+        <!-- Counter area start here -->
         <section class="counter-area">
             <div class="container">
                 <div class="counter__wrp gradient-bg">
@@ -819,9 +562,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-        Counter area end here -->
+        <!-- Counter area end here -->
 
-        <!-- Project area start here 
+        <!-- Project area start here -->
         <section class="project-three-area secondary-bg">
             <div class="service-two__shape-left sway_Y__animationY">
                 <img src="assets/images/shape/service-two-shape-left.png" alt="shape">
@@ -907,9 +650,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-         Project area end here -->
+        <!-- Project area end here -->
 
-        <!-- Banner video area start here 
+        <!-- Banner video area start here -->
         <div class="banner-video-area">
             <div class="container">
                 <div class="banner-video__wrp image">
@@ -923,9 +666,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </div>
-        Banner video area end here -->
+        <!-- Banner video area end here -->
 
-        <!-- Pricing area start here 
+        <!-- Pricing area start here -->
         <section class="pricing-area pt-120 pb-120">
             <div class="pricing__shape-up wow slideInLeft d-none d-sm-block" data-wow-delay="00ms"
                 data-wow-duration="1500ms">
@@ -1029,9 +772,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-    Pricing area end here -->
+        <!-- Pricing area end here -->
 
-        <!-- Testimonial area start here 
+        <!-- Testimonial area start here -->
         <section class="testimonial-three-area pt-120 pb-120 bg-image sub-bg"
             data-background="assets/images/bg/testimonial-three-bg.png">
             <div class="testimonial-three__wrp">
@@ -1156,9 +899,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-     Testimonial area end here -->
+        <!-- Testimonial area end here -->
 
-        <!-- Blog area start here 
+        <!-- Blog area start here -->
         <section class="blog-area pt-120 pb-120">
             <div class="container">
                 <div class="section-header text-center mb-60">
@@ -1345,12 +1088,12 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-       Blog area end here -->
+        <!-- Blog area end here -->
     </main>
 
     <!-- Footer area start here -->
     <?php
-    //include('includes/footer.php');
+    include('includes/footer.php');
 ?>
 
     <!-- Footer area end here -->
