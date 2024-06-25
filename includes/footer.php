@@ -16,7 +16,7 @@
                 <img src="assets/images/shape/footer-shadow-shape.png" alt="shodow">
             </div>
             <div class="container">
-                <div class="footer__wrp pt-100 pb-100">
+                <div class="footer__wrp pt-40 pb-40">
                     <div class="footer__item item-big wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <a href="index.html" class="logo mb-30">
                             <img src="assets/images/logo/logo.svg" alt="image">
@@ -63,20 +63,7 @@
                                 Development
                                 </a>
                             </li>
-                            <li>
-                                <a href="service-details.html">
-                                    <i class="fa-regular fa-angles-right me-1"></i>
-                                    Cyber
-                                Security
-                                </a>
-                            </li>
-                            <li>
-                                <a href="service-details.html">
-                                    <i class="fa-regular fa-angles-right me-1"></i>
-                                    Data
-                                Security
-                                </a>
-                            </li>
+                            
                         </ul>
                     </div>
                     <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
@@ -100,18 +87,7 @@
                                     Pricing Plan
                                 </a>
                             </li>
-                            <li>
-                                <a href="case.html">
-                                    <i class="fa-regular fa-angles-right me-1"></i>
-                                    Our Projects
-                                </a>
-                            </li>
-                            <li>
-                                <a href="team.html">
-                                    <i class="fa-regular fa-angles-right me-1"></i>
-                                    Our Team
-                                </a>
-                            </li>
+                            
                         </ul>
                     </div>
                     <div class="footer__item item-big wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
@@ -126,14 +102,7 @@
                                     <p>Lunes a sábado: 10:00 a. m. - 4:00 p. m.</p>
                                 </div>
                             </li>
-                            <li>
-                                <i class="fa-duotone fa-phone"></i>
-                                <div class="info">
-                                    <h5>Llamada telefónica:
-                                </h5>
-                                    <p>208-6666-0112, 308-5555-0113</p>
-                                </div>
-                            </li>
+                           
                         </ul>
                     </div>
                 </div>

@@ -64,17 +64,26 @@
             <div class="banner-three__shape-left wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
                 <img class="sway_Y__animationY" src="assets/images/banner/banner-three-left-shape.png" alt="image">
             </div>
+            
             <div class="banner-three__shape-right wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+
+            
                 <img class="sway__animationX" src="assets/images/banner/banner-three-right-shape.png" alt="image">
+
+                 <!---IMAGEN 1 -->
+                <img data-animation="slideInRight" data-duration="2s" data-delay=".5s" src="assets/images/banner/banner-three-image.png" alt="image">
+                
+               
             </div>
 
 
 
-
-                            
+           
                             <!---BANNER-THEREE-AREA   : COLOR AZUL -->
                             <div class="slide-bg banner-three-area"></div>
+                            
                             <div class="container">
+                                
                                 <div class="banner__content">
                                     <h4 data-animation="slideInRight" data-duration="2s" data-delay=".3s" class="text-white mb-20">
                                         <svg class="me-1" width="40" height="16" viewBox="0 0 40 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,8 +116,10 @@
                                 </div>
                             </div>
                                     <!----BOTON DE AULA VIRTUAL FINAL  --->
+                                 
                                 </div>
                             </div>
+                            
                         </div>
 
 
@@ -139,6 +150,8 @@
             </div>
             <div class="banner-three__shape-right wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <img class="sway__animationX" src="assets/images/banner/banner-three-right-shape.png" alt="image">
+                <!---IMAGEN 2 -->
+                <img data-animation="slideInRight" data-duration="2s" data-delay=".5s" src="assets/images/banner/banner-three-image.png" alt="image">
             </div>
                         <!---BANNER-THEREE-AREA   : COLOR AZUL -->
                             <div class="slide-bg banner-three-area"></div>

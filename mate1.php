@@ -110,6 +110,16 @@ include('includes/header.php');
                                     
                                 </div>
                             </div>
+
+
+
+                            <style>
+
+.image img {
+  width: 100% !important;
+  height: 250px !important;
+}
+                            </style>
         <!-- Service area start here -->
         <section class="service-inner-area pt-120 pb-120">
             <div class="container">
@@ -136,8 +146,7 @@ include('includes/header.php');
                                 <h4><a href="service-details.html" class="primary-hover">1º Primaria</a></h4>
                                 <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
                                     iaculis.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
-                                        class="fa-regular fa-arrow-right-long"></i></a>
+                                    <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
@@ -163,8 +172,7 @@ include('includes/header.php');
                                 <h4><a href="service-details.html" class="primary-hover">2º Primaria</a></h4>
                                 <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
                                     iaculis.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
-                                        class="fa-regular fa-arrow-right-long"></i></a>
+                                    <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
@@ -189,8 +197,7 @@ include('includes/header.php');
                                 <h4><a href="service-details.html" class="primary-hover">3º Primaria</a></h4>
                                 <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
                                     iaculis.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
-                                        class="fa-regular fa-arrow-right-long"></i></a>
+                                    <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
@@ -218,8 +225,7 @@ include('includes/header.php');
                                 <h4><a href="service-details.html" class="primary-hover">4º Primaria</a></h4>
                                 <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
                                     iaculis.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
-                                        class="fa-regular fa-arrow-right-long"></i></a>
+                                    <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
@@ -246,8 +252,7 @@ include('includes/header.php');
                                 <h4><a href="service-details.html" class="primary-hover">5º Primaria</a></h4>
                                 <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
                                     iaculis.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
-                                        class="fa-regular fa-arrow-right-long"></i></a>
+                                    <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
@@ -273,8 +278,7 @@ include('includes/header.php');
                                 <h4><a href="service-details.html" class="primary-hover">6º Primaria</a></h4>
                                 <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
                                     iaculis.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
-                                        class="fa-regular fa-arrow-right-long"></i></a>
+                                    <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>

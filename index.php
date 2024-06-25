@@ -70,6 +70,8 @@ include('includes/header.php');
             </div>
             <div class="banner-three__shape-right wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <img class="sway__animationX" src="assets/images/banner/banner-three-right-shape.png" alt="image">
+                 <!---IMAGEN 1 -->
+                 <img data-animation="slideInRight" data-duration="2s" data-delay=".5s" src="assets/images/banner/banner-three-image.png" alt="image">
             </div>
 
 
@@ -143,6 +145,8 @@ include('includes/header.php');
             </div>
             <div class="banner-three__shape-right wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <img class="sway__animationX" src="assets/images/banner/banner-three-right-shape.png" alt="image">
+                 <!---IMAGEN 1 -->
+                 <img data-animation="slideInRight" data-duration="2s" data-delay=".5s" src="assets/images/banner/banner-three-image.png" alt="image">
             </div>
                         <!---BANNER-THEREE-AREA   : COLOR AZUL -->
                             <div class="slide-bg banner-three-area"></div>
@@ -1350,7 +1354,7 @@ Resultados reales.</h2>
 
     <!-- Footer area start here -->
     <?php
-    //include('includes/footer.php');
+    include('includes/footer.php');
 ?>
 
     <!-- Footer area end here -->
