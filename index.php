@@ -391,7 +391,7 @@ include('includes/header.php');
 
 
         
-        <!-- Service area start here 
+        <!-- Service area start here -->
         <section class="service-three-area pt-120 pb-120">
             <div class="service-three__shape">
                 <img class="sway__animationX" src="assets/images/shape/service-three-shape.png" alt="shape">
@@ -480,9 +480,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-         Service area end here -->
+        <!-- Service area end here -->
 
-        <!-- Brand area start here 
+        <!-- Brand area start here -->
         <div class="brand-three-area bg-image pt-100 pb-100" data-background="assets/images/bg/case-three-bg.jpg">
             <div class="brand-three__line1">
                 <img src="assets/images/shape/brand-three-line1.png" alt="shape">
@@ -528,7 +528,7 @@ Resultados reales.</h2>
                 </div>
             </div>
         </div>
-        Brand area end here ----->
+        <!-- Brand area end here -->
 
 
 
@@ -664,7 +664,7 @@ Resultados reales.</h2>
 
 
 
-        <!-- About area start here 
+        <!-- About area start here -->
         <section class="about-area about-three-area sub-bg pt-120">
             <div class="about__shape wow slideInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
                 <img src="assets/images/shape/about-three-line.png" alt="shape">
@@ -779,9 +779,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-        About area end here -->
+        <!-- About area end here -->
 
-        <!-- Counter area start here 
+        <!-- Counter area start here -->
         <section class="counter-area">
             <div class="container">
                 <div class="counter__wrp gradient-bg">
@@ -819,9 +819,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-        Counter area end here -->
+        <!-- Counter area end here -->
 
-        <!-- Project area start here 
+        <!-- Project area start here -->
         <section class="project-three-area secondary-bg">
             <div class="service-two__shape-left sway_Y__animationY">
                 <img src="assets/images/shape/service-two-shape-left.png" alt="shape">
@@ -907,9 +907,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-         Project area end here -->
+        <!-- Project area end here -->
 
-        <!-- Banner video area start here 
+        <!-- Banner video area start here -->
         <div class="banner-video-area">
             <div class="container">
                 <div class="banner-video__wrp image">
@@ -923,9 +923,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </div>
-        Banner video area end here -->
+        <!-- Banner video area end here -->
 
-        <!-- Pricing area start here 
+        <!-- Pricing area start here -->
         <section class="pricing-area pt-120 pb-120">
             <div class="pricing__shape-up wow slideInLeft d-none d-sm-block" data-wow-delay="00ms"
                 data-wow-duration="1500ms">
@@ -1029,9 +1029,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-    Pricing area end here -->
+        <!-- Pricing area end here -->
 
-        <!-- Testimonial area start here 
+        <!-- Testimonial area start here -->
         <section class="testimonial-three-area pt-120 pb-120 bg-image sub-bg"
             data-background="assets/images/bg/testimonial-three-bg.png">
             <div class="testimonial-three__wrp">
@@ -1156,9 +1156,9 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-     Testimonial area end here -->
+        <!-- Testimonial area end here -->
 
-        <!-- Blog area start here 
+        <!-- Blog area start here -->
         <section class="blog-area pt-120 pb-120">
             <div class="container">
                 <div class="section-header text-center mb-60">
@@ -1345,7 +1345,7 @@ Resultados reales.</h2>
                 </div>
             </div>
         </section>
-       Blog area end here -->
+        <!-- Blog area end here -->
     </main>
 
     <!-- Footer area start here -->
