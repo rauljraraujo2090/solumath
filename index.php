@@ -250,9 +250,8 @@ include('includes/header.php');
                                 <div class="process__content">
                                     <h4 class="mt-25 mb-10">Matematica Por Grado
                                 </h4>
-                                    <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
-                                    dolor
-                                    sit amet, consectetur</p>
+                                    <p>"Las matemáticas son la gimnasia del espíritu y una preparación para la filosofía" Isócrates.
+                                         "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
                                 </div>
                                 <br>
                                 <a  href="#" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
@@ -271,9 +270,8 @@ include('includes/header.php');
                                 <div class="process__content">
                                     <h4 class="mt-25 mb-10">Matematica Innova Schoools
                                 </h4>
-                                    <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
-                                    dolor
-                                    sit amet, consectetur</p>
+                                    <p>"Las matemáticas son la gimnasia del espíritu y una preparación para la filosofía" Isócrates.
+                                         "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
                                 </div>
                                 <br>
                                 <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
@@ -288,9 +286,8 @@ include('includes/header.php');
                                 <div class="process__content">
                                     <h4 class="mt-25 mb-10">Matematicas
                                 </h4>
-                                    <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
-                                    dolor
-                                    sit amet, consectetur</p>
+                                    <p>"Las matemáticas son la gimnasia del espíritu y una preparación para la filosofía" Isócrates. 
+                                        "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
                                 </div>
                                 <br>
                                 <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
