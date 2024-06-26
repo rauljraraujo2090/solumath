@@ -19,11 +19,10 @@
                 <div class="footer__wrp pt-40 pb-40">
                     <div class="footer__item item-big wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <a href="index.html" class="logo mb-30">
-                            <img src="assets/images/logo/logo.svg" alt="image">
+                            <img src="assets/images/logo/log" alt="image">
                         </a>
-                        <p>Phasellus ultricies aliquam volutpat
-                        ullamcorper laoreet neque, a lacinia
-                        curabitur lacinia mollis</p>
+                        <p>Para poder encontrar la mejor academia de matemáticas primero
+                             tendrás que pensar el nivel y los objetivos que quieras alcanzar</p>
                         <div class="social-icon">
                             <a href="#0">
                                 <i class="fa-brands fa-facebook-f"></i>
@@ -40,51 +39,48 @@
                         </div>
                     </div>
                     <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <h3 class="footer-title">IT Solution</h3>
+                        <h3 class="footer-title">Cursos</h3>
                         <ul>
                             <li>
                                 <a href="service-details.html">
                                     <i class="fa-regular fa-angles-right me-1"></i>
-                                    IT
-                                Management
+                                   Primaria
                                 </a>
                             </li>
                             <li>
                                 <a href="service-details.html">
                                     <i class="fa-regular fa-angles-right me-1"></i>
-                                    SEO
-                                Optimization
+                                     Secundaria
                                 </a>
                             </li>
                             <li>
                                 <a href="service-details.html">
                                     <i class="fa-regular fa-angles-right me-1"></i>
-                                    Web
-                                Development
+                                    Innova schools
                                 </a>
                             </li>
                             
                         </ul>
                     </div>
                     <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <h3 class="footer-title">Quick Link</h3>
+                        <h3 class="footer-title">Quienes somos </h3>
                         <ul>
                             <li>
                                 <a href="about.html">
                                     <i class="fa-regular fa-angles-right me-1"></i>
-                                    About Gratech
+                                    sobre nosotros
                                 </a>
                             </li>
                             <li>
                                 <a href="service.html">
                                     <i class="fa-regular fa-angles-right me-1"></i>
-                                    Our Services
+                                    Nuestros servicios 
                                 </a>
                             </li>
                             <li>
                                 <a href="pricing.html">
                                     <i class="fa-regular fa-angles-right me-1"></i>
-                                    Pricing Plan
+                                    Nuestros Planes
                                 </a>
                             </li>
                             
@@ -92,7 +88,7 @@
                     </div>
                     <div class="footer__item item-big wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <h3 class="footer-title">Contacto</h3>
-                        <p class="mb-20">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                        <p class="mb-20">Ayacucho - Peru</p>
                         <ul class="footer-contact">
                             <li>
                                 <i class="fa-regular fa-clock"></i>
@@ -116,10 +112,10 @@
                         </p>
                         <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <li>
-                                <a href="#0">Terms & Condition</a>
+                                <a href="#0">Terminos & Condiciones</a>
                             </li>
                             <li>
-                                <a href="#0">Privacy Policy</a>
+                                <a href="#0">Politica & Privacidad</a>
                             </li>
                         </ul>
                     </div>
