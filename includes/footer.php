@@ -19,7 +19,7 @@
                 <div class="footer__wrp pt-40 pb-40">
                     <div class="footer__item item-big wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <a href="index.html" class="logo mb-30">
-                            <img src="assets/images/logo/log" alt="image">
+                            <img src="logo2.png" alt="image">
                         </a>
                         <p>Para poder encontrar la mejor academia de matemáticas primero
                              tendrás que pensar el nivel y los objetivos que quieras alcanzar</p>
