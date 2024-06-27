@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academia</title>
+    <title>Solumath</title>
     <!-- Favicon img -->
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <!-- Bootstarp min css -->
@@ -516,7 +516,71 @@ include('includes/header.php');
 
 
 
- <br>
+ 
+
+
+
+
+
+ 
+            <!-- Service area start here -->
+            <section class="service-area pt-120 pb-120">
+                <div class="service__shape wow slideInRight">
+                    <img class="sway_Y__animation" src="assets/images/shape/service-bg-shape.png" alt="shape">
+                </div>
+                <div class="container">
+                    
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+                            <div class="service__item">
+                                <div class="service-shape">
+                                    <img src="assets/images/shape/service-item-shape.png" alt="shape">
+                                </div>
+                                <div class="service__icon">
+                                    <img src="assets/images/icon/service-icon1.png" alt="icon">
+                                </div>
+                                <h4>
+                                    <a href="service-details.html">Mision </a>
+                                </h4>
+                                <p>Cambiar la vida de nuestros estudiantes y colaboradores, generándoles pasión por alcanzar sus metas.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                            <div class="service__item active">
+                                <div class="service-shape">
+                                    <img src="assets/images/shape/service-item-shape.png" alt="shape">
+                                </div>
+                                <div class="service__icon">
+                                    <img src="assets/images/icon/service-icon2.png" alt="icon">
+                                </div>
+                                <h4>
+                                    <a href="service-details.html">Vision</a>
+                                </h4>
+                                <p>Queremos hacer de la educación el vehículo para un mundo mejor y el cambio que nuestra sociedad necesita.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                            <div class="service__item">
+                                <div class="service-shape">
+                                    <img src="assets/images/shape/service-item-shape.png" alt="shape">
+                                </div>
+                                <div class="service__icon">
+                                    <img src="assets/images/icon/service-icon3.png" alt="icon">
+                                </div>
+                                <h4>
+                                    <a href="service-details.html">Valores</a>
+                                </h4>
+                                <p>Promover la integridad, la ética profesional y la responsabilidad social entre estudiantes y personal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Service area end here -->
+
+
+
+
 
                <!-- Choose area start here -->
         <section class="choose-area sub-bg pt-120 pb-120">
@@ -561,7 +625,7 @@ include('includes/header.php');
                                 </svg>
                                 Solumath
                             </h5>
-                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">¿Por qué funciona Solumath?</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">¿Hacemos los números + FÁCILES + DINÁMICOS?</h2>
                         </div>
 
 
@@ -585,9 +649,33 @@ include('includes/header.php');
 
 
 
-
                         <br>
-                         
+                        <div class="about-two__right-item wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        Clases 100% virtuales.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        Estudia desde cualquier parte del mundo.
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        Staff de profesores altamente capacitados
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        Especialistas en el dictado de matemática.
+
+
+                                    </li>
+                                </ul>
+                            </div>
+                        <br>
+<!----
                         <div class="row g-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div class="col-md-12">
                                 <div class="about__right-item">
@@ -602,25 +690,11 @@ include('includes/header.php');
                             </div>
                             
                         </div>
+-->
 
 
+                       
 
-                        <br>
-
-                        <div class="row g-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <div class="col-md-12">
-                                <div class="about__right-item">
-                                    <div class="icon">
-                                        <img src="assets/images/icon/about-icon1.png" alt="icon">
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="mb-1">Herramientas para empoderar a los maestros</h4>
-                                        <p>Con Khan Academy los maestros pueden identificar las lagunas en comprensión de sus estudiantes, crear una clase a la medida y satisfacer las necesidades de cada uno.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
 
 
 
@@ -655,7 +729,7 @@ include('includes/header.php');
                         </div>
 
                         -->
-                    </br>
+                    </>
                     <div class="col-lg-6 d-none d-lg-block">
                         <div class="choose__image image">
                             <img src="assets/images/choose/choose-image1.png" alt="image">
@@ -678,7 +752,11 @@ include('includes/header.php');
     <!-- Footer area end here -->
 
   
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="banner.js">
 
+
+</script>
     <!-- Jquery 3.7.0 Min Js -->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap min Js -->

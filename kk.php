@@ -47,12 +47,56 @@
     <div class="mouse-cursor cursor-inner"></div>
     <!-- Mouse cursor area end here -->
 
+    <!-- Top header area start here -->
+    <div class="header-top d-none d-lg-block">
+        <div class="container header__container">
+            <div class="header-top-wrp">
+                <ul class="info">
+                    <li><svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.8748 8.50453C13.8748 9.85566 12.7757 10.953 11.4263 10.953H3.39325C2.04384 10.953 0.94475 9.85563 0.94475 8.50453V3.39322C0.944449 2.95776 1.06111 2.53021 1.28253 2.15525L5.20216 6.07488C5.78856 6.663 6.57384 6.98706 7.41059 6.98706C8.24563 6.98706 9.03091 6.663 9.61731 6.07488L13.5369 2.15525C13.7584 2.5302 13.875 2.95776 13.8747 3.39322V8.50453H13.8748ZM11.4263 0.94475H3.39325C2.836 0.94475 2.32159 1.13334 1.91009 1.44712L5.86916 5.40791C6.27897 5.81597 6.82591 6.04231 7.41059 6.04231C7.99356 6.04231 8.54053 5.81597 8.95031 5.40791L12.9094 1.44712C12.4979 1.13334 11.9835 0.94475 11.4263 0.94475ZM11.4263 0H3.39325C1.52259 0 0 1.52259 0 3.39325V8.50456C0 10.3769 1.52259 11.8978 3.39325 11.8978H11.4263C13.2969 11.8978 14.8195 10.3769 14.8195 8.50456V3.39322C14.8195 1.52256 13.2969 0 11.4263 0Z"
+                                fill="white" />
+                        </svg>
+
+                        <a href="#0" class="ms-1">info@example.com</a>
+                    </li>
+                    <li class="ms-4"><svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_529_224)">
+                                <path
+                                    d="M14.8984 10.5909C14.8735 10.5703 12.0629 8.57063 11.304 8.69297C10.9379 8.75766 10.7288 9.0075 10.3093 9.50719C10.1933 9.6463 10.0747 9.7832 9.95352 9.91781C9.68836 9.83143 9.42973 9.72616 9.17961 9.60281C7.88845 8.97422 6.84524 7.93101 6.21665 6.63984C6.0933 6.38973 5.98803 6.1311 5.90165 5.86594C6.03946 5.73984 6.23258 5.57719 6.31508 5.50781C6.81243 5.09062 7.0618 4.88109 7.12649 4.51453C7.25915 3.75562 5.24915 0.945937 5.22852 0.920625C5.13698 0.790808 5.01777 0.682933 4.87948 0.604789C4.74118 0.526645 4.58726 0.480181 4.42883 0.46875C3.61415 0.46875 1.28821 3.48563 1.28821 3.99422C1.28821 4.02375 1.33086 7.02562 5.03258 10.7911C8.79383 14.4886 11.7957 14.5312 11.8252 14.5312C12.3334 14.5312 15.3507 12.2053 15.3507 11.3906C15.3392 11.2322 15.2926 11.0783 15.2144 10.94C15.1362 10.8017 15.0282 10.6825 14.8984 10.5909ZM11.7732 13.5909C11.3663 13.5562 8.84446 13.2239 5.69446 10.1297C2.58524 6.96422 2.26133 4.43813 2.22899 4.04672C2.84342 3.08233 3.58545 2.20548 4.43493 1.44C4.45368 1.45875 4.47852 1.48688 4.5104 1.52344C5.16188 2.41276 5.72309 3.36481 6.18571 4.36547C6.03527 4.51682 5.87626 4.65939 5.70946 4.7925C5.4508 4.98959 5.21328 5.21297 5.00071 5.45906C4.96474 5.50953 4.93914 5.56663 4.92538 5.62705C4.91162 5.68748 4.90998 5.75003 4.92055 5.81109C5.01975 6.24081 5.17169 6.65662 5.3729 7.04906C6.09378 8.52939 7.28997 9.72541 8.7704 10.4461C9.16276 10.6476 9.57859 10.7997 10.0084 10.8989C10.0694 10.9097 10.132 10.9082 10.1925 10.8944C10.2529 10.8807 10.31 10.8549 10.3604 10.8188C10.6074 10.6053 10.8315 10.3669 11.0293 10.1072C11.1765 9.93188 11.3729 9.69797 11.4474 9.63188C12.4506 10.094 13.4048 10.6559 14.2956 11.3091C14.3345 11.3419 14.3621 11.3672 14.3804 11.3836C13.6149 12.2333 12.7379 12.9755 11.7732 13.59V13.5909ZM11.6007 7.03125H12.5382C12.5371 6.03703 12.1416 5.08385 11.4386 4.38083C10.7356 3.67781 9.78243 3.28237 8.78821 3.28125V4.21875C9.5339 4.21949 10.2488 4.51605 10.7761 5.04333C11.3034 5.57062 11.6 6.28556 11.6007 7.03125Z"
+                                    fill="white" />
+                                <path
+                                    d="M13.9445 7.03125H14.882C14.8801 5.41566 14.2375 3.86677 13.0951 2.72437C11.9527 1.58198 10.4038 0.939361 8.78821 0.9375V1.875C10.1552 1.87661 11.4658 2.42038 12.4324 3.38701C13.3991 4.35365 13.9428 5.66422 13.9445 7.03125Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath>
+                                    <rect width="15" height="15" fill="white" transform="translate(0.819458)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                        <a href="#0" class="ms-1">+208-6666-0112</a>
+                    </li>
+                </ul>
+                <ul class="link-info">
+                    <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#0"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Top header area end here -->
+
     <!-- Header area start here -->
-    <header class="header-area header-two-area">
+    <header class="header-area">
         <div class="container header__container">
             <div class="header__main">
                 <a href="index.html" class="logo">
-                    <img src="assets/images/logo/logo.svg" alt="logo">
+                    <img src="assets/images/logo/logo-light.svg" alt="logo">
                 </a>
                 <div class="main-menu">
                     <nav>
@@ -154,52 +198,26 @@
                                 </ul>
                             </li>
                             <li><a href="contact.html">Contact</a></li>
-                            <li class="ml-20 d-none d-lg-block"><a class="search-trigger" href="#0">
-                                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M16.0375 14.9381L12.0784 11.0334C13.0625 9.86621 13.6554 8.36744 13.6554 6.73438C13.6554 3.02103 10.5925 0 6.82774 0C3.0629 0 0 3.02103 0 6.73438C0 10.4475 3.0629 13.4683 6.82774 13.4683C8.4834 13.4683 10.0031 12.8836 11.1865 11.913L15.1456 15.8178C15.2687 15.9393 15.4301 16 15.5915 16C15.7529 16 15.9143 15.9393 16.0375 15.8178C16.2839 15.5748 16.2839 15.181 16.0375 14.9381ZM1.26142 6.73438C1.26142 3.70705 3.75845 1.24414 6.82774 1.24414C9.89695 1.24414 12.3939 3.70705 12.3939 6.73438C12.3939 9.76146 9.89695 12.2241 6.82774 12.2241C3.75845 12.2241 1.26142 9.76146 1.26142 6.73438Z"
-                                            fill="white" />
+                            <li class="ml-20 d-none d-lg-block"><a class="search-trigger" href="#0"><svg width="17"
+                                        height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_307_344)">
+                                            <path
+                                                d="M16.0375 14.9381L12.0784 11.0334C13.0625 9.86621 13.6554 8.36744 13.6554 6.73438C13.6554 3.02103 10.5925 0 6.82774 0C3.0629 0 0 3.02103 0 6.73438C0 10.4475 3.0629 13.4683 6.82774 13.4683C8.4834 13.4683 10.0031 12.8836 11.1865 11.913L15.1456 15.8178C15.2687 15.9393 15.4301 16 15.5915 16C15.7529 16 15.9143 15.9393 16.0375 15.8178C16.2839 15.5748 16.2839 15.181 16.0375 14.9381ZM1.26142 6.73438C1.26142 3.70705 3.75845 1.24414 6.82774 1.24414C9.89695 1.24414 12.3939 3.70705 12.3939 6.73438C12.3939 9.76146 9.89695 12.2241 6.82774 12.2241C3.75845 12.2241 1.26142 9.76146 1.26142 6.73438Z"
+                                                fill="#0F0D1D" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_307_344">
+                                                <rect width="16.2222" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
                                     </svg>
                                 </a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="d-none d-xl-flex gap-4">
+                <div class="d-none d-lg-inline-block">
                     <a href="contact.html" class="btn-one">Get A Quote <i
                             class="fa-regular fa-arrow-right-long"></i></a>
-                    <div class="about-three__left-item d-flex flex-wrap gap-2 align-items-center">
-                        <div class="about-call-icon">
-                            <span>
-                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_918_1337)">
-                                        <path
-                                            d="M5.41667 4.33337H9.75L11.9167 9.75004L9.20833 11.375C10.3685 13.7275 12.2725 15.6315 14.625 16.7917L16.25 14.0834L21.6667 16.25V20.5834C21.6667 21.158 21.4384 21.7091 21.0321 22.1154C20.6257 22.5218 20.0746 22.75 19.5 22.75C15.2742 22.4932 11.2885 20.6987 8.2949 17.7051C5.3013 14.7115 3.5068 10.7258 3.25 6.50004C3.25 5.9254 3.47827 5.3743 3.8846 4.96798C4.29093 4.56165 4.84203 4.33337 5.41667 4.33337Z"
-                                            stroke="white" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                        <path
-                                            d="M16.25 7.58337C16.8246 7.58337 17.3757 7.81165 17.7821 8.21798C18.1884 8.6243 18.4167 9.1754 18.4167 9.75004"
-                                            stroke="white" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                        <path
-                                            d="M16.25 3.25C17.9739 3.25 19.6272 3.93482 20.8462 5.15381C22.0652 6.37279 22.75 8.02609 22.75 9.75"
-                                            stroke="white" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                    </g>
-                                    <defs>
-                                        <clipPath>
-                                            <rect width="26" height="26" fill="white"></rect>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </span>
-                        </div>
-                        <div class="info">
-                            <span class="sm-font fw-600 text-white">Call Us Now</span>
-                            <h5 class="text-white">+208-555-0112</h5>
-                        </div>
-                    </div>
                 </div>
                 <div class="bars d-block d-lg-none">
                     <i id="openButton" class="fa-solid fa-bars"></i>
@@ -254,428 +272,72 @@
     <!-- Fullscreen search area end here -->
 
     <main>
-        <!-- Banner area start here -->
-        <section class="banner-two-area">
-            <div class="banner-two__line">
-                <img class="sway_Y__animation" src="assets/images/banner/banner-line.png" alt="shape">
+        <!-- Page banner area start here -->
+        <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
+            data-background="assets/images/banner/banner-inner-page.jpg">
+            <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
-            <div class="swiper banner__slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="banner-two__line-left" data-animation="slideInLeft" data-duration="3s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-two-left-line.png" alt="shape">
-                        </div>
-                        <div class="banner-two__shape2" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-two-solid-right-down.png" alt="shape">
-                        </div>
-                        <div class="banner-two__shape1" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".5s">
-                            <img src="assets/images/banner/banner-two-solid-right-up.png" alt="shape">
-                        </div>
-                        <div class="banner-two__right-shape wow slideInRight" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <img class="sway_Y__animation" src="assets/images/banner/banner-two-right-shape.png"
-                                alt="shape">
-                        </div>
-                        <div class="banner-two__circle-solid">
-                            <img class="animation__rotate" src="assets/images/banner/banner-two-circle-solid.png"
-                                alt="shape">
-                        </div>
-                        <div class="banner-two__circle-regular">
-                            <img class="animation__rotateY" src="assets/images/banner/banner-two-circle-regular.png"
-                                alt="shape">
-                        </div>
-                        <div class="slide-bg" data-background="assets/images/banner/banner-two-image1.jpg"></div>
-                        <div class="container">
-                            <div class="banner-two__content text-center">
-                                <h4 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
-                                    TECHNOLOGY RELETED CONSULTANCY
-                                </h4>
-                                <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
-                                    We Convert Concepts Into Technology
-                                </h1>
-                                <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                                    Consectetur adipiscing elit Aenean scelerisque at augue vitae consequat <br> quisque
-                                    eget
-                                    congue velit in cursus leo Sed
-                                    sodales
-                                </p>
-                                <a data-animation="fadeInUp" data-delay="1s" href="about.html"
-                                    class="btn-one mt-50">Explore
-                                    More <i class="fa-regular fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="banner-two__line-left" data-animation="slideInLeft" data-duration="3s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-two-left-line.png" alt="shape">
-                        </div>
-                        <div class="banner-two__shape2" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-two-solid-right-down.png" alt="shape">
-                        </div>
-                        <div class="banner-two__shape1" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".5s">
-                            <img src="assets/images/banner/banner-two-solid-right-up.png" alt="shape">
-                        </div>
-                        <div class="banner-two__right-shape wow slideInRight" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <img class="sway_Y__animation" src="assets/images/banner/banner-two-right-shape.png"
-                                alt="shape">
-                        </div>
-                        <div class="banner-two__circle-solid">
-                            <img class="animation__rotate" src="assets/images/banner/banner-two-circle-solid.png"
-                                alt="shape">
-                        </div>
-                        <div class="banner-two__circle-regular">
-                            <img class="animation__rotateY" src="assets/images/banner/banner-two-circle-regular.png"
-                                alt="shape">
-                        </div>
-                        <div class="slide-bg" data-background="assets/images/banner/banner-two-image2.jpg"></div>
-                        <div class="container">
-                            <div class="banner-two__content text-center">
-                                <h4 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
-                                    TECHNOLOGY RELETED CONSULTANCY
-                                </h4>
-                                <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
-                                    We Convert Concepts Into Technology
-                                </h1>
-                                <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                                    Consectetur adipiscing elit Aenean scelerisque at augue vitae consequat <br> quisque
-                                    eget
-                                    congue velit in cursus leo Sed
-                                    sodales
-                                </p>
-                                <a data-animation="fadeInUp" data-delay="1s" href="about.html"
-                                    class="btn-one mt-50">Explore
-                                    More <i class="fa-regular fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="banner-two__line-left" data-animation="slideInLeft" data-duration="3s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-two-left-line.png" alt="shape">
-                        </div>
-                        <div class="banner-two__shape2" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-two-solid-right-down.png" alt="shape">
-                        </div>
-                        <div class="banner-two__shape1" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".5s">
-                            <img src="assets/images/banner/banner-two-solid-right-up.png" alt="shape">
-                        </div>
-                        <div class="banner-two__right-shape wow slideInRight" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <img class="sway_Y__animation" src="assets/images/banner/banner-two-right-shape.png"
-                                alt="shape">
-                        </div>
-                        <div class="banner-two__circle-solid">
-                            <img class="animation__rotate" src="assets/images/banner/banner-two-circle-solid.png"
-                                alt="shape">
-                        </div>
-                        <div class="banner-two__circle-regular">
-                            <img class="animation__rotateY" src="assets/images/banner/banner-two-circle-regular.png"
-                                alt="shape">
-                        </div>
-                        <div class="slide-bg" data-background="assets/images/banner/banner-two-image3.jpg"></div>
-                        <div class="container">
-                            <div class="banner-two__content text-center">
-                                <h4 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
-                                    TECHNOLOGY RELETED CONSULTANCY
-                                </h4>
-                                <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
-                                    We Convert Concepts Into Technology
-                                </h1>
-                                <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                                    Consectetur adipiscing elit Aenean scelerisque at augue vitae consequat <br> quisque
-                                    eget
-                                    congue velit in cursus leo Sed
-                                    sodales
-                                </p>
-                                <a data-animation="fadeInUp" data-delay="1s" href="about.html"
-                                    class="btn-one mt-50">Explore
-                                    More <i class="fa-regular fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+            </div>
+            <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+            </div>
+            <div class="container">
+                <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">IT Solutions</h2>
+                <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>IT
+                        Solutions</span>
                 </div>
-            </div>
-            <div class="banner__dot-wrp banner-two__dot-wrp">
-                <div class="dot-light banner__dot"></div>
             </div>
         </section>
-        <!-- Banner area end here -->
+        <!-- Page banner area end here -->
 
-        <!-- Brand area start here -->
-        <div class="brand-area">
-            <div class="container">
-                <div class="brand__wrp">
-                    <div class="brand__shape">
-                        <img src="assets/images/shape/brand-shape.png" alt="">
-                    </div>
-                    <div class="swiper brand__slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="brand__image image">
-                                    <img src="assets/images/brand/brand-image1.png" alt="image">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand__image image">
-                                    <img src="assets/images/brand/brand-image2.png" alt="image">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand__image image">
-                                    <img src="assets/images/brand/brand-image3.png" alt="image">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand__image image">
-                                    <img src="assets/images/brand/brand-image4.png" alt="image">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand__image image">
-                                    <img src="assets/images/brand/brand-image5.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Brand area end here -->
-
-        <!-- About area start here -->
-        <section class="about-two-area pt-120">
-            <div class="about-two__shape">
-                <img src="assets/images/shape/about-two-shape.png" alt="shape">
+        <!-- Service area start here -->
+        <section class="service-area pt-120 pb-120">
+            <div class="service__shape wow slideInRight">
+                <img class="sway_Y__animation" src="assets/images/shape/service-bg-shape.png" alt="shape">
             </div>
             <div class="container">
                 <div class="row g-4">
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="about-two__left-item">
-                            <div class="dots">
-                                <img class="sway_Y__animation" src="assets/images/shape/about-two-dot.png" alt="shape">
+                    <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+                        <div class="service__item">
+                            <div class="service-shape">
+                                <img src="assets/images/shape/service-item-shape.png" alt="shape">
                             </div>
-                            <div class="shape-halper">
-                                <img class="sway__animation" src="assets/images/shape/about-circle-helper.png"
-                                    alt="shape">
+                            <div class="service__icon">
+                                <img src="assets/images/icon/service-icon1.png" alt="icon">
                             </div>
-                            <div class="image big-image">
-                                <img src="assets/images/about/about-two-image1.jpg" alt="image">
-                            </div>
-                            <div class="image sm-image">
-                                <img src="assets/images/about/about-two-image2.png" alt="image">
-                            </div>
-                            <div class="circle-shape">
-                                <img class="animation__rotate" src="assets/images/shape/about-two-circle.png"
-                                    alt="shape">
-                            </div>
+                            <h4><a href="service-details.html">IT Management</a></h4>
+                            <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac iaculis ut
+                                euismod quis sapien.</p>
                         </div>
                     </div>
-                    <div class="col-xl-6">
-                        <div class="section-header mb-40">
-                            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.75" y="0.75" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
-                                        stroke-width="1.5" />
-                                    <mask id="path-2-inside-1_668_146" fill="white">
-                                        <path
-                                            d="M3 6C3 3.79086 4.79086 2 7 2H13C15.2091 2 17 3.79086 17 6C17 8.20914 15.2091 10 13 10H7C4.79086 10 3 8.20914 3 6Z" />
-                                    </mask>
-                                    <path
-                                        d="M3 6C3 2.96243 5.46243 0.5 8.5 0.5H11.5C14.5376 0.5 17 2.96243 17 6C17 4.61929 15.2091 3.5 13 3.5H7C4.79086 3.5 3 4.61929 3 6ZM17 6C17 9.03757 14.5376 11.5 11.5 11.5H8.5C5.46243 11.5 3 9.03757 3 6C3 7.38071 4.79086 8.5 7 8.5H13C15.2091 8.5 17 7.38071 17 6ZM3 10V2V10ZM17 2V10V2Z"
-                                        fill="#3C72FC" mask="url(#path-2-inside-1_668_146)" />
-                                </svg>
-                                WHO WE ARE
-                            </h5>
-                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Ensuring Your
-                                Success Through Reliable IT Solutions </h2>
-                            <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Aonsectetur
-                                adipiscing elit aenean scelerisque augue vitae consequat aisque eget congue
-                                velit in cursus sodales the
-                                turpis euismod quis sapien euismod
-                                quis sapien the condimentum nec lorem nulla augue.</p>
-                        </div>
-                        <div class="about-two__right-item wow fadeInDown" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <ul>
-                                <li><i class="fa-solid fa-check"></i>Technology Consultancy</li>
-                                <li><i class="fa-solid fa-check"></i>We Provide best services</li>
-                            </ul>
-                            <ul>
-                                <li><i class="fa-solid fa-check"></i>Maintenance And Support</li>
-                                <li><i class="fa-solid fa-check"></i>Requirements Gathering</li>
-                            </ul>
-                        </div>
-                        <div class="about__info mt-50 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <a href="about.html" class="btn-one">About Us <i
-                                    class="fa-regular fa-arrow-right-long"></i></a>
-                            <img src="assets/images/about/singature.png" alt="singature">
+                    <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                        <div class="service__item active">
+                            <div class="service-shape">
+                                <img src="assets/images/shape/service-item-shape.png" alt="shape">
+                            </div>
+                            <div class="service__icon">
+                                <img src="assets/images/icon/service-icon2.png" alt="icon">
+                            </div>
+                            <h4><a href="service-details.html">Cyber Security</a></h4>
+                            <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac iaculis ut
+                                euismod quis sapien.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- About area end here -->
-
-        <!-- Service area start here -->
-        <section class="service-two-area secondary-bg pt-120 pb-120">
-            <div class="service-two__shape-left sway_Y__animationY">
-                <img src="assets/images/shape/service-two-shape-left.png" alt="shape">
-            </div>
-            <div class="service-two__shape-right sway_Y__animation">
-                <img src="assets/images/shape/service-two-shape-right.png" alt="shape">
-            </div>
-            <div class="container">
-                <div class="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-60">
-                    <div class="section-header">
-                        <h5 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="0.75" y="0.750061" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
-                                    stroke-width="1.5" />
-                                <mask id="path-2-inside-1_670_477" fill="white">
-                                    <path
-                                        d="M3 6.00006C3 3.79092 4.79086 2.00006 7 2.00006H13C15.2091 2.00006 17 3.79092 17 6.00006C17 8.2092 15.2091 10.0001 13 10.0001H7C4.79086 10.0001 3 8.2092 3 6.00006Z" />
-                                </mask>
-                                <path
-                                    d="M3 6.00006C3 2.96249 5.46243 0.500061 8.5 0.500061H11.5C14.5376 0.500061 17 2.96249 17 6.00006C17 4.61935 15.2091 3.50006 13 3.50006H7C4.79086 3.50006 3 4.61935 3 6.00006ZM17 6.00006C17 9.03763 14.5376 11.5001 11.5 11.5001H8.5C5.46243 11.5001 3 9.03763 3 6.00006C3 7.38077 4.79086 8.50006 7 8.50006H13C15.2091 8.50006 17 7.38077 17 6.00006ZM3 10.0001V2.00006V10.0001ZM17 2.00006V10.0001V2.00006Z"
-                                    fill="#3C72FC" mask="url(#path-2-inside-1_670_477)" />
-                            </svg>
-                            SERVICES WE’RE OFFERING
-                        </h5>
-                        <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            Exclusive IT Services</h2>
-                    </div>
-                    <div class="arry-btn  d-flex gap-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <button class="arry-prev service__arry-prev"><i class="fa-light fa-chevron-left"></i></button>
-                        <button class="arry-next service__arry-next active"><i
-                                class="fa-light fa-chevron-right"></i></button>
-                    </div>
-                </div>
-                <div class="swiper service-two__slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="assets/images/service/service-image1.jpg" alt="image">
-                                </div>
-                                <div class="service-two__content">
-                                    <div class="icon">
-                                        <img src="assets/images/icon/service-two-icon1.png" alt="icon">
-                                    </div>
-                                    <div class="shape"><img src="assets/images/shape/service-two-item-shape.png"
-                                            alt="shape"></div>
-                                    <h4><a href="service-details.html" class="primary-hover">Database Security</a></h4>
-                                    <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                        iaculis.</p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
+                    <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                        <div class="service__item">
+                            <div class="service-shape">
+                                <img src="assets/images/shape/service-item-shape.png" alt="shape">
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="assets/images/service/service-image2.jpg" alt="image">
-                                </div>
-                                <div class="service-two__content">
-                                    <div class="icon">
-                                        <img src="assets/images/icon/service-two-icon2.png" alt="icon">
-                                    </div>
-                                    <div class="shape"><img src="assets/images/shape/service-two-item-shape.png"
-                                            alt="shape"></div>
-                                    <h4><a href="service-details.html" class="primary-hover">IT Consultancy</a></h4>
-                                    <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                        iaculis.</p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
+                            <div class="service__icon">
+                                <img src="assets/images/icon/service-icon3.png" alt="icon">
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="assets/images/service/service-image3.jpg" alt="image">
-                                </div>
-                                <div class="service-two__content">
-                                    <div class="icon">
-                                        <img src="assets/images/icon/service-two-icon3.png" alt="icon">
-                                    </div>
-                                    <div class="shape"><img src="assets/images/shape/service-two-item-shape.png"
-                                            alt="shape"></div>
-                                    <h4><a href="service-details.html" class="primary-hover">App Development</a></h4>
-                                    <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                        iaculis.</p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="assets/images/service/service-image1.jpg" alt="image">
-                                </div>
-                                <div class="service-two__content">
-                                    <div class="icon">
-                                        <img src="assets/images/icon/service-two-icon1.png" alt="icon">
-                                    </div>
-                                    <div class="shape"><img src="assets/images/shape/service-two-item-shape.png"
-                                            alt="shape"></div>
-                                    <h4><a href="service-details.html" class="primary-hover">Database Security</a></h4>
-                                    <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                        iaculis.</p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="assets/images/service/service-image2.jpg" alt="image">
-                                </div>
-                                <div class="service-two__content">
-                                    <div class="icon">
-                                        <img src="assets/images/icon/service-two-icon2.png" alt="icon">
-                                    </div>
-                                    <div class="shape"><img src="assets/images/shape/service-two-item-shape.png"
-                                            alt="shape"></div>
-                                    <h4><a href="service-details.html" class="primary-hover">IT Consultancy</a></h4>
-                                    <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                        iaculis.</p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="assets/images/service/service-image3.jpg" alt="image">
-                                </div>
-                                <div class="service-two__content">
-                                    <div class="icon">
-                                        <img src="assets/images/icon/service-two-icon3.png" alt="icon">
-                                    </div>
-                                    <div class="shape"><img src="assets/images/shape/service-two-item-shape.png"
-                                            alt="shape"></div>
-                                    <h4><a href="service-details.html" class="primary-hover">App Development</a></h4>
-                                    <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                        iaculis.</p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
+                            <h4><a href="service-details.html">Web Development</a></h4>
+                            <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac iaculis ut
+                                euismod quis sapien.</p>
                         </div>
                     </div>
                 </div>
@@ -683,58 +345,48 @@
         </section>
         <!-- Service area end here -->
 
-
-
-
-
-        
-        <!-- Choose area start here -->
-        <section class="choose-area sub-bg pt-120 pb-120">
-            <div class="choose__video-btn">
-                <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
-                            class="fa-solid fa-play"></i></a>
-                </div>
-            </div>
-            <div class="choose__shape-right1 wow slideInRight d-none d-lg-block" data-wow-delay="200ms"
-                data-wow-duration="1500ms">
-                <img src="assets/images/shape/choose-shape-right.png" alt="shape">
-            </div>
-            <div class="choose__shape-right2 wow slideInRight d-none d-lg-block" data-wow-delay="200ms"
-                data-wow-duration="1000ms">
-                <img src="assets/images/shape/choose-shape-right2.png" alt="shape">
-            </div>
-            <div class="choose__shape-left sway__animation">
-                <img src="assets/images/shape/choose-shape-left.png" alt="shape">
+        <!-- About area start here -->
+        <section class="about-area sub-bg pt-120">
+            <div class="about__shape wow slideInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <img src="assets/images/shape/about-line.png" alt="shape">
             </div>
             <div class="container">
                 <div class="row g-4">
-                    <div class="col-lg-6 d-block d-lg-none">
-                        <div class="image">
-                            <img src="assets/images/choose/choose-image1.png" alt="image">
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="about__left-item">
+                            <div class="image big-image">
+                                <img src="assets/images/about/about-image1.jpg" alt="image">
+                            </div>
+                            <div class="image sm-image">
+                                <div class="video__btn-wrp">
+                                    <div class="video-btn video-pulse">
+                                        <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
+                                                class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                                <img src="assets/images/about/about-image2.png" alt="image">
+                            </div>
+                            <div class="circle-shape">
+                                <img src="assets/images/shape/about-circle.png" alt="shape">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    
+                    <div class="col-xl-6">
                         <div class="section-header mb-40">
                             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.75" y="0.75" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
-                                        stroke-width="1.5" />
-                                    <mask id="path-2-inside-1_682_455" fill="white">
-                                        <path
-                                            d="M3 6C3 3.79086 4.79086 2 7 2H13C15.2091 2 17 3.79086 17 6C17 8.20914 15.2091 10 13 10H7C4.79086 10 3 8.20914 3 6Z" />
-                                    </mask>
-                                    <path
-                                        d="M3 6C3 2.96243 5.46243 0.5 8.5 0.5H11.5C14.5376 0.5 17 2.96243 17 6C17 4.61929 15.2091 3.5 13 3.5H7C4.79086 3.5 3 4.61929 3 6ZM17 6C17 9.03757 14.5376 11.5 11.5 11.5H8.5C5.46243 11.5 3 9.03757 3 6C3 7.38071 4.79086 8.5 7 8.5H13C15.2091 8.5 17 7.38071 17 6ZM3 10V2V10ZM17 2V10V2Z"
-                                        fill="#3C72FC" mask="url(#path-2-inside-1_682_455)" />
-                                </svg>
-                                WHY Choose US
+                                <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">
+                                ABOUT Gratech
                             </h5>
-                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Elevate Your
-                                Achievements Using Premier IT Solutions</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We Strive to
+                                Offer Intelligent Business Solutions</h2>
+                            <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Aonsectetur
+                                adipiscing elit aenean scelerisque augue vitae consequat aisque eget congue
+                                velit in cursus sodales the
+                                turpis euismod quis sapien euismod
+                                quis sapien the condimentum nec lorem nulla augue.</p>
                         </div>
-                        <div class="row g-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="row g-4 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="col-md-6">
                                 <div class="about__right-item">
                                     <div class="icon">
@@ -758,40 +410,62 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="progress-area wow fadeInDown mt-40" data-wow-delay="00ms"
-                            data-wow-duration="1500ms">
-                            <div class="progress__title mb-10">
-                                <h5>Information Technology</h5>
-                                <span><span class="progress-count">80</span>%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar wow slideInLeft" data-wow-duration=".86s" role="progressbar"
-                                    style="width: 86%;" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+                        <div class="about__info mt-50 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <a href="about.html" class="btn-one">Explore More <i
+                                    class="fa-regular fa-arrow-right-long"></i></a>
+                            <div class="d-flex gap-2 align-items-center">
+                                <img src="assets/images/about/about-info.png" alt="image">
+                                <div class="info">
+                                    <h5>Ronald Richards</h5>
+                                    <span class="sm-font">Co, Founder</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="progress-area wow fadeInDown mt-20" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <div class="progress__title mb-10">
-                                <h5>Technology Consultant</h5>
-                                <span><span class="progress-count">95</span>%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar wow slideInLeft" data-wow-duration=".95s" role="progressbar"
-                                    style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 d-none d-lg-block">
-                        <div class="choose__image image">
-                            <img src="assets/images/choose/choose-image1.png" alt="image">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Choose area end here -->
+        <!-- About area end here -->
+
+        <!-- Counter area start here -->
+        <section class="counter-area">
+            <div class="container">
+                <div class="counter__wrp gradient-bg">
+                    <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <img src="assets/images/shape/counnter-bg-shape.png" alt="shape">
+                    </div>
+                    <div class="counter__item wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+                        <img src="assets/images/icon/counter-icon1.png" alt="icon">
+                        <div class="content">
+                            <h3><span class="count">6,561</span>+</h3>
+                            <p class="text-white">Satisfied Clients</p>
+                        </div>
+                    </div>
+                    <div class="counter__item wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                        <img src="assets/images/icon/counter-icon2.png" alt="icon">
+                        <div class="content">
+                            <h3><span class="count">600</span>+</h3>
+                            <p class="text-white">Finished Projects</p>
+                        </div>
+                    </div>
+                    <div class="counter__item wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                        <img src="assets/images/icon/counter-icon3.png" alt="icon">
+                        <div class="content">
+                            <h3><span class="count">250</span>+</h3>
+                            <p class="text-white">Skilled Experts</p>
+                        </div>
+                    </div>
+                    <div class="counter__item wow bounceInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
+                        <img src="assets/images/icon/counter-icon4.png" alt="icon">
+                        <div class="content">
+                            <h3><span class="count">590</span>+</h3>
+                            <p class="text-white">Media Posts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Counter area end here -->
 
         <!-- Team area start here -->
         <section class="team-area pt-120 pb-120">
@@ -885,622 +559,10 @@
             </div>
         </section>
         <!-- Team area end here -->
-
-        <!-- Faq area start here -->
-        <section class="faq-area sub-bg pt-120 pb-120">
-            <div class="faq__shape">
-                <img class="sway__animationX" src="assets/images/shape/faq-shape.png" alt="shape">
-            </div>
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-lg-5 pe-2 pe-lg-5">
-                        <div class="faq__image image wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="faq__line sway__animation">
-                                <img src="assets/images/shape/faq-line.png" alt="image">
-                            </div>
-                            <img src="assets/images/faq/faq-image.png" alt="image">
-                        </div>
-                    </div>
-                    <div class="col-lg-7 mt-60">
-                        <div class="section-header mb-40">
-                            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.75" y="0.747803" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
-                                        stroke-width="1.5" />
-                                    <mask id="path-2-inside-1_1120_294" fill="white">
-                                        <path
-                                            d="M3 5.9978C3 3.78866 4.79086 1.9978 7 1.9978H13C15.2091 1.9978 17 3.78866 17 5.9978C17 8.20694 15.2091 9.9978 13 9.9978H7C4.79086 9.9978 3 8.20694 3 5.9978Z" />
-                                    </mask>
-                                    <path
-                                        d="M3 5.9978C3 2.96024 5.46243 0.497803 8.5 0.497803H11.5C14.5376 0.497803 17 2.96024 17 5.9978C17 4.61709 15.2091 3.4978 13 3.4978H7C4.79086 3.4978 3 4.61709 3 5.9978ZM17 5.9978C17 9.03537 14.5376 11.4978 11.5 11.4978H8.5C5.46243 11.4978 3 9.03537 3 5.9978C3 7.37851 4.79086 8.4978 7 8.4978H13C15.2091 8.4978 17 7.37851 17 5.9978ZM3 9.9978V1.9978V9.9978ZM17 1.9978V9.9978V1.9978Z"
-                                        fill="#3C72FC" mask="url(#path-2-inside-1_1120_294)" />
-                                </svg>
-                                FAQ
-                            </h5>
-                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Most Common
-                                Question?</h2>
-                        </div>
-                        <div class="faq__item">
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
-                                    data-wow-duration="1500ms">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">
-                                            Where should I incorporate my business?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>It is a long established fact that a reader be distracted by
-                                                the readable content of a page when looking a its layout.
-                                                Many desktop publishing packages and web page editors now use Lorem
-                                                Ipsum
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
-                                    data-wow-duration="1500ms">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
-                                            What happens my free trial?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>It is a long established fact that a reader be distracted by
-                                                the readable content of a page when looking a its layout.
-                                                Many desktop publishing packages and web page editors now use Lorem
-                                                Ipsum
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
-                                    data-wow-duration="1500ms">
-                                    <h2 class="accordion-header" id="headingthree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapsethree"
-                                            aria-expanded="false" aria-controls="collapsethree">
-                                            What is included in your services?
-                                        </button>
-                                    </h2>
-                                    <div id="collapsethree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingthree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>It is a long established fact that a reader be distracted by
-                                                the readable content of a page when looking a its layout.
-                                                Many desktop publishing packages and web page editors now use Lorem
-                                                Ipsum
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
-                                    data-wow-duration="1500ms">
-                                    <h2 class="accordion-header" id="headingFour">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                            aria-expanded="false" aria-controls="collapseFour">
-                                            What type of company is measured?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>It is a long established fact that a reader be distracted by
-                                                the readable content of a page when looking a its layout.
-                                                Many desktop publishing packages and web page editors now use Lorem
-                                                Ipsum
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Faq area end here -->
-
-        <!-- Case area start here -->
-        <section class="case-two-area secondary-bg pt-120">
-            <div class="case-two__bg">
-                <img src="assets/images/bg/case-two-bg.png" alt="image">
-            </div>
-            <div class="container">
-                <div class="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-60">
-                    <div class="section-header">
-                        <h5 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="0.75" y="0.747803" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
-                                    stroke-width="1.5" />
-                                <mask id="path-2-inside-1_1120_297" fill="white">
-                                    <path
-                                        d="M3 5.9978C3 3.78866 4.79086 1.9978 7 1.9978H13C15.2091 1.9978 17 3.78866 17 5.9978C17 8.20694 15.2091 9.9978 13 9.9978H7C4.79086 9.9978 3 8.20694 3 5.9978Z" />
-                                </mask>
-                                <path
-                                    d="M3 5.9978C3 2.96024 5.46243 0.497803 8.5 0.497803H11.5C14.5376 0.497803 17 2.96024 17 5.9978C17 4.61709 15.2091 3.4978 13 3.4978H7C4.79086 3.4978 3 4.61709 3 5.9978ZM17 5.9978C17 9.03537 14.5376 11.4978 11.5 11.4978H8.5C5.46243 11.4978 3 9.03537 3 5.9978C3 7.37851 4.79086 8.4978 7 8.4978H13C15.2091 8.4978 17 7.37851 17 5.9978ZM3 9.9978V1.9978V9.9978ZM17 1.9978V9.9978V1.9978Z"
-                                    fill="#3C72FC" mask="url(#path-2-inside-1_1120_297)" />
-                            </svg>
-                            FROM OUR CASE studies
-                        </h5>
-                        <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            We Delivered Best Solution</h2>
-                    </div>
-                    <div class="arry-btn  d-flex gap-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <button class="arry-prev case__arry-prev"><i class="fa-light fa-chevron-left"></i></button>
-                        <button class="arry-next case__arry-next active"><i
-                                class="fa-light fa-chevron-right"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div class="case-two__container">
-                <div class="swiper case-two__slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="case-two__item">
-                                <div class="image case-two__image">
-                                    <img src="assets/images/case/case-two-image1.jpg" alt="image">
-                                </div>
-                                <div class="case-two__content">
-                                    <span>Solution</span>
-                                    <h4><a href="case-details.html" class="text-white">IT Management</a></h4>
-                                </div>
-                                <a href="case-details.html" class="case-two__btn">
-                                    <i class="fa-regular fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="case-two__item">
-                                <div class="image case-two__image">
-                                    <img src="assets/images/case/case-two-image2.jpg" alt="image">
-                                </div>
-                                <div class="case-two__content">
-                                    <span>Technology</span>
-                                    <h4><a href="case-details.html" class="text-white">Web Development</a></h4>
-                                </div>
-                                <a href="case-details.html" class="case-two__btn">
-                                    <i class="fa-regular fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="case-two__item">
-                                <div class="image case-two__image">
-                                    <img src="assets/images/case/case-two-image3.jpg" alt="image">
-                                </div>
-                                <div class="case-two__content">
-                                    <span>Security</span>
-                                    <h4><a href="case-details.html" class="text-white">Network Security</a></h4>
-                                </div>
-                                <a href="case-details.html" class="case-two__btn">
-                                    <i class="fa-regular fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="case-two__item">
-                                <div class="image case-two__image">
-                                    <img src="assets/images/case/case-two-image4.jpg" alt="image">
-                                </div>
-                                <div class="case-two__content">
-                                    <span>Technology</span>
-                                    <h4><a href="case-details.html" class="text-white">Platform Integration</a></h4>
-                                </div>
-                                <a href="case-details.html" class="case-two__btn">
-                                    <i class="fa-regular fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Case area end here -->
-
-        <!-- Testimonial area start here -->
-        <section class="testimonial-two-area pb-120">
-            <div class="container">
-                <div class="section-header text-center mb-40">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.75" y="0.75" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
-                                stroke-width="1.5" />
-                            <mask id="path-2-inside-1_869_295" fill="white">
-                                <path
-                                    d="M3 6C3 3.79086 4.79086 2 7 2H13C15.2091 2 17 3.79086 17 6C17 8.20914 15.2091 10 13 10H7C4.79086 10 3 8.20914 3 6Z" />
-                            </mask>
-                            <path
-                                d="M3 6C3 2.96243 5.46243 0.5 8.5 0.5H11.5C14.5376 0.5 17 2.96243 17 6C17 4.61929 15.2091 3.5 13 3.5H7C4.79086 3.5 3 4.61929 3 6ZM17 6C17 9.03757 14.5376 11.5 11.5 11.5H8.5C5.46243 11.5 3 9.03757 3 6C3 7.38071 4.79086 8.5 7 8.5H13C15.2091 8.5 17 7.38071 17 6ZM3 10V2V10ZM17 2V10V2Z"
-                                fill="#3C72FC" mask="url(#path-2-inside-1_869_295)" />
-                        </svg>
-                        Testimonials
-                    </h5>
-                    <h2 class="wow fadeInUp text-white" data-wow-delay="200ms" data-wow-duration="1500ms">What Our
-                        Client’s Say
-                        About Us</h2>
-                </div>
-                <div class="swiper testimonial-two__slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-two__item">
-                                <div class="star mb-10">
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star disable"></i>
-                                </div>
-                                <p class="mb-30">“ Consectetur adipiscing elit. Integer nunc viverra laoreet est the is
-                                    porta
-                                    pretium metus
-                                    aliquam eget maecenas porta
-                                    is nunc nul viverra Aenean pulvinar maximus leo ”</p>
-                                <div class="d-flex align-items-center gap-3">
-                                    <img src="assets/images/testimonial/testimonial-two-image1.png" alt="image">
-                                    <div class="con">
-                                        <h4>Alex Rony</h4>
-                                        <span>Engineering</span>
-                                    </div>
-                                </div>
-                                <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-two__item">
-                                <div class="star mb-10">
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star disable"></i>
-                                </div>
-                                <p class="mb-30">“ Consectetur adipiscing elit. Integer nunc viverra laoreet est the is
-                                    porta
-                                    pretium metus
-                                    aliquam eget maecenas porta
-                                    is nunc nul viverra Aenean pulvinar maximus leo ”</p>
-                                <div class="d-flex align-items-center gap-3">
-                                    <img src="assets/images/testimonial/testimonial-two-image2.png" alt="image">
-                                    <div class="con">
-                                        <h4>Suborna Tarchera</h4>
-                                        <span>UI/UX Designer</span>
-                                    </div>
-                                </div>
-                                <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-two__item">
-                                <div class="star mb-10">
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star disable"></i>
-                                </div>
-                                <p class="mb-30">“ Consectetur adipiscing elit. Integer nunc viverra laoreet est the is
-                                    porta
-                                    pretium metus
-                                    aliquam eget maecenas porta
-                                    is nunc nul viverra Aenean pulvinar maximus leo ”</p>
-                                <div class="d-flex align-items-center gap-3">
-                                    <img src="assets/images/testimonial/testimonial-two-image3.png" alt="image">
-                                    <div class="con">
-                                        <h4>Kawser Ahmed</h4>
-                                        <span>Web Designer</span>
-                                    </div>
-                                </div>
-                                <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC" />
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt-40">
-                    <div class="dot testimonial__dot"></div>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonial area end here -->
-
-        <!-- Blog area start here -->
-        <section class="blog-two-area pb-120">
-            <div class="container">
-                <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between mb-60">
-                    <div class="section-header">
-                        <h5 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="0.75" y="0.748047" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
-                                    stroke-width="1.5" />
-                                <mask id="path-2-inside-1_1120_300" fill="white">
-                                    <path
-                                        d="M3 5.99805C3 3.78891 4.79086 1.99805 7 1.99805H13C15.2091 1.99805 17 3.78891 17 5.99805C17 8.20719 15.2091 9.99805 13 9.99805H7C4.79086 9.99805 3 8.20719 3 5.99805Z" />
-                                </mask>
-                                <path
-                                    d="M3 5.99805C3 2.96048 5.46243 0.498047 8.5 0.498047H11.5C14.5376 0.498047 17 2.96048 17 5.99805C17 4.61734 15.2091 3.49805 13 3.49805H7C4.79086 3.49805 3 4.61734 3 5.99805ZM17 5.99805C17 9.03561 14.5376 11.498 11.5 11.498H8.5C5.46243 11.498 3 9.03561 3 5.99805C3 7.37876 4.79086 8.49805 7 8.49805H13C15.2091 8.49805 17 7.37876 17 5.99805ZM3 9.99805V1.99805V9.99805ZM17 1.99805V9.99805V1.99805Z"
-                                    fill="#3C72FC" mask="url(#path-2-inside-1_1120_300)" />
-                            </svg>
-                            Blog & news
-                        </h5>
-                        <h2 class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Explore Blogs and
-                            News</h2>
-                    </div>
-                    <a href="blog.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">View All
-                        News <i class="fa-regular fa-arrow-right-long"></i></a>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="blog-two__grid-item">
-                            <a href="blog-details.htm" class="blog__image d-block image">
-                                <img src="assets/images/blog/blog-two-grid-image1.jpg" alt="image">
-                                <div class="blog-tag">
-                                    <h3 class="text-white">10</h3>
-                                    <span class="text-white">Dec</span>
-                                </div>
-                            </a>
-                            <div class="blog__content">
-                                <ul class="blog-info mb-20">
-                                    <li>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_880_270)">
-                                                <path
-                                                    d="M8.05666 18.75H8.05504C7.46832 18.7495 6.91657 18.5207 6.50187 18.1052L0.660341 12.2553C-0.194072 11.3994 -0.194072 10.0065 0.660341 9.15058L8.53478 1.26102C9.3463 0.44792 10.426 0 11.575 0H16.5709C17.7824 0 18.7682 0.985546 18.7682 2.19726V7.17785C18.7682 8.32602 18.3208 9.40532 17.5084 10.2167L9.60951 18.1074C9.19455 18.5218 8.64306 18.75 8.05666 18.75ZM11.575 1.46484C10.8179 1.46484 10.1064 1.75998 9.57163 2.29579L1.69707 10.1853C1.41222 10.4708 1.41222 10.9349 1.69707 11.2203L7.53857 17.0702C7.6767 17.2086 7.86051 17.285 8.05619 17.2851H8.05677C8.1529 17.2854 8.24812 17.2666 8.33694 17.2299C8.42577 17.1931 8.50643 17.1391 8.57427 17.071L16.4732 9.18046C17.0086 8.6458 17.3034 7.93447 17.3034 7.17788V2.19726C17.3034 1.79341 16.9748 1.46484 16.5709 1.46484H11.575ZM13.458 7.43408C12.2465 7.43408 11.2608 6.44853 11.2608 5.23681C11.2608 4.0251 12.2465 3.03955 13.458 3.03955C14.6696 3.03955 15.6553 4.0251 15.6553 5.23681C15.6553 6.44853 14.6696 7.43408 13.458 7.43408ZM13.458 4.50439C13.0542 4.50439 12.7256 4.83296 12.7256 5.23681C12.7256 5.64067 13.0542 5.96924 13.458 5.96924C13.862 5.96924 14.1905 5.64067 14.1905 5.23681C14.1905 4.83296 13.862 4.50439 13.458 4.50439Z"
-                                                    fill="#3C72FC" />
-                                            </g>
-                                            <defs>
-                                                <clipPath>
-                                                    <rect width="20" height="20" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <a href="#0">Technology</a>
-                                    </li>
-                                    <li>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_615_71)">
-                                                <path
-                                                    d="M18.752 14.443C20.6847 11.7314 20.3893 8.01637 17.7495 5.59641C16.5434 4.49074 15.0057 3.80242 13.3448 3.6102C13.3344 3.59727 13.3236 3.58479 13.3122 3.57277C11.8673 2.0718 9.79133 1.21094 7.61672 1.21094C3.47848 1.21094 0 4.29426 0 8.24219C0 9.62637 0.429961 10.9533 1.24672 12.0993L0.105742 15.6815C0.0706615 15.7916 0.0689221 15.9096 0.100743 16.0207C0.132563 16.1318 0.196522 16.231 0.284576 16.3058C0.37263 16.3807 0.480845 16.4278 0.595611 16.4413C0.710377 16.4548 0.826568 16.434 0.92957 16.3816L4.39937 14.6173C5.11195 14.9241 5.86758 15.1255 6.65008 15.2171C8.15953 16.8044 10.2467 17.6172 12.382 17.6172C13.492 17.6172 14.598 17.391 15.5992 16.961L19.0692 18.7254C19.1514 18.7673 19.2424 18.7891 19.3346 18.7891C19.73 18.7891 20.0135 18.4037 19.893 18.0253L18.752 14.443ZM4.63586 13.4383C4.5549 13.3999 4.46621 13.3805 4.37659 13.3817C4.28697 13.3829 4.19883 13.4047 4.11895 13.4453L1.64758 14.702L2.45461 12.1681C2.48356 12.0773 2.48989 11.9807 2.47305 11.8869C2.45622 11.793 2.41673 11.7047 2.35801 11.6295C1.58199 10.6362 1.1718 9.46488 1.1718 8.24219C1.1718 5.01133 4.06297 2.38281 7.61672 2.38281C9.04781 2.38281 10.4255 2.81637 11.543 3.59711C7.77945 3.97555 4.76531 6.91516 4.76531 10.5859C4.76531 11.7277 5.05797 12.8268 5.60973 13.8116C5.276 13.7123 4.95042 13.5876 4.63586 13.4383ZM15.8798 15.789C15.7999 15.7484 15.7118 15.7267 15.6222 15.7254C15.5325 15.7242 15.4438 15.7436 15.3629 15.7821C14.4494 16.216 13.4187 16.4453 12.382 16.4453C8.82828 16.4453 5.93711 13.8168 5.93711 10.5859C5.93711 7.35508 8.82828 4.72656 12.382 4.72656C15.9358 4.72656 18.827 7.35508 18.827 10.5859C18.827 11.8086 18.4168 12.9799 17.6407 13.9732C17.582 14.0484 17.5425 14.1367 17.5257 14.2306C17.5089 14.3244 17.5152 14.421 17.5441 14.5118L18.3511 17.0457L15.8798 15.789Z"
-                                                    fill="#3C72FC" />
-                                                <path
-                                                    d="M9.99939 11.1719C10.323 11.1719 10.5853 10.9095 10.5853 10.5859C10.5853 10.2623 10.323 10 9.99939 10C9.67579 10 9.41345 10.2623 9.41345 10.5859C9.41345 10.9095 9.67579 11.1719 9.99939 11.1719Z"
-                                                    fill="#3C72FC" />
-                                                <path
-                                                    d="M12.343 11.1719C12.6666 11.1719 12.929 10.9095 12.929 10.5859C12.929 10.2623 12.6666 10 12.343 10C12.0194 10 11.7571 10.2623 11.7571 10.5859C11.7571 10.9095 12.0194 11.1719 12.343 11.1719Z"
-                                                    fill="#3C72FC" />
-                                                <path
-                                                    d="M14.6866 11.1719C15.0102 11.1719 15.2726 10.9095 15.2726 10.5859C15.2726 10.2623 15.0102 10 14.6866 10C14.363 10 14.1007 10.2623 14.1007 10.5859C14.1007 10.9095 14.363 11.1719 14.6866 11.1719Z"
-                                                    fill="#3C72FC" />
-                                            </g>
-                                            <defs>
-                                                <clipPath>
-                                                    <rect width="20" height="20" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <a href="#0">0 Comments</a>
-                                    </li>
-                                </ul>
-                                <h3><a href="blog-details.htm" class="primary-hover">Keep Your Business Safe & Ensure
-                                        High
-                                        Availability.</a></h3>
-                                <p class="mt-10">Consequat Quisque eget congue velit in OF cursus leo sodales IS the
-                                    euismod quis
-                                    sapien euismod</p>
-                                <div class="about__info justify-content-between flex-wrap gap-3 mt-25">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <img src="assets/images/blog/admin1.png" alt="image">
-                                        <div class="info">
-                                            <a href="#0" class="primary-color">By Admin</a>
-                                            <h5>Alex Rony</h5>
-                                        </div>
-                                    </div>
-                                    <a href="blog-details.html" class="btn-one">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="blog-two__list-item mb-30 wow fadeInUp" data-wow-delay="00ms"
-                            data-wow-duration="1500ms">
-                            <a href="blog-details.htm" class="blog__image d-block image">
-                                <img src="assets/images/blog/blog-two-list-image1.jpg" alt="image">
-                                <div class="blog-tag">
-                                    <h3 class="text-white">15</h3>
-                                    <span class="text-white">Dec</span>
-                                </div>
-                            </a>
-                            <div class="blog__content">
-                                <ul class="blog-info mb-20">
-                                    <li>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_880_270)">
-                                                <path
-                                                    d="M8.05666 18.75H8.05504C7.46832 18.7495 6.91657 18.5207 6.50187 18.1052L0.660341 12.2553C-0.194072 11.3994 -0.194072 10.0065 0.660341 9.15058L8.53478 1.26102C9.3463 0.44792 10.426 0 11.575 0H16.5709C17.7824 0 18.7682 0.985546 18.7682 2.19726V7.17785C18.7682 8.32602 18.3208 9.40532 17.5084 10.2167L9.60951 18.1074C9.19455 18.5218 8.64306 18.75 8.05666 18.75ZM11.575 1.46484C10.8179 1.46484 10.1064 1.75998 9.57163 2.29579L1.69707 10.1853C1.41222 10.4708 1.41222 10.9349 1.69707 11.2203L7.53857 17.0702C7.6767 17.2086 7.86051 17.285 8.05619 17.2851H8.05677C8.1529 17.2854 8.24812 17.2666 8.33694 17.2299C8.42577 17.1931 8.50643 17.1391 8.57427 17.071L16.4732 9.18046C17.0086 8.6458 17.3034 7.93447 17.3034 7.17788V2.19726C17.3034 1.79341 16.9748 1.46484 16.5709 1.46484H11.575ZM13.458 7.43408C12.2465 7.43408 11.2608 6.44853 11.2608 5.23681C11.2608 4.0251 12.2465 3.03955 13.458 3.03955C14.6696 3.03955 15.6553 4.0251 15.6553 5.23681C15.6553 6.44853 14.6696 7.43408 13.458 7.43408ZM13.458 4.50439C13.0542 4.50439 12.7256 4.83296 12.7256 5.23681C12.7256 5.64067 13.0542 5.96924 13.458 5.96924C13.862 5.96924 14.1905 5.64067 14.1905 5.23681C14.1905 4.83296 13.862 4.50439 13.458 4.50439Z"
-                                                    fill="#3C72FC" />
-                                            </g>
-                                            <defs>
-                                                <clipPath>
-                                                    <rect width="20" height="20" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <a href="#0">Technology</a>
-                                    </li>
-                                    <li>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_615_71)">
-                                                <path
-                                                    d="M18.752 14.443C20.6847 11.7314 20.3893 8.01637 17.7495 5.59641C16.5434 4.49074 15.0057 3.80242 13.3448 3.6102C13.3344 3.59727 13.3236 3.58479 13.3122 3.57277C11.8673 2.0718 9.79133 1.21094 7.61672 1.21094C3.47848 1.21094 0 4.29426 0 8.24219C0 9.62637 0.429961 10.9533 1.24672 12.0993L0.105742 15.6815C0.0706615 15.7916 0.0689221 15.9096 0.100743 16.0207C0.132563 16.1318 0.196522 16.231 0.284576 16.3058C0.37263 16.3807 0.480845 16.4278 0.595611 16.4413C0.710377 16.4548 0.826568 16.434 0.92957 16.3816L4.39937 14.6173C5.11195 14.9241 5.86758 15.1255 6.65008 15.2171C8.15953 16.8044 10.2467 17.6172 12.382 17.6172C13.492 17.6172 14.598 17.391 15.5992 16.961L19.0692 18.7254C19.1514 18.7673 19.2424 18.7891 19.3346 18.7891C19.73 18.7891 20.0135 18.4037 19.893 18.0253L18.752 14.443ZM4.63586 13.4383C4.5549 13.3999 4.46621 13.3805 4.37659 13.3817C4.28697 13.3829 4.19883 13.4047 4.11895 13.4453L1.64758 14.702L2.45461 12.1681C2.48356 12.0773 2.48989 11.9807 2.47305 11.8869C2.45622 11.793 2.41673 11.7047 2.35801 11.6295C1.58199 10.6362 1.1718 9.46488 1.1718 8.24219C1.1718 5.01133 4.06297 2.38281 7.61672 2.38281C9.04781 2.38281 10.4255 2.81637 11.543 3.59711C7.77945 3.97555 4.76531 6.91516 4.76531 10.5859C4.76531 11.7277 5.05797 12.8268 5.60973 13.8116C5.276 13.7123 4.95042 13.5876 4.63586 13.4383ZM15.8798 15.789C15.7999 15.7484 15.7118 15.7267 15.6222 15.7254C15.5325 15.7242 15.4438 15.7436 15.3629 15.7821C14.4494 16.216 13.4187 16.4453 12.382 16.4453C8.82828 16.4453 5.93711 13.8168 5.93711 10.5859C5.93711 7.35508 8.82828 4.72656 12.382 4.72656C15.9358 4.72656 18.827 7.35508 18.827 10.5859C18.827 11.8086 18.4168 12.9799 17.6407 13.9732C17.582 14.0484 17.5425 14.1367 17.5257 14.2306C17.5089 14.3244 17.5152 14.421 17.5441 14.5118L18.3511 17.0457L15.8798 15.789Z"
-                                                    fill="#3C72FC" />
-                                                <path
-                                                    d="M9.99939 11.1719C10.323 11.1719 10.5853 10.9095 10.5853 10.5859C10.5853 10.2623 10.323 10 9.99939 10C9.67579 10 9.41345 10.2623 9.41345 10.5859C9.41345 10.9095 9.67579 11.1719 9.99939 11.1719Z"
-                                                    fill="#3C72FC" />
-                                                <path
-                                                    d="M12.343 11.1719C12.6666 11.1719 12.929 10.9095 12.929 10.5859C12.929 10.2623 12.6666 10 12.343 10C12.0194 10 11.7571 10.2623 11.7571 10.5859C11.7571 10.9095 12.0194 11.1719 12.343 11.1719Z"
-                                                    fill="#3C72FC" />
-                                                <path
-                                                    d="M14.6866 11.1719C15.0102 11.1719 15.2726 10.9095 15.2726 10.5859C15.2726 10.2623 15.0102 10 14.6866 10C14.363 10 14.1007 10.2623 14.1007 10.5859C14.1007 10.9095 14.363 11.1719 14.6866 11.1719Z"
-                                                    fill="#3C72FC" />
-                                            </g>
-                                            <defs>
-                                                <clipPath>
-                                                    <rect width="20" height="20" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <a href="#0">Comments</a>
-                                    </li>
-                                </ul>
-                                <h3><a href="blog-details.htm" class="primary-hover">What’s the Holding Back the It
-                                        Solution</a></h3>
-                                <div class="about__info mt-30">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <img src="assets/images/blog/admin2.png" alt="image">
-                                        <div class="info">
-                                            <a href="#0" class="primary-color">By Admin</a>
-                                            <h5>Haven Richards</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-two__list-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <a href="blog-details.htm" class="blog__image d-block image">
-                                <img src="assets/images/blog/blog-two-list-image2.jpg" alt="image">
-                                <div class="blog-tag">
-                                    <h3 class="text-white">20</h3>
-                                    <span class="text-white">Dec</span>
-                                </div>
-                            </a>
-                            <div class="blog__content">
-                                <ul class="blog-info mb-20">
-                                    <li>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_880_270)">
-                                                <path
-                                                    d="M8.05666 18.75H8.05504C7.46832 18.7495 6.91657 18.5207 6.50187 18.1052L0.660341 12.2553C-0.194072 11.3994 -0.194072 10.0065 0.660341 9.15058L8.53478 1.26102C9.3463 0.44792 10.426 0 11.575 0H16.5709C17.7824 0 18.7682 0.985546 18.7682 2.19726V7.17785C18.7682 8.32602 18.3208 9.40532 17.5084 10.2167L9.60951 18.1074C9.19455 18.5218 8.64306 18.75 8.05666 18.75ZM11.575 1.46484C10.8179 1.46484 10.1064 1.75998 9.57163 2.29579L1.69707 10.1853C1.41222 10.4708 1.41222 10.9349 1.69707 11.2203L7.53857 17.0702C7.6767 17.2086 7.86051 17.285 8.05619 17.2851H8.05677C8.1529 17.2854 8.24812 17.2666 8.33694 17.2299C8.42577 17.1931 8.50643 17.1391 8.57427 17.071L16.4732 9.18046C17.0086 8.6458 17.3034 7.93447 17.3034 7.17788V2.19726C17.3034 1.79341 16.9748 1.46484 16.5709 1.46484H11.575ZM13.458 7.43408C12.2465 7.43408 11.2608 6.44853 11.2608 5.23681C11.2608 4.0251 12.2465 3.03955 13.458 3.03955C14.6696 3.03955 15.6553 4.0251 15.6553 5.23681C15.6553 6.44853 14.6696 7.43408 13.458 7.43408ZM13.458 4.50439C13.0542 4.50439 12.7256 4.83296 12.7256 5.23681C12.7256 5.64067 13.0542 5.96924 13.458 5.96924C13.862 5.96924 14.1905 5.64067 14.1905 5.23681C14.1905 4.83296 13.862 4.50439 13.458 4.50439Z"
-                                                    fill="#3C72FC" />
-                                            </g>
-                                            <defs>
-                                                <clipPath>
-                                                    <rect width="20" height="20" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <a href="#0">Technology</a>
-                                    </li>
-                                    <li>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_615_71)">
-                                                <path
-                                                    d="M18.752 14.443C20.6847 11.7314 20.3893 8.01637 17.7495 5.59641C16.5434 4.49074 15.0057 3.80242 13.3448 3.6102C13.3344 3.59727 13.3236 3.58479 13.3122 3.57277C11.8673 2.0718 9.79133 1.21094 7.61672 1.21094C3.47848 1.21094 0 4.29426 0 8.24219C0 9.62637 0.429961 10.9533 1.24672 12.0993L0.105742 15.6815C0.0706615 15.7916 0.0689221 15.9096 0.100743 16.0207C0.132563 16.1318 0.196522 16.231 0.284576 16.3058C0.37263 16.3807 0.480845 16.4278 0.595611 16.4413C0.710377 16.4548 0.826568 16.434 0.92957 16.3816L4.39937 14.6173C5.11195 14.9241 5.86758 15.1255 6.65008 15.2171C8.15953 16.8044 10.2467 17.6172 12.382 17.6172C13.492 17.6172 14.598 17.391 15.5992 16.961L19.0692 18.7254C19.1514 18.7673 19.2424 18.7891 19.3346 18.7891C19.73 18.7891 20.0135 18.4037 19.893 18.0253L18.752 14.443ZM4.63586 13.4383C4.5549 13.3999 4.46621 13.3805 4.37659 13.3817C4.28697 13.3829 4.19883 13.4047 4.11895 13.4453L1.64758 14.702L2.45461 12.1681C2.48356 12.0773 2.48989 11.9807 2.47305 11.8869C2.45622 11.793 2.41673 11.7047 2.35801 11.6295C1.58199 10.6362 1.1718 9.46488 1.1718 8.24219C1.1718 5.01133 4.06297 2.38281 7.61672 2.38281C9.04781 2.38281 10.4255 2.81637 11.543 3.59711C7.77945 3.97555 4.76531 6.91516 4.76531 10.5859C4.76531 11.7277 5.05797 12.8268 5.60973 13.8116C5.276 13.7123 4.95042 13.5876 4.63586 13.4383ZM15.8798 15.789C15.7999 15.7484 15.7118 15.7267 15.6222 15.7254C15.5325 15.7242 15.4438 15.7436 15.3629 15.7821C14.4494 16.216 13.4187 16.4453 12.382 16.4453C8.82828 16.4453 5.93711 13.8168 5.93711 10.5859C5.93711 7.35508 8.82828 4.72656 12.382 4.72656C15.9358 4.72656 18.827 7.35508 18.827 10.5859C18.827 11.8086 18.4168 12.9799 17.6407 13.9732C17.582 14.0484 17.5425 14.1367 17.5257 14.2306C17.5089 14.3244 17.5152 14.421 17.5441 14.5118L18.3511 17.0457L15.8798 15.789Z"
-                                                    fill="#3C72FC" />
-                                                <path
-                                                    d="M9.99939 11.1719C10.323 11.1719 10.5853 10.9095 10.5853 10.5859C10.5853 10.2623 10.323 10 9.99939 10C9.67579 10 9.41345 10.2623 9.41345 10.5859C9.41345 10.9095 9.67579 11.1719 9.99939 11.1719Z"
-                                                    fill="#3C72FC" />
-                                                <path
-                                                    d="M12.343 11.1719C12.6666 11.1719 12.929 10.9095 12.929 10.5859C12.929 10.2623 12.6666 10 12.343 10C12.0194 10 11.7571 10.2623 11.7571 10.5859C11.7571 10.9095 12.0194 11.1719 12.343 11.1719Z"
-                                                    fill="#3C72FC" />
-                                                <path
-                                                    d="M14.6866 11.1719C15.0102 11.1719 15.2726 10.9095 15.2726 10.5859C15.2726 10.2623 15.0102 10 14.6866 10C14.363 10 14.1007 10.2623 14.1007 10.5859C14.1007 10.9095 14.363 11.1719 14.6866 11.1719Z"
-                                                    fill="#3C72FC" />
-                                            </g>
-                                            <defs>
-                                                <clipPath>
-                                                    <rect width="20" height="20" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <a href="#0">Comments</a>
-                                    </li>
-                                </ul>
-                                <h3><a href="blog-details.htm" class="primary-hover">Powerful Server and Platform</a>
-                                </h3>
-                                <div class="about__info mt-30">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <img src="assets/images/blog/admin3.png" alt="image">
-                                        <div class="info">
-                                            <a href="#0" class="primary-color">By Admin</a>
-                                            <h5>Prince Sakib</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Blog area end here -->
-
-        <!-- Quote area start here -->
-        <section class="quote-area">
-            <div class="container">
-                <div class="quote__wrp gradient-bg">
-                    <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <img src="assets/images/shape/quote-shape.png" alt="shape">
-                    </div>
-                    <div class="quote__shape bobble__animation">
-                        <img src="assets/images/shape/quote-shape2.png" alt="shape">
-                    </div>
-                    <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
-                        <div class="section-header">
-                            <h5 class="wow fadeInLeft text-white" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <svg class="me-1" width="28" height="12" viewBox="0 0 28 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.75" y="0.75" width="18.5" height="10.5" rx="5.25" stroke="white"
-                                        stroke-width="1.5" />
-                                    <rect x="8.75" y="0.75" width="18.5" height="10.5" rx="5.25" fill="white"
-                                        stroke="white" stroke-width="1.5" />
-                                </svg>
-                                GET IN TOUCH
-                            </h5>
-                            <h2 class="wow fadeInLeft text-white" data-wow-delay="200ms" data-wow-duration="1500ms">We
-                                Take Care of
-                                Your <br> Technology</h2>
-                        </div>
-                        <a href="contact.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">get A
-                            Quote <i class="fa-regular fa-arrow-right-long"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Quote area end here -->
     </main>
 
     <!-- Footer area start here -->
-    <footer class="footer-two-area secondary-bg">
+    <footer class="footer-area secondary-bg">
         <div class="footer__shape-regular-left wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
             <img src="assets/images/shape/footer-regular-left.png" alt="shape">
         </div>

@@ -135,7 +135,7 @@
                                     
                                 </li>
                                 <li>
-                                    <a href="#">Sobre Nosotros</a>
+                                    <a href="sobre_nosotros.php">Sobre Nosotros</a>
                                 </li>
                                 <li>
                                     <a href="#0">Cursos</a>
