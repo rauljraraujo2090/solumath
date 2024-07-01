@@ -118,7 +118,7 @@
             <div class="container header__container">
                 <div class="header__main">
                     <a href="index.html" class="logo">
-                        <img src="logo2.png" class="f" alt="logo">
+                        <img src="../logo2.png" class="f" alt="logo">
                     </a>
                      <!-- Header area start here 
                     <style>
@@ -133,23 +133,23 @@
                         <nav>
                             <ul>
                                 <li class="has-megamenu">
-                                    <a href="index.php">inicio</a>
+                                    <a href="../index.php">inicio</a>
                                     
                                 </li>
                                 <li>
                                     <a href="sobre_nosotros.php">Sobre Nosotros</a>
                                 </li>
                                 <li>
-                                    <a href="#0">Cursos</a>
+                                    <a href="#0">Ciclos</a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="#">Matematicas Por grados</a>
+                                            <a href="ciclos/ciclo1.php">Ciclo A</a>
                                         </li>
                                         <li>
-                                            <a href="#">Matematicas Innova Schoools</a>
+                                            <a href="ciclos/ciclo2.php">Ciclo B</a>
                                         </li>
                                         <li>
-                                            <a href="#">Matematicas</a>
+                                            <a href="ciclos/ciclo3.php">Ciclo C</a>
                                         </li>
                                         
                                     </ul>

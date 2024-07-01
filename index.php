@@ -537,13 +537,17 @@ include('includes/header.php');
                                     <img src="assets/images/shape/service-item-shape.png" alt="shape">
                                 </div>
                                 <div class="service__icon">
-                                    <img src="assets/images/icon/service-icon1.png" alt="icon">
+                                <img src="assets/images/icon/service-icon3.png" alt="icon">
                                 </div>
                                 <h4>
-                                    <a href="service-details.html">Mision </a>
+                                    <a href="service-details.html">Ciclo A</a>
                                 </h4>
-                                <p>Cambiar la vida de nuestros estudiantes y colaboradores, generándoles pasión por alcanzar sus metas.</p>
+                                <p>Para iniciar en las matemáticas lo más importante es manejar los enteros y operaciones básicas con ellos,
+                                     en este ciclo se planteará las reglas claras para entender los números .</p>
+                                      <br>
+                                <a  href="ciclos/ciclo1.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
+                           
                         </div>
                         <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
                             <div class="service__item active">
@@ -551,12 +555,15 @@ include('includes/header.php');
                                     <img src="assets/images/shape/service-item-shape.png" alt="shape">
                                 </div>
                                 <div class="service__icon">
-                                    <img src="assets/images/icon/service-icon2.png" alt="icon">
+                                <img src="assets/images/icon/service-icon3.png" alt="icon">
                                 </div>
                                 <h4>
-                                    <a href="service-details.html">Vision</a>
+                                    <a href="service-details.html">Ciclo B</a>
                                 </h4>
-                                <p>Queremos hacer de la educación el vehículo para un mundo mejor y el cambio que nuestra sociedad necesita.</p>
+                                <p>Es un ciclo donde el estudiante aprende a generalizar y abstraer 
+                                     algunos conceptos matemáticos haciendo uso del álgebra elemental, aritmética razonada, la interrelación gráfica .</p>
+                                      <br>
+                                <a  href="ciclos/ciclo2.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
@@ -568,9 +575,12 @@ include('includes/header.php');
                                     <img src="assets/images/icon/service-icon3.png" alt="icon">
                                 </div>
                                 <h4>
-                                    <a href="service-details.html">Valores</a>
+                                    <a href="service-details.html">Ciclo C</a>
                                 </h4>
-                                <p>Promover la integridad, la ética profesional y la responsabilidad social entre estudiantes y personal.</p>
+                                <p>Es un ciclo donde el estudiante consolida sus conocimientos y domina los temas más fundamentales 
+                                    de toda la matemática, física, química y biología en un nivel preuniversitario. </p>
+                                     <br>
+                                <a  href="ciclos/ciclo3.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
