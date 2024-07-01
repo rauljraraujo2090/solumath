@@ -69,7 +69,7 @@
                                             <?php
                                             include('operaciones/conexion.php');
                                          
-                                            $consulta="SELECT * FROM usuario";
+                                            $consulta="SELECT * FROM mensaje_contacto";
                                                $sql =mysqli_query( $conn,$consulta);
                                            // $result = mysqli_query($conn,$consulta);
                                             $contar=mysqli_num_rows($sql);

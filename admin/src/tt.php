@@ -458,28 +458,27 @@
                         <div class="card">
                             <div class="card-header">
                                 <h5 class="card-title">
-                                    Lista de mensajes
+                                    Lista de usuarios
                                 </h5>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table tag" id="table1">
+                                    <table class="table" id="table1">
                                         <thead>
                                             <tr>
                                                 <th>Id</th>
                                                 <th>Nombre</th>
                                                 <th>Apellidos</th>
-                                                <th>Celular</th>
-                                                <th>Correo</th>
-                                                <th>Mensaje</th>
-                                                <th>Acciones</th>
+                                                <th>Edad</th>
+                                                <th>Telefono</th>
+                                                <th>Status</th>
 
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <?php
                                          //include('operaciones/modal_editar.php');
-                                            $mostrar="Select*from mensaje_contacto";
+                                            $mostrar="Select*from usuario";
                                             $sql = mysqli_query($conn,$mostrar);
                                          
                                             while ($raul = mysqli_fetch_array($sql)){ 
@@ -488,9 +487,8 @@
                                                     <td><?php echo $raul['id']; ?></td>
                                                     <td><?php echo $raul['nombre']; ?></td>
                                                     <td><?php echo $raul['apellidos']; ?></td>
-                                                    <td><?php echo $raul['celular']; ?></td>
-                                                    <td><?php echo $raul['correo']; ?></td>
-                                                    <td><?php echo $raul['mensaje']; ?></td>
+                                                    <td><?php echo $raul['edad']; ?></td>
+                                                    <td><?php echo $raul['telefono']; ?></td>
 
                                                     <td>
                                                         <!---<span class="badge bg-success">Active</span>--->

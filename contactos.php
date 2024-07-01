@@ -147,16 +147,16 @@
                                 <p class="wow fadeInUp mt-3" data-wow-delay="400ms" data-wow-duration="1500ms">Nuestro equipo está listo para atender tus solicitudes.</p>
                             </div>
                             <div class="contact__form">
-                                <form action="#">
+                                <form action="admin/src/operaciones/insertar.php" method="POST">
                                     <div class="row">
                                         <div class="col-6">
                                             <label for="name">Su nombre*</label>
-                                            <input id="name" class="bg-transparent bor" type="text"
+                                            <input id="name" name="nombre" class="bg-transparent bor" type="text"
                                                 placeholder="Su nombre">
                                         </div>
                                         <div class="col-6">
                                             <label for="email">Sus Apellidos*</label>
-                                            <input class="bg-transparent bor" id="email" type="email"
+                                            <input class="bg-transparent bor" name="apellido"id="email" type="text"
                                                 placeholder="Sus Apellidos">
                                         </div>
                                     </div>
@@ -165,12 +165,12 @@
                                     <div class="row">
                                         <div class="col-6">
                                             <label for="name">Celular*</label>
-                                            <input id="name" class="bg-transparent bor" type="text"
+                                            <input id="name"name="celular" class="bg-transparent bor" type="number"
                                                 placeholder="Su Numero de Celular">
                                         </div>
                                         <div class="col-6">
                                             <label for="email">Tu correo electrónico*</label>
-                                            <input class="bg-transparent bor" id="email" type="email"
+                                            <input class="bg-transparent bor" name="correo"id="email" type="email"
                                                 placeholder="Su correo electrónico">
                                         </div>
                                     </div>
@@ -180,15 +180,16 @@
 
                                     <div class="text-area">
                                         <label for="massage">Escribe un mensaje*</label>
-                                        <textarea class="bg-transparent bor" id="massage"
+                                        <textarea class="bg-transparent bor" name="sms"id="massage"type="text"
                                             placeholder="Escriba un mensaje"></textarea>
                                     </div>
                                     <div class="btn-two">
                                         <span class="btn-circle">
                                         </span>
-                                        <a href="#" class="btn-one">Enviar Mensaje<i
-                                                class="fa-regular fa-arrow-right-long"></i></a>
+                                        <button href="#" type="submit" class="btn-one">Enviar Mensaje<i
+                                                class="fa-regular fa-arrow-right-long"></i></button>
                                     </div>
+                                    
                                 </form>
                             </div>
                         </div>
