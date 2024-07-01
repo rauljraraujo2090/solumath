@@ -154,18 +154,7 @@
                                         
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="#0">Paginas</a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="#">Caso</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Caso</a>
-                                        </li>
-                                        
-                                    </ul>
-                                </li>
+                               
                                 <li>
                                     <a href="#0">Galeria</a>
                                     <ul class="sub-menu">
