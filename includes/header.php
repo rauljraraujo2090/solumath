@@ -118,7 +118,7 @@
             <div class="container header__container">
                 <div class="header__main">
                     <a href="index.html" class="logo">
-                        <img src="../logo2.png" class="f" alt="logo">
+                        <img src="logo2.png" class="f" alt="logo">
                     </a>
                      <!-- Header area start here 
                     <style>
