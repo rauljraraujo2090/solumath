@@ -133,7 +133,7 @@
                         <nav>
                             <ul>
                                 <li class="has-megamenu">
-                                    <a href="../index.php">inicio</a>
+                                    <a href="index.php">inicio</a>
                                     
                                 </li>
                                 <li>
@@ -143,13 +143,13 @@
                                     <a href="#0">Ciclos</a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="ciclos/ciclo1.php">Ciclo A</a>
+                                            <a href="ciclo1.php">Ciclo A</a>
                                         </li>
                                         <li>
-                                            <a href="ciclos/ciclo2.php">Ciclo B</a>
+                                            <a href="ciclo2.php">Ciclo B</a>
                                         </li>
                                         <li>
-                                            <a href="ciclos/ciclo3.php">Ciclo C</a>
+                                            <a href="ciclo3.php">Ciclo C</a>
                                         </li>
                                         
                                     </ul>

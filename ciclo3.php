@@ -5,31 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciclo A</title>
+    <title>Ciclo C</title>
     <!-- Favicon img -->
-    <link rel="shortcut icon" href="../assets/images/favicon.png">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
     <!-- Bootstarp min css -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Mean menu css -->
-    <link rel="stylesheet" href="../assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
     <!-- All min css -->
-    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <!-- Swiper bundle min css -->
-    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- Magnigic popup css -->
-    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <!-- Animate css -->
-    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Nice select css -->
-    <link rel="stylesheet" href="../assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
     <!-- Style css -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
 <?php
-include('../includes/header.php');
+include('includes/header.php');
 ?>
 
             <!-- Fullscreen search area start here -->
@@ -79,20 +79,20 @@ include('../includes/header.php');
             </div>
             <div class="choose__shape-right1 wow slideInRight d-none d-lg-block" data-wow-delay="200ms"
                 data-wow-duration="1500ms">
-                <img src="../assets/images/shape/choose-shape-right.png" alt="shape">
+                <img src="assets/images/shape/choose-shape-right.png" alt="shape">
             </div>
             <div class="choose__shape-right2 wow slideInRight d-none d-lg-block" data-wow-delay="200ms"
                 data-wow-duration="1000ms">
-                <img src="../assets/images/shape/choose-shape-right2.png" alt="shape">
+                <img src="assets/images/shape/choose-shape-right2.png" alt="shape">
             </div>
             <div class="choose__shape-left sway__animation">
-                <img src="../assets/images/shape/choose-shape-left.png" alt="shape">
+                <img src="assets/images/shape/choose-shape-left.png" alt="shape">
             </div>
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-6 d-block d-lg-none">
                         <div class="image">
-                            <img src="../assets/images/choose/choose-image1.png" alt="image">
+                            <img src="assets/images/choose/choose-image1.png" alt="image">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -112,10 +112,14 @@ include('../includes/header.php');
                                 </svg>
                                 Solumath
                             </h5>
-                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">CICLO A</h2>
-                            <p>Para iniciar en las matemáticas lo más importante es manejar los enteros y operaciones básicas con ellos, en este ciclo se planteará las reglas claras para entender los números enteros, fracciones y decimales de manera más cómoda y asistencial, los estudiantes avanzan a su propio ritmo y de manera progresiva. Para afianzar una mejor compresión se planteará un reforzamiento fuera del horario de clase a aquellos estudiantes que realmente lo necesitan. 
-Nuestro ARES garantiza su aprendizaje haciendo que el estudiante participe de manera activa en la clase y se recomienda tomar la prueba de diagnóstico para poder ubicarle en un grupo de estudio adecuado.
-</p>
+                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">CICLO C</h2>
+                            <p>
+
+                            Es un ciclo donde el estudiante consolida sus conocimientos y domina los temas más fundamentales de toda la matemática, física, química y biología en un nivel preuniversitario. Conocer estos temas importantes garantiza al estudiante un buen desempeño en preparación preuniversitaria.
+Los estudiantes consolidan sus conocimientos de manera progresiva. Para afianzar una mejor compresión se planteará un reforzamiento fuera del horario de clase a aquellos estudiantes que realmente lo necesitan. 
+Nuestro método ARES garantiza su aprendizaje haciendo que el estudiante participe de manera activa en la clase y se recomienda tomar la prueba de diagnóstico para poder ubicarle en un grupo de estudio adecuado.
+
+                              </p>
                         </div>
 
 
@@ -179,7 +183,7 @@ Nuestro ARES garantiza su aprendizaje haciendo que el estudiante participe de ma
                     
                     <div class="col-lg-6 d-none d-lg-block">
                         <div class="choose__image image">
-                            <img src="../assets/images/choose/choose-image1.png" alt="image">
+                            <img src="assets/images/choose/choose-image1.png" alt="image">
                         </div>
                     </div>
                     
@@ -213,13 +217,12 @@ Nuestro ARES garantiza su aprendizaje haciendo que el estudiante participe de ma
                             <div class="col-md-12 ">
                                 <div class="about__right-item">
                                     <div class="icon">
-                                        <img src="../assets/images/icon/about-icon1.png" alt="icon">
+                                        <img src="assets/images/icon/about-icon1.png" alt="icon">
                                     </div>
                                     <div class="content">
                                         <h4 class="mb-1">Se recomienda</h4>
-                                        <p>A aquellos estudiantes que se están iniciando en las matemáticas o por algún motivo se complican en su comprensión 
-                                            las operaciones básicas, especialmente en la transición de la primaria
-                                             a la secundaria donde es necesario manejar los números enteros, fracciones y decimales para un mayor avance.</p>
+                                        <p>A aquellos estudiantes que se están en la secundaria y tienen una cierta base en los cursos Aritmética, Algebra, Geometría, Trigonometría y
+                                             Raz. Matemático.  Este es un grupo netamente competitivo y de nivel preuniversiario.</p>
                                     </div>
                                 </div>
                             </div>
@@ -228,13 +231,12 @@ Nuestro ARES garantiza su aprendizaje haciendo que el estudiante participe de ma
                             <div class="col-md-12 ">
                                 <div class="about__right-item">
                                     <div class="icon">
-                                        <img src="../assets/images/icon/about-icon1.png" alt="icon">
+                                        <img src="assets/images/icon/about-icon1.png" alt="icon">
                                     </div>
                                     <div class="content">
                                         <h4 class="mb-1">Duracion</h4>
-                                        <p>El ciclo para su adecuada comprensión está dividido en tres sesiones semanales de 90
-                                             minutos por clase durante 8 semanas, pudiendo incrementar un reforzamiento si algún estudiante
-                                              requiere, las sesiones son trabajadas por las mañanas o por la tarde de acuerdo a la disposición de tiempo del estudiante .</p>
+                                        <p>El ciclo para su adecuada comprensión está dividido en cuatro sesiones semanales de 100 minutos por clase durante 10 semanas, pudiendo incrementar un reforzamiento 
+                                            si algún estudiante requiere, las sesiones son trabajadas por las mañanas o por la tarde de acuerdo a la disposición de tiempo del estudiante .</p>
                                     </div>
                                 </div>
                             </div>
@@ -244,13 +246,12 @@ Nuestro ARES garantiza su aprendizaje haciendo que el estudiante participe de ma
                             <div class="col-md-12 ">
                                 <div class="about__right-item">
                                     <div class="icon">
-                                        <img src="../assets/images/icon/about-icon1.png" alt="icon">
+                                        <img src="assets/images/icon/about-icon1.png" alt="icon">
                                     </div>
                                     <div class="content">
                                         <h4 class="mb-1">Cursos Basicos</h4>
-                                        <p>Los cursos necesarios para una adecuada comprensión matemática son esencialmente Aritmética y Álgebra que son
-                                             la base fundamental para toda la comprensión de esta materia, haciendo una combinación de estos con el curso de Razonamiento
-                                              Matemático y una introducción a la Geometría.</p>
+                                        <p>Los cursos a dictarse en este ciclo son de nivel preuniversitario y son Aritmética, Algebra, Geometría, Trigonometría, Razonamiento Matemático,
+                                             Física, Química y Biología que son la base fundamental académica y para tener en la preparación preuniverstaria.</p>
                                     </div>
                                 </div>
                             </div>
@@ -261,13 +262,12 @@ Nuestro ARES garantiza su aprendizaje haciendo que el estudiante participe de ma
                             <div class="col-md-12">
                                 <div class="about__right-item">
                                     <div class="icon">
-                                        <img src="../assets/images/icon/about-icon1.png" alt="icon">
+                                        <img src="assets/images/icon/about-icon1.png" alt="icon">
                                     </div>
                                     <div class="content">
                                         <h4 class="mb-1">Guardado en la nube</h4>
-                                        <p>Las clases se graban en vivo, posteriormente se guardan en la nube para que el estudiante pueda volver a visualizar, repasar y 
-                                            profundizar los temas desarrollados en las sesiones, con la finalidad de que pueda rendir satisfactoriamente las evaluaciones 
-                                            de diagnóstico que se toman para ver el avance de cada estudiante.</p>
+                                        <p>Las clases se graban en vivo y guardan en la nube para que el estudiante pueda ver, repasar y profundizar los temas desarrollados en las sesiones, las clases 
+                                            también pueden sirven para repasar y dar satisfactoriamente las evaluaciones de diagnóstico que se toman para ver el avance de cada estudiante.</p>
                                     </div>
                                 </div>
                             </div>
@@ -319,7 +319,7 @@ text-align: justify;
 
     <!-- Footer area start here -->
     <?php
-    include('../includes/footer.php');
+    include('includes/footer.php');
 ?>
 
     <!-- Footer area end here -->
@@ -331,29 +331,29 @@ text-align: justify;
 
 </script>
     <!-- Jquery 3.7.0 Min Js -->
-    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap min Js -->
-    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <!-- Mean menu Js -->
-    <script src="../assets/js/meanmenu.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
     <!-- Swiper bundle min Js -->
-    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <!-- Counterup min Js -->
-    <script src="../assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
     <!-- Wow min Js -->
-    <script src="../assets/js/wow.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
     <!-- Pace min Js -->
-    <script src="../assets/js/pace.min.js"></script>
+    <script src="assets/js/pace.min.js"></script>
     <!-- Magnific popup min Js -->
-    <script src="../assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
     <!-- Nice select min Js -->
-    <script src="../assets/js/nice-select.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
     <!-- Isotope pkgd min Js -->
-    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
     <!-- Waypoints Js -->
-    <script src="../assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
     <!-- Script Js -->
-    <script src="../assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

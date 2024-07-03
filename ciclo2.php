@@ -7,29 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciclo B</title>
     <!-- Favicon img -->
-    <link rel="shortcut icon" href="../assets/images/favicon.png">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
     <!-- Bootstarp min css -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Mean menu css -->
-    <link rel="stylesheet" href="../assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
     <!-- All min css -->
-    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <!-- Swiper bundle min css -->
-    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- Magnigic popup css -->
-    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <!-- Animate css -->
-    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Nice select css -->
-    <link rel="stylesheet" href="../assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
     <!-- Style css -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
 <?php
-include('../includes/header.php');
+include('includes/header.php');
 ?>
 
             <!-- Fullscreen search area start here -->
@@ -79,20 +79,20 @@ include('../includes/header.php');
             </div>
             <div class="choose__shape-right1 wow slideInRight d-none d-lg-block" data-wow-delay="200ms"
                 data-wow-duration="1500ms">
-                <img src="../assets/images/shape/choose-shape-right.png" alt="shape">
+                <img src="assets/images/shape/choose-shape-right.png" alt="shape">
             </div>
             <div class="choose__shape-right2 wow slideInRight d-none d-lg-block" data-wow-delay="200ms"
                 data-wow-duration="1000ms">
-                <img src="../assets/images/shape/choose-shape-right2.png" alt="shape">
+                <img src="assets/images/shape/choose-shape-right2.png" alt="shape">
             </div>
             <div class="choose__shape-left sway__animation">
-                <img src="../assets/images/shape/choose-shape-left.png" alt="shape">
+                <img src="assets/images/shape/choose-shape-left.png" alt="shape">
             </div>
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-6 d-block d-lg-none">
                         <div class="image">
-                            <img src="../assets/images/choose/choose-image1.png" alt="image">
+                            <img src="assets/images/choose/choose-image1.png" alt="image">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -182,7 +182,7 @@ Nuestro método ARES garantiza su aprendizaje haciendo que el estudiante partici
                     
                     <div class="col-lg-6 d-none d-lg-block">
                         <div class="choose__image image">
-                            <img src="../assets/images/choose/choose-image1.png" alt="image">
+                            <img src="assets/images/choose/choose-image1.png" alt="image">
                         </div>
                     </div>
                     
@@ -216,7 +216,7 @@ Nuestro método ARES garantiza su aprendizaje haciendo que el estudiante partici
                             <div class="col-md-12 ">
                                 <div class="about__right-item">
                                     <div class="icon">
-                                        <img src="../assets/images/icon/about-icon1.png" alt="icon">
+                                        <img src="assets/images/icon/about-icon1.png" alt="icon">
                                     </div>
                                     <div class="content">
                                         <h4 class="mb-1">Se recomienda</h4>
@@ -231,7 +231,7 @@ Nuestro método ARES garantiza su aprendizaje haciendo que el estudiante partici
                             <div class="col-md-12 ">
                                 <div class="about__right-item">
                                     <div class="icon">
-                                        <img src="../assets/images/icon/about-icon1.png" alt="icon">
+                                        <img src="assets/images/icon/about-icon1.png" alt="icon">
                                     </div>
                                     <div class="content">
                                         <h4 class="mb-1">Duracion</h4>
@@ -247,7 +247,7 @@ Nuestro método ARES garantiza su aprendizaje haciendo que el estudiante partici
                             <div class="col-md-12 ">
                                 <div class="about__right-item">
                                     <div class="icon">
-                                        <img src="../assets/images/icon/about-icon1.png" alt="icon">
+                                        <img src="assets/images/icon/about-icon1.png" alt="icon">
                                     </div>
                                     <div class="content">
                                         <h4 class="mb-1">Cursos Basicos</h4>
@@ -264,7 +264,7 @@ Nuestro método ARES garantiza su aprendizaje haciendo que el estudiante partici
                             <div class="col-md-12">
                                 <div class="about__right-item">
                                     <div class="icon">
-                                        <img src="../assets/images/icon/about-icon1.png" alt="icon">
+                                        <img src="assets/images/icon/about-icon1.png" alt="icon">
                                     </div>
                                     <div class="content">
                                         <h4 class="mb-1">Guardado en la nube</h4>
@@ -322,7 +322,7 @@ text-align: justify;
 
     <!-- Footer area start here -->
     <?php
-    include('../includes/footer.php');
+    include('includes/footer.php');
 ?>
 
     <!-- Footer area end here -->
@@ -334,29 +334,29 @@ text-align: justify;
 
 </script>
     <!-- Jquery 3.7.0 Min Js -->
-    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap min Js -->
-    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <!-- Mean menu Js -->
-    <script src="../assets/js/meanmenu.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
     <!-- Swiper bundle min Js -->
-    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <!-- Counterup min Js -->
-    <script src="../assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
     <!-- Wow min Js -->
-    <script src="../assets/js/wow.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
     <!-- Pace min Js -->
-    <script src="../assets/js/pace.min.js"></script>
+    <script src="assets/js/pace.min.js"></script>
     <!-- Magnific popup min Js -->
-    <script src="../assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
     <!-- Nice select min Js -->
-    <script src="../assets/js/nice-select.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
     <!-- Isotope pkgd min Js -->
-    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
     <!-- Waypoints Js -->
-    <script src="../assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
     <!-- Script Js -->
-    <script src="../assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
