@@ -248,7 +248,7 @@ include('includes/header.php');
                                     <span class="process-number">1</span>
                                 </div>
                                 <div class="process__content">
-                                    <h4 class="mt-25 mb-10">Matematica Por Grado
+                                    <h4 class="mt-25 mb-10">Primaria
                                 </h4>
                                     <p>"Las matemáticas son la gimnasia del espíritu y una preparación para la filosofía" Isócrates.
                                          "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
@@ -268,7 +268,7 @@ include('includes/header.php');
                                     <span class="process-number">2</span>
                                 </div>
                                 <div class="process__content">
-                                    <h4 class="mt-25 mb-10">Matematica Innova Schoools
+                                    <h4 class="mt-25 mb-10">Secundaria
                                 </h4>
                                     <p>"Las matemáticas son la gimnasia del espíritu y una preparación para la filosofía" Isócrates.
                                          "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
@@ -284,7 +284,7 @@ include('includes/header.php');
                                     <span class="process-number">3</span>
                                 </div>
                                 <div class="process__content">
-                                    <h4 class="mt-25 mb-10">Matematicas
+                                    <h4 class="mt-25 mb-10">Superior
                                 </h4>
                                     <p>"Las matemáticas son la gimnasia del espíritu y una preparación para la filosofía" Isócrates. 
                                         "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
@@ -344,33 +344,38 @@ include('includes/header.php');
                                     <h2 class="text-white">¡TE LLAMAMOS!</h2>
                                     <p class="text-white">Déjanos tus datos para que una asesora se comunique contigo.</p>
                                 </div>
-                                <form action="#">
+                                <form action="admin/src/operaciones/insertar.php" method="POST">
                                     <div class="row g-3">
                                         <div class="col-sm-6">
                                             <label for="name">Su nombre*</label>
-                                            <input type="text" id="name" placeholder="Ingrese su nombre">
+                                            <input type="text" name="nombre" id="name" placeholder="Ingrese su nombre">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="email">Sus apellidos*</label>
-                                            <input type="text" id="email"  placeholder="Ingrese sus apellidos">
+                                            <input type="text" id="email"name="apellido" placeholder="Ingrese sus apellidos">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="subject">Su celular*</label>
-                                            <input type="number" id="subject"  placeholder="Ingrese su Numero de celular">
+                                            <input type="number" name="celular"id="subject"  placeholder="Ingrese su Numero de celular">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="number">Su correo Electrónico*</label>
-                                            <input type="email" id="number"  placeholder="Ingrese su correo">
+                                            <input type="email" name="correo"id="number"  placeholder="Ingrese su correo">
                                         </div>
                                         <div class="col-12">
                                             <label for="massage">Mensaje*</label>
-                                            <textarea id="massage" placeholder="Escriba el mensaje"></textarea>
+                                            <textarea id="massage"name="sms" placeholder="Escriba el mensaje"></textarea>
                                         </div>
                                     </div>
-                                    <button>Enviar Mensaje</button>
+                                    <button type="submit">Enviar Mensaje</button>
                                 </form>
                             </div>
                         </div>
+
+
+
+
+
                         <div class="col-lg-6 ps-2 ps-lg-5">
                             <div class="section-header mb-40">
                                 <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
@@ -545,7 +550,7 @@ include('includes/header.php');
                                 <p>Para iniciar en las matemáticas lo más importante es manejar los enteros y operaciones básicas con ellos,
                                      en este ciclo se planteará las reglas claras para entender los números .</p>
                                       <br>
-                                <a  href="ciclos/ciclo1.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
+                                <a  href="ciclo1.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                            
                         </div>
@@ -563,7 +568,7 @@ include('includes/header.php');
                                 <p>Es un ciclo donde el estudiante aprende a generalizar y abstraer 
                                      algunos conceptos matemáticos haciendo uso del álgebra elemental, aritmética razonada, la interrelación gráfica .</p>
                                       <br>
-                                <a  href="ciclos/ciclo2.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
+                                <a  href="ciclo2.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
@@ -580,7 +585,7 @@ include('includes/header.php');
                                 <p>Es un ciclo donde el estudiante consolida sus conocimientos y domina los temas más fundamentales 
                                     de toda la matemática, física, química y biología en un nivel preuniversitario. </p>
                                      <br>
-                                <a  href="ciclos/ciclo3.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
+                                <a  href="ciclo3.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
@@ -749,11 +754,298 @@ include('includes/header.php');
             </div>
         </section>
         <!-- Choose area end here -->
+
+
+
+
+
+
+
+
+
+
+
+
+         <!-- Service area start here -->
+         <section class="service-single-area pt-120 pb-120">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-8 order-2 order-lg-1">
+                        <div class="service-single__left-item">
+                             <!-- Service area start here 
         
+                            <h3 class="title mb-30">IT Management</h3>
+                            
+                            
+                            <p class="mb-40">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                dolore of
+                                magna
+                                aliqua. Ut enim ad minim
+                                veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                dolor
+                                commodo consequat. Duis
+                                aute irure and dolor in reprehenderit.</p>
+
+                                -->
+
+                            <h3 class="title mb-30">Preguntas frecuentes</h3>
+                            <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
+                                porta
+                                arcu In hac
+                                habitasse the platea
+                                thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
+                                istincidunt augue ac ante rutrum
+                                sed the is sodales augue consequat.</p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+                                    data-wow-duration="1500ms">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Where should I incorporate my business?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>It is a long established fact that a reader be distracted by
+                                                the readable content of a page when looking a its layout.
+                                                Many desktop publishing packages and web page editors now use Lorem
+                                                Ipsum
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
+                                    data-wow-duration="1500ms">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            What happens my free trial?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>It is a long established fact that a reader be distracted by
+                                                the readable content of a page when looking a its layout.
+                                                Many desktop publishing packages and web page editors now use Lorem
+                                                Ipsum
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
+                                    data-wow-duration="1500ms">
+                                    <h2 class="accordion-header" id="headingthree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                                            aria-expanded="false" aria-controls="collapsethree">
+                                            What is included in your services?
+                                        </button>
+                                    </h2>
+                                    <div id="collapsethree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>It is a long established fact that a reader be distracted by
+                                                the readable content of a page when looking a its layout.
+                                                Many desktop publishing packages and web page editors now use Lorem
+                                                Ipsum
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
+                                    data-wow-duration="1500ms">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            What type of company is measured?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>It is a long established fact that a reader be distracted by
+                                                the readable content of a page when looking a its layout.
+                                                Many desktop publishing packages and web page editors now use Lorem
+                                                Ipsum
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+        <!-- Service area end here -->
+        <center>
+                        <div class="col-lg-6 ps-2 ps-lg-5">
+                            <div class="section-header mb-40">
+                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">Empieza a construir tu futuro desde ahora
+                            
+                                </h5>
+                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">¿Qué se dice de Solumath?</h2>
+                                <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">y conviértete en un profesional de éxito con una sólida base de conocimientos</p>
+                            </div>
+                            <div class="swiper testimonial__slider wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="testimonial__item">
+                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
+                                            </svg>
+                                            <div class="image mb-50">
+                                <img src="assets/images/service/service-single-image1.jpg" alt="image">
+                                <div class="service-single__video-btn">
+                                    <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
+                                        data-wow-duration="1500ms">
+                                        <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
+                                                class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                                     </div>
+                                       
+                                    </div>
+
+
+
+
+
+
+
+
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial__item">
+                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
+                                            </svg>
+ 
+                                            <div class="image mb-50">
+                                <img src="assets/images/service/service-single-image1.jpg" alt="image">
+                                <div class="service-single__video-btn">
+                                    <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
+                                        data-wow-duration="1500ms">
+                                        <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
+                                                class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                           
+                                        </div>
+                                       
+                                    </div>
+
+
+
+
+
+
+
+
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial__item">
+                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
+                                            </svg>
+                                    
+
+                                            <div class="image mb-50">
+                                <img src="assets/images/service/service-single-image1.jpg" alt="image">
+                                <div class="service-single__video-btn">
+                                    <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
+                                        data-wow-duration="1500ms">
+                                        <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
+                                                class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                           
+                                        </div>
+                                       
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial__item">
+                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
+                                            </svg>
+                                            
+
+                                            <div class="image mb-50">
+                                <img src="assets/images/service/service-single-image1.jpg" alt="image">
+                                <div class="service-single__video-btn">
+                                    <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
+                                        data-wow-duration="1500ms">
+                                        <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
+                                                class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                           
+                                        </div>
+                                       
+                                    </div>
+
+
+
+
+
+
+
+                                    
+
+
+                                    
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="testimonial__arry-btn mt-40 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <button class="arry-prev testimonial__arry-prev">
+                                    <i class="fa-light fa-chevron-left"></i>
+                                </button>
+                                <button class="arry-next testimonial__arry-next active">
+                                    <i class="fa-light fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+</center>
         <br>
         
     </main>
-
+    <br>
     <!-- Footer area start here -->
     <?php
     include('includes/footer.php');

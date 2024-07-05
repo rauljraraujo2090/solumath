@@ -55,108 +55,36 @@
 </li>
 
 <li
-    class="sidebar-item  has-sub">
-    <a href="#" class='sidebar-link'>
+    class="sidebar-item  ">
+    <a href="contacto.php" class='sidebar-link'>
         <i class="bi bi-stack"></i>
-        <span>Components</span>
+        <span>Contactos</span>
     </a>
     
-    <ul class="submenu ">
-        
-        <li class="submenu-item  ">
-            <a href="component-accordion.html" class="submenu-link">Accordion</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-alert.html" class="submenu-link">Alert</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-badge.html" class="submenu-link">Badge</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-breadcrumb.html" class="submenu-link">Breadcrumb</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-button.html" class="submenu-link">Button</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-card.html" class="submenu-link">Card</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-carousel.html" class="submenu-link">Carousel</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-collapse.html" class="submenu-link">Collapse</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-dropdown.html" class="submenu-link">Dropdown</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-list-group.html" class="submenu-link">List Group</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-modal.html" class="submenu-link">Modal</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-navs.html" class="submenu-link">Navs</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-pagination.html" class="submenu-link">Pagination</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-placeholder.html" class="submenu-link">Placeholder</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-progress.html" class="submenu-link">Progress</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-spinner.html" class="submenu-link">Spinner</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-toasts.html" class="submenu-link">Toasts</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="component-tooltip.html" class="submenu-link">Tooltip</a>
-            
-        </li>
-        
-    </ul>
     
 
 </li>
+
+<li
+    class="sidebar-item  ">
+    <a href="form-layout.html" class='sidebar-link'>
+        <i class="bi bi-file-earmark-medical-fill"></i>
+        <span>Matriculados</span>
+    </a>
+    
+
+</li>
+
+<li
+    class="sidebar-item  ">
+    <a href="galerias.php" class='sidebar-link'>
+        <i class="bi bi-grid-1x2-fill"></i>
+        <span>Galerias</span>
+    </a>
+    
+
+</li>
+
 
 <li
     class="sidebar-item  has-sub">
@@ -165,84 +93,49 @@
         <span>Extra Components</span>
     </a>
     
-    <ul class="submenu ">
-        
-        <li class="submenu-item  ">
-            <a href="extra-component-avatar.html" class="submenu-link">Avatar</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="extra-component-comment.html" class="submenu-link">Comment</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="extra-component-divider.html" class="submenu-link">Divider</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="extra-component-date-picker.html" class="submenu-link">Date Picker</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="extra-component-flag.html" class="submenu-link">Flag</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="extra-component-sweetalert.html" class="submenu-link">Sweet Alert</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="extra-component-toastify.html" class="submenu-link">Toastify</a>
-            
-        </li>
-        
-        <li class="submenu-item  ">
-            <a href="extra-component-rating.html" class="submenu-link">Rating</a>
-            
-        </li>
-        
-    </ul>
+    
     
 
 </li>
 
+<li class="sidebar-title">GRADOS &amp; NIVELES</li>
+
 <li
     class="sidebar-item  has-sub">
     <a href="#" class='sidebar-link'>
-        <i class="bi bi-grid-1x2-fill"></i>
-        <span>Layouts</span>
+    <i class="bi bi-journal-check"></i>
+        <span>Primaria</span>
     </a>
     
     <ul class="submenu ">
         
         <li class="submenu-item  ">
-            <a href="layout-default.html" class="submenu-link">Default Layout</a>
+            <a href="1primaria.php" class="submenu-link">1 grado </a>
             
         </li>
         
         <li class="submenu-item  ">
-            <a href="layout-vertical-1-column.html" class="submenu-link">1 Column</a>
+            <a href="2primaria.php" class="submenu-link">2 grado</a>
             
         </li>
         
         <li class="submenu-item  ">
-            <a href="layout-vertical-navbar.html" class="submenu-link">Vertical Navbar</a>
+            <a href="3primaria.php" class="submenu-link">3 grado</a>
             
         </li>
         
         <li class="submenu-item  ">
-            <a href="layout-rtl.html" class="submenu-link">RTL Layout</a>
+            <a href="4primaria.php" class="submenu-link">4 grado</a>
             
         </li>
         
         <li class="submenu-item  ">
-            <a href="layout-horizontal.html" class="submenu-link">Horizontal Menu</a>
+            <a href="5primaria.php" class="submenu-link">5 grado</a>
+            
+        </li>
+        
+        <li class="submenu-item  ">
+            <a href="6primaria.php" class="submenu-link">6 grado</a>
             
         </li>
         
@@ -251,51 +144,56 @@
 
 </li>
 
-<li class="sidebar-title">Forms &amp; Tables</li>
+
+
+
+
+
+
 
 <li
     class="sidebar-item  has-sub">
     <a href="#" class='sidebar-link'>
-        <i class="bi bi-hexagon-fill"></i>
-        <span>Form Elements</span>
+    <i class="bi bi-journal-check"></i>
+        <span>Secundaria</span>
     </a>
     
     <ul class="submenu ">
         
         <li class="submenu-item  ">
-            <a href="form-element-input.html" class="submenu-link">Input</a>
+            <a href="1secundaria.php" class="submenu-link">1 Secundaria </a>
             
         </li>
         
         <li class="submenu-item  ">
-            <a href="form-element-input-group.html" class="submenu-link">Input Group</a>
+            <a href="2secundaria.php" class="submenu-link">2 Secundaria</a>
             
         </li>
         
         <li class="submenu-item  ">
-            <a href="form-element-select.html" class="submenu-link">Select</a>
+            <a href="3secundaria.php" class="submenu-link">3 Secundaria</a>
             
         </li>
         
         <li class="submenu-item  ">
-            <a href="form-element-radio.html" class="submenu-link">Radio</a>
+            <a href="4secundaria.php" class="submenu-link">4 Secundaria</a>
             
         </li>
         
         <li class="submenu-item  ">
-            <a href="form-element-checkbox.html" class="submenu-link">Checkbox</a>
+            <a href="5secundaria.php" class="submenu-link">5 Secundaria</a>
             
         </li>
         
-        <li class="submenu-item  ">
-            <a href="form-element-textarea.html" class="submenu-link">Textarea</a>
-            
-        </li>
+       
         
     </ul>
     
 
 </li>
+
+
+
 
 <li
     class="sidebar-item  ">

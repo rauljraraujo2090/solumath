@@ -126,6 +126,7 @@ include('includes/header.php');
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6">
                         <div class="service-two__item">
+                            
                             <div class="image">
                                 <img src="assets/images/service/1grado.jpg" alt="image">
                             </div>
@@ -133,7 +134,7 @@ include('includes/header.php');
 
 
 
-                              <div class="icon">
+                              <div class="">
                                 <div class="video-btn video-pulse">
                                         <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
                                                 class="fa-solid fa-play"></i></a>
@@ -143,9 +144,10 @@ include('includes/header.php');
 
                                 <div class="shape"><img src="assets/images/shape/service-two-item-shape.png"
                                         alt="shape"></div>
+                                        <br>
                                 <h4><a href="service-details.html" class="primary-hover">1º Primaria</a></h4>
-                                <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                    iaculis.</p>
+                                <!----  <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
+                                    iaculis.</p>---->
                                     <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>

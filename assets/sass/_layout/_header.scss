@@ -164,6 +164,7 @@
 						&.menu-image {
 							.image {
 								position: relative;
+								
 								@extend .overlay;
 								&::before {
 									background-color: rgba(0, 0, 0, 0.5);

@@ -1,0 +1,1 @@
+<a  href="#" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
