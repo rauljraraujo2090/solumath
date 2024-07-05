@@ -254,7 +254,7 @@ include('includes/header.php');
                                          "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
                                 </div>
                                 <br>
-                                <a  href="#" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
+                                <a  href="1grado_primaria.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                             
                         </div>
@@ -274,7 +274,7 @@ include('includes/header.php');
                                          "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
                                 </div>
                                 <br>
-                                <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
+                                <a  href="1secundaria.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
@@ -290,7 +290,7 @@ include('includes/header.php');
                                         "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
                                 </div>
                                 <br>
-                                <a  href="about.html" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
+                                <a  href="1superior.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
