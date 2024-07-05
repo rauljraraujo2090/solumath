@@ -9,7 +9,7 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>4 Secundaria
+            <title>1 Superior
 
             </title>
 
@@ -50,7 +50,7 @@
                         <div class="page-title">
                             <div class="row">
                                 <div class="col-12 col-md-6 order-md-1 order-last">
-                                    <h3>4 Secundaria</h3>
+                                    <h3>1 Superior</h3>
                                     
                                 </div>
                                
@@ -95,7 +95,7 @@
 
                                                                 <div class="card-content">
                                                                     <div class="card-body">
-                                                                        <form class="form" method="POST" action="crud/action4secundaria.php" enctype="multipart/form-data">
+                                                                        <form class="form" method="POST" action="crud/action1secundaria.php" enctype="multipart/form-data">
                                                                             <input type="text" name="metodo" value="1" hidden>
                                                                             <div class="row">
 
@@ -167,7 +167,7 @@
                                     <div class="buttons">
 
                                         <button type="button" class="btn icon icon-left btn-primary" data-bs-toggle="modal" data-bs-target="#defaultsss"><i data-feather="user"></i>
-                                            Agregar a 4 Secundaria
+                                            Agregar a 1 superior
                                         </button>
                                         <!----
                                     <a href="#" ata-bs-toggle="modal"
@@ -189,13 +189,13 @@
                         <div class="card">
                             <div class="card-header">
                                 <h5 class="card-title">
-                                    Lista de mensajes
+                                    Lista del Nivel Superior
                                 </h5>
                             </div>
 
                             <?php
                             include('crud/config.php');
-                            $sqlAlumnos   = ("SELECT * FROM cuarto_secundaria ORDER BY id DESC");
+                            $sqlAlumnos   = ("SELECT * FROM primer_superior ORDER BY id DESC");
                             $queryAlumnos = mysqli_query($con, $sqlAlumnos);
                             $totalAlumnos = mysqli_num_rows($queryAlumnos);
 
@@ -226,11 +226,11 @@
                   
                   
                   <td>
-                  <a href="crud/detalles4secundaria.php?id=<?php echo $dataAlumno['id']; ?>" class="btn btn-warning mb-2"   title="Ver datos del alumno <?php echo $dataAlumno['namefull']; ?>">
+                  <a href="crud/detalles1superior.php?id=<?php echo $dataAlumno['id']; ?>" class="btn btn-warning mb-2"   title="Ver datos del alumno <?php echo $dataAlumno['namefull']; ?>">
                   <i class="bi bi-tv"></i> Ver</a>
-                    <a href="crud/formEditar4secundaria.php?id=<?php echo $dataAlumno['id']; ?>" class="btn btn-info mb-2"   title="Actualizar datos del alumno <?php echo $dataAlumno['namefull']; ?>">
+                    <a href="crud/formEditar1superior.php?id=<?php echo $dataAlumno['id']; ?>" class="btn btn-info mb-2"   title="Actualizar datos del alumno <?php echo $dataAlumno['namefull']; ?>">
                     <i class="bi bi-arrow-clockwise"></i> Actualizar</a>
-                    <a href="crud/eliminar_4secundaria.php?Id=<?php echo $dataAlumno['id']; ?>&metodo=3&namePhoto=<?php echo $dataAlumno['foto']; ?>" class="btn btn-danger mb-2" title="Borrar galeria <?php echo $dataAlumno['namefull']; ?>">
+                    <a href="crud/eliminar_1superior.php?Id=<?php echo $dataAlumno['id']; ?>&metodo=3&namePhoto=<?php echo $dataAlumno['foto']; ?>" class="btn btn-danger mb-2" title="Borrar galeria <?php echo $dataAlumno['namefull']; ?>">
                     <i class="bi bi-trash"></i> Borrar</a>
                   </td>
                 </tr>

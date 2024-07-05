@@ -193,7 +193,15 @@
 </li>
 
 
+<li
+    class="sidebar-item  ">
+    <a href="1superior.php" class='sidebar-link'>
+        <i class="bi bi-grid-1x2-fill"></i>
+        <span>Superior</span>
+    </a>
+    
 
+</li>
 
 <li
     class="sidebar-item  ">
