@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solumath</title>
     <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" href="logo_ventana.png" >
     <!-- Bootstarp min css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Mean menu css -->
@@ -1053,7 +1053,9 @@ include('includes/header.php');
 
     <!-- Footer area end here -->
 
-  
+    <?php
+include('whatsap.php');
+?>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="banner.js">
 

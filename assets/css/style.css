@@ -162,7 +162,7 @@ p {
 
 span {
   display: inline-block;
-  color: var(--span);
+  color: white !important;
 }
 
 a {
