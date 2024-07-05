@@ -1,4 +1,4 @@
-      
+
        <!-- Sidebar area start here -->
     <div id="targetElement" class="sidebar-area sidebar__hide">
         <div class="sidebar__overlay"></div>
