@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhatsApp Chat Support- Juscoder</title>
-
+    
     <!-- Style of the plugin -->
      <link rel="stylesheet" href="plugin/components/Font Awesome/css/font-awesome.min.css">
      <link rel="stylesheet" href="plugin/whatsapp-chat-support.css">
 
 </head>
 <body>
-    <div style="text-align: center; margin: 20%;">
-        <h1>Tu Proyecto</h1>        
-    </div>
+    
 
     <!-- Button Whatsapp Structure -->
   <div class="whatsapp_chat_support wcs_fixed_right" id="button-w">
