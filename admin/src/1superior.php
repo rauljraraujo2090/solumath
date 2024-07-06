@@ -108,7 +108,7 @@ die();
 
                                                                 <div class="card-content">
                                                                     <div class="card-body">
-                                                                        <form class="form" method="POST" action="crud/action1secundaria.php" enctype="multipart/form-data">
+                                                                        <form class="form" method="POST" action="crud/action1superior.php" enctype="multipart/form-data">
                                                                             <input type="text" name="metodo" value="1" hidden>
                                                                             <div class="row">
 
