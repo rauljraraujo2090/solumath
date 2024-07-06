@@ -1,7 +1,19 @@
         <?php
         include("operaciones/conexion.php");
         ?>
+<?php 
 
+session_start();
+error_reporting(0);
+$varsesion=$_SESSION['usuarios'];
+
+if($varsesion==null or $varsesion=''){
+ 
+echo "usted no tiene autorizacion";
+die();
+
+}
+?>
 
         <!DOCTYPE html>
         <html lang="en">
@@ -188,7 +200,7 @@
                                             <?php
                                          //include('operaciones/modal_editar.php');
                                             $mostrar="Select*from mensaje_contacto";
-                                            $sql = mysqli_query($conn,$mostrar);
+                                            $sql = mysqli_query($con,$mostrar);
                                          
                                             while ($raul = mysqli_fetch_array($sql)){ 
                                                 ?>
@@ -201,10 +213,9 @@
                                                     <td><?php echo $raul['mensaje']; ?></td>
 
                                                     <td>
-                                                        <!---<span class="badge bg-success">Active</span>--->
-                                                        <a href="editar.php?id_usuario=<?php echo $raul['id']; ?>"  class="btn icon btn-primary"><i class="bi bi-pencil"></i></a>
+                                                       
                                                         <!--<a href="#" data-bs-toggle="modal" data-bs-target="#modal_editar?id_usuario=<?php echo $raul['id']; ?>" class="btn icon btn-primary"><i class="bi bi-pencil"></i></a>-->
-                                                        <a href="operaciones/eliminar.php?Id=<?php echo $raul['id'] ?>" class="btn icon btn-danger"><i class="bi bi-x"></i></a>
+                                                        <a href="crud/eliminar_contacto.php?Id=<?php echo $raul['id'] ?>" class="btn icon btn-danger"><i class="bi bi-x"></i></a>
 
 
 

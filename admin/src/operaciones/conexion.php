@@ -1,5 +1,14 @@
 <?php
 
+//$usuario  = "root";
+//$password = "";
+//$servidor = "localhost";
+//$basededatos = "table_alumnos";
+//$con = mysqli_connect($servidor, $usuario, $password) or die("No se ha podido conectar al Servidor");
+//$db = mysqli_select_db($con, $basededatos) or die("Upps! Error en conectar a la Base de Datos");
+
+
+
 
 
 //
@@ -31,8 +40,8 @@ $dbname = "solumath";
 //
 //
 //    // Conexión utilizando PDO
-    $conn = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
-    if($conn){
+    $con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+    if($con){
 
         //echo "conexion exitosa";
     }else{

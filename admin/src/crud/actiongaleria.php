@@ -110,7 +110,7 @@ if($metodoAction == 2){
     }
   }
 
-  header("Location:formEditar.php?update=1&id=$idAlumno");
+  header("Location:../galerias.php?update=1&id=$idAlumno");
  }
 
 

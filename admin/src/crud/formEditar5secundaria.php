@@ -1,3 +1,18 @@
+<?php 
+
+session_start();
+error_reporting(0);
+$varsesion=$_SESSION['usuarios'];
+
+if($varsesion==null or $varsesion=''){
+ 
+echo "usted no tiene autorizacion";
+die();
+
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

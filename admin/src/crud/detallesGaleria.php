@@ -1,3 +1,18 @@
+
+<?php 
+
+session_start();
+error_reporting(0);
+$varsesion=$_SESSION['usuarios'];
+
+if($varsesion==null or $varsesion=''){
+ 
+echo "usted no tiene autorizacion";
+die();
+
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -43,7 +58,7 @@
         <div class="card-body">
 
         <div class="d-grid gap-2 col-12 mx-auto">
-            <a href="./" class="btn btn-primary mt-3 mb-2">
+            <a href="../galerias.php" class="btn btn-primary mt-3 mb-2">
                 <i class="bi bi-arrow-left-circle"></i> 
                 Volver
             </a>

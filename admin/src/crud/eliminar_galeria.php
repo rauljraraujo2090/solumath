@@ -9,7 +9,7 @@ if($ejecutar){
 
     
 
-header('location:../tabla.php');
+header('location:../galerias.php');
 
 }
 ?>
