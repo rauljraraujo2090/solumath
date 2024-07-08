@@ -11,7 +11,7 @@
         </div>
         <div class="mobile-menu overflow-hidden"></div>
         <ul class="info pt-40">
-            <li><i class="fa-solid primary-color fa-location-dot"></i> <a href="#0">soluciones.matematicas@soluma.edu.pe</a>
+            <li><i class="fa-solid primary-color fa-location-dot"></i> <a href="#0">Jr. Saccsayhuaman 195, Ayacucho, Peru</a>
             </li>
             <li class="py-2"><i class="fa-solid primary-color fa-phone-volume"></i> <a
                     href="#">+51 962562426</a>
