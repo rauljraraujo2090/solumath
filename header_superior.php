@@ -8,11 +8,11 @@
                             <div class="item sub-bg mb-30">
                                 <h4 class="mb-20">Superior</h4>
                                 <ul class="category service-category">
-                                    <li><a href="1superior">Nivel I</a> <i
+                                    <li><a href="#">Nivel I</a> <i
                                             class="fa-regular fa-arrow-right-long primary-color"></i></li>
                                     <li><a href="#">Nivel II</a> <i
                                             class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                                    <li class="active"><a href="#">Nivel III</a> <i
+                                    <li class=""><a href="#">Nivel III</a> <i
                                             class="fa-regular fa-arrow-right-long primary-color"></i></li>
                                     
                                             

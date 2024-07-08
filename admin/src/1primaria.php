@@ -114,27 +114,28 @@ die();
                                                                             <input type="text" name="metodo" value="1" hidden>
                                                                             <div class="row">
 
-                                                                                <div class="col-md-6 col-12">
+                                                                                <div class="col-md-12 col-12">
                                                                                     <div class="form-group">
-                                                                                        <label for="first-name-column">Nombre y Apellido</label>
-                                                                                        <input type="text" id="first-name-column" class="form-control" placeholder="First Name" name="namefull">
+                                                                                        <label for="first-name-column">¿Que aprenderas en este curso ?</label>
+                                                                                        <textarea type="text"   id="first-name-column" class="form-control" placeholder="descripcion del video" name="namefull"></textarea>
+                                                                                        <!---<input type="text" id="first-name-column" class="form-control" placeholder="First Name" name="namefull">--->
                                                                                     </div>
                                                                                 </div>
 
+                                                                                <br>
+                                                                                                                 
 
-                                                                                
-
-                                                                                <div class="col-md-6 col-12">
+                                                                                <div class="col-md-12 col-12">
                                                                                     <div class="form-group">
-                                                                                        <label for="country-floating">Foto del Alumno</label>
+                                                                                        <label for="country-floating">foto del video</label>
                                                                                         <input type="file" name="foto" accept="image/png,image/jpeg" required id="country-floating" class="form-control" placeholder="Country">
                                                                                     </div>
                                                                                 </div>
 
-                                                                                <div class="col-md-6 col-12">
+                                                                                <div class="col-md-12 col-12">
                                                                                     <div class="form-group">
                                                                                         <label for="first-name-column">video</label>
-                                                                                        <input type="text" id="first-name-column"accept="jpg/png,image/jpeg" class="form-control" placeholder="First Name" name="movie">
+                                                                                        <input type="text" id="first-name-column"accept="jpg/png,image/jpeg" class="form-control" placeholder="Ingrese el linck del video " name="movie">
                                                                                     </div>
                                                                                 </div>
 

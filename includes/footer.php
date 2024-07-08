@@ -24,16 +24,11 @@
                         <p>Para poder encontrar la mejor academia de matemáticas primero
                              tendrás que pensar el nivel y los objetivos que quieras alcanzar</p>
                         <div class="social-icon">
-                            <a href="#0">
+                            <a href="https://www.facebook.com/profile.php?id=100092834708208" target="_blank">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </a>
-                            <a href="#0">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                            <a href="#0">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                            <a href="#0">
+                            
+                            <a href="https://www.youtube.com/channel/UCCEKsU_NNk6Kn6ZsmtkIKCg" target="_blank">
                                 <i class="fa-brands fa-youtube"></i>
                             </a>
                         </div>

@@ -14,15 +14,14 @@
             <li><i class="fa-solid primary-color fa-location-dot"></i> <a href="#0">soluma@gmail.com</a>
             </li>
             <li class="py-2"><i class="fa-solid primary-color fa-phone-volume"></i> <a
-                    href="tel:+208-6666-0112">+51 987876789</a>
+                    href="#">+51 962562426</a>
             </li>
             <li><i class="fa-solid primary-color fa-paper-plane"></i> <a href="#0">soluma@gmail.com</a></li>
         </ul>
         <div class="social-icon mt-20">
-            <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#0"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#0"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100092834708208" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+           
+            <a href="https://www.youtube.com/channel/UCCEKsU_NNk6Kn6ZsmtkIKCg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <button id="closeButton" class="text-white"><i class="fa-solid fa-xmark"></i></button>
     </div>
@@ -84,27 +83,18 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <a href="#0" class="ms-1">+51 937 158 583</a>
+                            <a href="#0" class="ms-1">+51 962562426</a>
                         </li>
                     </ul>
                     <ul class="link-info">
                         <li>
-                            <a href="#0">
+                            <a href="https://www.facebook.com/profile.php?id=100092834708208" target="_blank">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
+                        
                         <li>
-                            <a href="#0">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
+                            <a href="https://www.youtube.com/channel/UCCEKsU_NNk6Kn6ZsmtkIKCg" target="_blank">
                                 <i class="fa-brands fa-youtube"></i>
                             </a>
                         </li>
@@ -157,15 +147,7 @@
                                
                                 <li>
                                     <a href="galeria.php">Galeria</a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="#">###</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">###</a>
-                                        </li>
-                                        
-                                    </ul>
+                                   
                                 </li>
                                 <li>
                                     <a href="contactos.php">Contacto</a>

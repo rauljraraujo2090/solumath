@@ -103,7 +103,7 @@ include('includes/header.php');
                                     <div class="banner-three__info wow fadeInUp mt-50" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 
-                                <a  data-animation="slideInRight" data-duration="2s" data-delay=".9s" href="about.html" class=" btn-one mt-0">Aula Virtual  <i class="fa-regular fa-arrow-right-long"></i></a>
+                                <a  data-animation="slideInRight" data-duration="2s" data-delay=".9s" href="https://acortar.link/GoWloS" target="_blank" class=" btn-one mt-0">Aula Virtual  <i class="fa-regular fa-arrow-right-long"></i></a>
                                 <div class="banner-three__video-btn d-flex gap-4 align-items-center">
                                     <div class="video-btn video-pulse">
                                         <a data-animation="slideInRight" data-duration="2s" data-delay=".9s" class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
@@ -146,7 +146,7 @@ include('includes/header.php');
             <div class="banner-three__shape-right wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <img class="sway__animationX" src="assets/images/banner/banner-three-right-shape.png" alt="image">
                  <!---IMAGEN 1 -->
-                 <img data-animation="slideInRight" data-duration="2s" data-delay=".5s" src="assets/images/banner/banner-three-image.png" alt="image">
+                 <img data-animation="slideInRight" data-duration="2s" data-delay=".5s" src="assets/images/banner/foto1.png" alt="image">
             </div>
                         <!---BANNER-THEREE-AREA   : COLOR AZUL -->
                             <div class="slide-bg banner-three-area"></div>
@@ -172,7 +172,7 @@ include('includes/header.php');
                                     <div class="banner-three__info wow fadeInUp mt-50" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 
-                                <a  data-animation="slideInRight" data-duration="2s" data-delay=".9s" href="about.html" class=" btn-one mt-0">Aula Virtual  <i class="fa-regular fa-arrow-right-long"></i></a>
+                                <a  data-animation="slideInRight" data-duration="2s" data-delay=".9s" href="https://acortar.link/GoWloS"  target="_blank" class=" btn-one mt-0">Aula Virtual  <i class="fa-regular fa-arrow-right-long"></i></a>
                                 <div class="banner-three__video-btn d-flex gap-4 align-items-center">
                                     <div class="video-btn video-pulse">
                                         <a data-animation="slideInRight" data-duration="2s" data-delay=".9s" class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
@@ -219,7 +219,14 @@ include('includes/header.php');
 
 
 
+            <style>
+.primaria{
+    text-align: justify;
 
+
+}
+
+            </style>
 
             
 
@@ -250,8 +257,9 @@ include('includes/header.php');
                                 <div class="process__content">
                                     <h4 class="mt-25 mb-10">Primaria
                                 </h4>
-                                    <p>"Las matemáticas son la gimnasia del espíritu y una preparación para la filosofía" Isócrates.
-                                         "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
+                                    <p class="primaria">"La Educación Primaria constituye el segundo nivel de la Educación Básica, ofrece un trayecto formativo coherente y consistente que da 
+                                        continuidad al desarrollo de competencias que los alumnos adquieren en la Educación Preescolar;
+                                         </p>
                                 </div>
                                 <br>
                                 <a  href="1grado_primaria.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
@@ -270,8 +278,9 @@ include('includes/header.php');
                                 <div class="process__content">
                                     <h4 class="mt-25 mb-10">Secundaria
                                 </h4>
-                                    <p>"Las matemáticas son la gimnasia del espíritu y una preparación para la filosofía" Isócrates.
-                                         "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
+                                    <p class="primaria">"El nivel secundario es el tercer tramo educativo de los sistemas nacionales de educación.
+                                         La edad de referencia del nivel secundario abarca,constituye el tercer nivel de la Educación Básica Regular y dura cinco grados,  
+                                        según el país, a los y las adolescentes de 11 a 17 años.</p>
                                 </div>
                                 <br>
                                 <a  href="1secundaria.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
@@ -286,8 +295,8 @@ include('includes/header.php');
                                 <div class="process__content">
                                     <h4 class="mt-25 mb-10">Superior
                                 </h4>
-                                    <p>"Las matemáticas son la gimnasia del espíritu y una preparación para la filosofía" Isócrates. 
-                                        "Las matemáticas puras son, en su forma, la poesía de las ideas lógicas" Albert Einstein.</p>
+                                    <p class="primaria">El tipo superior es el que se imparte después del bachillerato o de sus equivalentes. Está compuesto por la licenciatura, la especialidad, 
+                                        la maestría y el doctorado, así como por opciones terminales previas a la conclusión de la licenciatura.</p>
                                 </div>
                                 <br>
                                 <a  href="1superior.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
@@ -789,13 +798,7 @@ include('includes/header.php');
                                 -->
 
                             <h3 class="title mb-30">Preguntas frecuentes</h3>
-                            <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
-                                porta
-                                arcu In hac
-                                habitasse the platea
-                                thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
-                                istincidunt augue ac ante rutrum
-                                sed the is sodales augue consequat.</p>
+                            <p class="mb-30">descripcion de las preguntas .</p>
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
                                     data-wow-duration="1500ms">
@@ -803,16 +806,13 @@ include('includes/header.php');
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
-                                            Where should I incorporate my business?
+                                            pregunta 1?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>It is a long established fact that a reader be distracted by
-                                                the readable content of a page when looking a its layout.
-                                                Many desktop publishing packages and web page editors now use Lorem
-                                                Ipsum
+                                            <p>respuesta
                                             </p>
                                         </div>
                                     </div>
@@ -823,16 +823,13 @@ include('includes/header.php');
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                             aria-expanded="false" aria-controls="collapseTwo">
-                                            What happens my free trial?
+                                            pregunta 2?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse"
                                         aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>It is a long established fact that a reader be distracted by
-                                                the readable content of a page when looking a its layout.
-                                                Many desktop publishing packages and web page editors now use Lorem
-                                                Ipsum
+                                            <p>respuesta
                                             </p>
                                         </div>
                                     </div>
@@ -843,16 +840,13 @@ include('includes/header.php');
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapsethree"
                                             aria-expanded="false" aria-controls="collapsethree">
-                                            What is included in your services?
+                                            pregunta 3?
                                         </button>
                                     </h2>
                                     <div id="collapsethree" class="accordion-collapse collapse"
                                         aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>It is a long established fact that a reader be distracted by
-                                                the readable content of a page when looking a its layout.
-                                                Many desktop publishing packages and web page editors now use Lorem
-                                                Ipsum
+                                            <p>respuesta
                                             </p>
                                         </div>
                                     </div>
@@ -863,16 +857,13 @@ include('includes/header.php');
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                             aria-expanded="false" aria-controls="collapseFour">
-                                            What type of company is measured?
+                                            pregunta 4?
                                         </button>
                                     </h2>
                                     <div id="collapseFour" class="accordion-collapse collapse"
                                         aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>It is a long established fact that a reader be distracted by
-                                                the readable content of a page when looking a its layout.
-                                                Many desktop publishing packages and web page editors now use Lorem
-                                                Ipsum
+                                            <p>respuesta
                                             </p>
                                         </div>
                                     </div>

@@ -146,7 +146,7 @@ include('includes/header.php');
                                 </ul>
                             </div>
                             <div class="about__info mt-50 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <a href="about.html" class="btn-one">Contactar<i
+                            <a href="https://wa.link/s95l4f" class="btn-one">Contactar<i
                                     class="fa-regular fa-arrow-right-long"></i></a>
                             <div class="d-flex gap-2 align-items-center">
                                 <img src="assets/images/about/about-info.png" alt="image">

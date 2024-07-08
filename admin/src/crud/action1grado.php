@@ -1,4 +1,4 @@
-<?php
+ <?php
 include('config.php');
 date_default_timezone_set("America/Bogota");
 setlocale(LC_ALL, 'es_ES');
@@ -40,7 +40,7 @@ if (!((strpos($tipo_foto, "PNG") || strpos($tipo_foto, "jpg") && ($tamano_foto <
 
     //Muevo la foto a mi directorio.
     if(move_uploaded_file($sourceFoto, $urlFotoAlumno)){
-        $SqlInsertAlumno = ("INSERT INTO segundo_grado(
+        $SqlInsertAlumno = ("INSERT INTO primer_grado(
             namefull,
             foto,
              videos,
@@ -58,10 +58,10 @@ if (!((strpos($tipo_foto, "PNG") || strpos($tipo_foto, "jpg") && ($tamano_foto <
 
     }
     closedir($miDir);
-    header("Location:../galerias.php?a=1");
+    header("Location:../1primaria.php?a=1");
 
   }else{
-    header("Location:../galerias.php?errorimg=1");
+    header("Location:../1primaria.php?errorimg=1");
   }
 }
 
@@ -71,12 +71,13 @@ if($metodoAction == 2){
     $idAlumno      = (int) filter_var($_REQUEST['id'], FILTER_SANITIZE_NUMBER_INT);
 
     $namefull       = filter_var($_POST['namefull'], FILTER_SANITIZE_STRING);
+    
     $videos       = filter_var($_POST['movie'], FILTER_SANITIZE_STRING);
    // $cedula         = (int) filter_var($_POST['cedula'], FILTER_SANITIZE_NUMBER_INT);
    // $sexo           = filter_var($_POST['sexo'], FILTER_SANITIZE_STRING);
    // $section        = filter_var($_POST['section'], FILTER_SANITIZE_STRING);
 //
-    $UpdateAlumno    = ("UPDATE segundo_grado
+    $UpdateAlumno    = ("UPDATE primer_grado
         SET namefull='$namefull',
         videos='$videos'
      

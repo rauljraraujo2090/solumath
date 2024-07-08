@@ -50,7 +50,7 @@ die();
     ?>
 
     <div class="col-md-5 mb-3">
-      <h3 class="text-center">Galeria</h3>
+      <h3 class="text-center">3er grado Secundaria</h3>
       <form method="POST" action="action3secundaria.php?metodo=2" enctype="multipart/form-data">
       <input type="text" name="id" value="<?php echo $dataAlumno['id']; ?>" hidden>
       <div class="mb-3">

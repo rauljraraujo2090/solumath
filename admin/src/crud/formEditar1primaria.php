@@ -48,11 +48,12 @@ die();
     ?>
 
     <div class="col-md-5 mb-3">
-      <h3 class="text-center">Galeria</h3>
+      <h3 class="text-center">1er grado Primaria</h3>
       <form method="POST" action="action1grado.php?metodo=2" enctype="multipart/form-data">
-      <input type="text" name="id" value="<?php echo $dataAlumno['id']; ?>" hidden>
+      <!--- <input type="text" name="id" value="" hidden>--->
+      <textarea type="text"   name="id"  class="form-control" value="<?php echo $dataAlumno['id']; ?>"placeholder="descripcion del video" name="namefull" hidden></textarea>
       <div class="mb-3">
-          <label class="form-label">Nombre y Apellido</label>
+          <label class="form-label">¿Que aprenderas en este curso ?</label>
           <input type="text" class="form-control" name="namefull" value="<?php echo $dataAlumno['namefull']; ?>">
         </div>
        
@@ -61,7 +62,7 @@ die();
         
 
         <div class="mb-3">
-          <label for="formFile" class="form-label">Foto del Alumno</label>
+          <label for="formFile" class="form-label">Foto del video </label>
           <input class="form-control" type="file" name="foto" accept="image/png,image/jpeg">
         </div>
 
