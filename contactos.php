@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactos</title>
     <!-- Favicon img -->
+    <link rel="shortcut icon" href="logo_ventana.png" >
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <!-- Bootstarp min css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -82,7 +83,7 @@
                                     </i>
                                     <div>
                                         <span class="text-white">Llamanos 24/7</span>
-                                        <h3 class="mt-1"><a class="text-white" href="tel:+2085550112">+208-555-0112</a>
+                                        <h3 class="mt-1"><a class="text-white" href="tel:+2085550112">+51 962562426</a>
                                         </h3>
                                     </div>
                                 </li>
@@ -103,7 +104,7 @@
                                     </i>
                                     <div>
                                         <span class="text-white">Hacer una Cotización</span>
-                                        <h3 class="mt-1"><a class="text-white" href="#0">info@gmail.com</a>
+                                        <h3 class="mt-1"><a class="text-white" href="#0">soluciones.matematicas</a>
                                         </h3>
                                     </div>
                                 </li>
@@ -121,7 +122,7 @@
                                     </i>
                                     <div>
                                         <span class="text-white">Ubicación</span>
-                                        <h3 class="mt-1"><a class="text-white" href="tel:+2085550112">ayacucho.</a>
+                                        <h3 class="mt-1"><a class="text-white" href="tel:+2085550112">Jr. Saccsayhuaman 195, Ayacucho, Peru</a>
                                         </h3>
                                     </div>
                                 </li>
@@ -130,9 +131,9 @@
                                Siguenos en nuestras redes sociales:
                             </h4>
                             <div class="social">
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                                <a href="#0"><i class="fa-brands fa-twitter"></i></a>
-                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100092834708208"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.youtube.com/channel/UCCEKsU_NNk6Kn6ZsmtkIKCg"><i class="fa-brands fa-youtube"></i></a>
+                                
                             </div>
                         </div>
                     </div>

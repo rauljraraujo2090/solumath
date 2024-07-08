@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciclo C</title>
     <!-- Favicon img -->
+    <link rel="shortcut icon" href="logo_ventana.png" >
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <!-- Bootstarp min css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">

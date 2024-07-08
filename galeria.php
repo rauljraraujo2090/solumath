@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="estilos.css">
 
 
-
+<link rel="shortcut icon" href="logo_ventana.png" >
 <!-- Favicon img -->
 <link rel="shortcut icon" href="assets/images/favicon.png">
     <!-- Bootstarp min css -->

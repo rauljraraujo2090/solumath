@@ -1,3 +1,4 @@
+ <!-- Favicon img -->
 
        <!-- Sidebar area start here -->
     <div id="targetElement" class="sidebar-area sidebar__hide">

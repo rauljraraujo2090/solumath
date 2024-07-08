@@ -202,7 +202,7 @@ die();
                         <div class="card">
                             <div class="card-header">
                                 <h5 class="card-title">
-                                    Lista de  5to de secundaria
+                                Lista de datos
                                 </h5>
                             </div>
 

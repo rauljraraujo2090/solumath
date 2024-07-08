@@ -205,7 +205,7 @@ die();
                         <div class="card">
                             <div class="card-header">
                                 <h5 class="card-title">
-                                    Lista de mensajes
+                                    Lista de datos
                                 </h5>
                             </div>
 

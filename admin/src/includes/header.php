@@ -46,7 +46,7 @@
 
 <li
     class="sidebar-item active ">
-    <a href="index.php" class='sidebar-link'>
+    <a href="#" class='sidebar-link'>
         <i class="bi bi-grid-fill"></i>
         <span>Bienvenido</span>
     </a>
@@ -64,7 +64,7 @@
     
 
 </li>
-
+<!----
 <li
     class="sidebar-item  ">
     <a href="form-layout.html" class='sidebar-link'>
@@ -74,6 +74,9 @@
     
 
 </li>
+
+
+----->
 
 <li
     class="sidebar-item  ">
@@ -87,16 +90,17 @@
 
 
 <li
-    class="sidebar-item  has-sub">
-    <a href="#" class='sidebar-link'>
+    class="sidebar-item  ">
+    <a href="sobre_sulemath.php" class='sidebar-link'>
         <i class="bi bi-collection-fill"></i>
-        <span>Extra Components</span>
+        <span>Que dicen sobre solumath</span>
     </a>
     
     
     
 
 </li>
+
 
 <li class="sidebar-title">GRADOS &amp; NIVELES</li>
 
@@ -192,17 +196,16 @@
 
 </li>
 
-<!---
+
 <li
-    class="sidebar-item  ">
+    class="sidebar-item ">
     <a href="1superior.php" class='sidebar-link'>
-        <i class="bi bi-grid-1x2-fill"></i>
+    <i class="bi bi-journal-check"></i>
         <span>Superior</span>
     </a>
-    
 
 </li>
------>
+<!-----
 <li
     class="sidebar-item  ">
     <a href="1matricular.php" class='sidebar-link'>
@@ -213,7 +216,7 @@
 
 </li>
 
-
+---->
 
 
 
