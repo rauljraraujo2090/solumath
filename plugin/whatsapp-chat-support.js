@@ -213,10 +213,10 @@
             settings.whenGoingToWhatsApp(number, text);
 
             close_popup();
-            var WhatsAppUrl = 'https://web.whatsapp.com/send';
+            var WhatsAppUrl = 'https://wa.link/s95l4f';
 
             if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-                WhatsAppUrl = 'https://api.whatsapp.com/send'; 
+                WhatsAppUrl = 'https://wa.link/s95l4f'; 
             }
 
             var url         = WhatsAppUrl+'?phone='+number+'&text='+text;

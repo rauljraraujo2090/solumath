@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +27,8 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    
+
 </head>
 
 <body>
@@ -147,7 +152,7 @@
                                 <p class="wow fadeInUp mt-3" data-wow-delay="400ms" data-wow-duration="1500ms">Nuestro equipo está listo para atender tus solicitudes.</p>
                             </div>
                             <div class="contact__form">
-                                <form action="" method="POST">
+                                <form  action="" method="POST">
                                     <div class="row">
                                         <div class="col-6">
                                             <label for="name">Su nombre*</label>
@@ -186,7 +191,7 @@
                                     <div class="btn-two">
                                         <span class="btn-circle">
                                         </span>
-                                        <button href="#" type="submit"id="register" class="btn-one">Enviar Mensaje<i
+                                        <button  id="register"name="registrar" class="btn-one">Enviar Mensajesss<i
                                                 class="fa-regular fa-arrow-right-long"></i></button>
                                     </div>
                                     
@@ -209,7 +214,10 @@
          Contact map area end here -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
     <script type="text/javascript">
+
+        
 	$(function(){
 		$('#register').click(function(e){
 
@@ -219,8 +227,8 @@
 
 
 			var nombre 	= $('#nombre').val();
-			var apellido 		= $('#apellido').val();
-			var celualar = $('#celular').val();
+			var apellido = $('#apellido').val();
+			var celular = $('#celular').val();
 			var correo 	= $('#correo').val();
 			var sms	= $('#sms').val();
 			
@@ -229,9 +237,10 @@
 
 				$.ajax({
 					type: 'POST',
-					url: 'admin/src/operaciones/insertar.php',
-					data: {nombre: nombre,apellido: apellido, celular: celular,correo: correo, sms: sms},
+					url: 'insertar.php',
+					data: {nombre: nombre,apellidos: apellido, celular: celular,correo: correo, mensaje: sms},
 					success: function(data){
+                        
 					Swal.fire({
 								'title': '¡Mensaje!',
 								'text': data,
@@ -239,7 +248,7 @@
                                 'showConfirmButton': 'false',
                                 'timer': '1500'
 								}).then(function() {
-                window.location = "contactocopy.php";
+                window.location = "";
             });
 							
 					} ,

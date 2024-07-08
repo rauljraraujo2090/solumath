@@ -12,13 +12,17 @@ $consulta="INSERT INTO   mensaje_contacto (nombre,apellidos,celular,correo,mensa
 
 $ejecutar=mysqli_query($con,$consulta );
  if($ejecutar){
-    include('index.php');
     
-    header("location:../../../contactos.php");
+    echo'<script type="text/javascript">
+    alert("Gracias por contactarnos UN ASESOR SE ESTARA PONIENDO EN CONTACTO CON USTED GRACIAS");
+    window.location.href="../../../contactos.php";
+    </script>';
+   // header("location:../../../contactos.php");
 
 
  }else{
-    header("location:../../../contactos.php");
+  header("location:../../../contactos.php");
+  
 
     
  }

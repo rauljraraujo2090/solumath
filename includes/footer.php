@@ -37,21 +37,21 @@
                         <h3 class="footer-title">Cursos</h3>
                         <ul>
                             <li>
-                                <a href="service-details.html">
+                                <a href="1grado_primaria.php">
                                     <i class="fa-regular fa-angles-right me-1"></i>
                                    Primaria
                                 </a>
                             </li>
                             <li>
-                                <a href="service-details.html">
+                                <a href="1secundaria.php">
                                     <i class="fa-regular fa-angles-right me-1"></i>
                                      Secundaria
                                 </a>
                             </li>
                             <li>
-                                <a href="service-details.html">
+                                <a href="1superior.php">
                                     <i class="fa-regular fa-angles-right me-1"></i>
-                                    Innova schools
+                                    Superior
                                 </a>
                             </li>
                             
@@ -83,14 +83,14 @@
                     </div>
                     <div class="footer__item item-big wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <h3 class="footer-title">Contacto</h3>
-                        <p class="mb-20">Ayacucho - Peru</p>
+                        <p class="mb-20">Jr. Saccsayhuaman 195, Ayacucho, Peru</p>
                         <ul class="footer-contact">
                             <li>
                                 <i class="fa-regular fa-clock"></i>
                                 <div class="info">
                                     <h5>Horario de apertura:
                                 </h5>
-                                    <p>Lunes a sábado: 10:00 a. m. - 4:00 p. m.</p>
+                                    <p>Lunes a sábado: 8:00 a. m. - 6:00 p. m.</p>
                                 </div>
                             </li>
                            

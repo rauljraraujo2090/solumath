@@ -39,7 +39,7 @@ include('includes/header.php');
 ?>
         <!-- Header area end here -->
          <!-- Page banner area start here -->
-   <section class="banner__inner-page bg-image pt-180 pb-180 bg-image" data-background="assets/images/banner/banner-inner-page.jpg">
+   <section class="banner__inner-page bg-image pt-180 pb-180 bg-image" data-background="assets/images/banner/banner-inner-pageee.png">
                 <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
                 </div>
@@ -99,7 +99,7 @@ include('includes/header.php');
                                 </div>
                             </div>
                             <h3 class="title mb-30">¿Que aprenderas en este curso ?</h3>
-                            <p class="mb-20"><?php echo $row['namefull']; ?></p>
+                            <p id="namefull" class="mb-20"><?php echo $row['namefull']; ?></p>
                             <br>
                             <?php
 include('btn_informacion.php');
@@ -116,7 +116,14 @@ include('header_primaria.php');
 
 
 
+<style>
 
+
+#namefull{
+
+    text-align: justify;
+}
+</style>
                    
 
 

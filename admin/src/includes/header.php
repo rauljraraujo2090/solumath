@@ -192,7 +192,7 @@
 
 </li>
 
-
+<!---
 <li
     class="sidebar-item  ">
     <a href="1superior.php" class='sidebar-link'>
@@ -202,12 +202,12 @@
     
 
 </li>
-
+----->
 <li
     class="sidebar-item  ">
-    <a href="form-layout.html" class='sidebar-link'>
+    <a href="1matricular.php" class='sidebar-link'>
         <i class="bi bi-file-earmark-medical-fill"></i>
-        <span>Form Layout</span>
+        <span>Matricular</span>
     </a>
     
 

@@ -419,7 +419,7 @@ include('includes/header.php');
                                                  y que se convierta en un crack en matemáticas. ”</p>
                                                  <br>
                                                  <br>
-                                                 <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="">Quiero saver mas <i class="fa-regular fa-arrow-right-long"></i></a>
+                                                 <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="https://wa.link/s95l4f">Quiero saver mas <i class="fa-regular fa-arrow-right-long"></i></a>
                                         </div>
                                        
                                     </div>
@@ -446,7 +446,7 @@ include('includes/header.php');
                                                 personalizado durante todo el año. ”</p>
                                                 <br>
                                                  <br>
-                                                 <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="">Quiero saver mas <i class="fa-regular fa-arrow-right-long"></i></a>
+                                                 <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="https://wa.link/s95l4f">Quiero saver mas <i class="fa-regular fa-arrow-right-long"></i></a>
                                         </div>
                                     </div>
 
@@ -476,7 +476,7 @@ include('includes/header.php');
                                                 con nuestras clases para hermanos, primos o amigos. ”</p>
                                                 <br>
                                                  <br>
-                                                 <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="">Quiero saver mas <i class="fa-regular fa-arrow-right-long"></i></a>
+                                                 <a class="wow fadeInUp btn-one mt-0" target="_blank" data-delay="1s" href="https://wa.link/s95l4f">Quiero saver mas <i class="fa-regular fa-arrow-right-long"></i></a>
                                         </div>
                                     </div>
 

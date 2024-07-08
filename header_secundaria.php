@@ -12,7 +12,7 @@
                                             class="fa-regular fa-arrow-right-long primary-color"></i></li>
                                     <li><a href="2grado_primaria.php">2 Grado</a> <i
                                             class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                                    <li class="active"><a href="3grado_primaria.php">3 Grado</a> <i
+                                    <li class=""><a href="3grado_primaria.php">3 Grado</a> <i
                                             class="fa-regular fa-arrow-right-long primary-color"></i></li>
                                     <li><a href="4grado_primaria.php">4 Grado</a> <i
                                             class="fa-regular fa-arrow-right-long primary-color"></i></li>

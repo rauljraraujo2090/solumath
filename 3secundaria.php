@@ -38,7 +38,29 @@
 include('includes/header.php');
 ?>
         <!-- Header area end here -->
-        
+                 <!-- Page banner area start here -->
+   <section class="banner__inner-page bg-image pt-180 pb-180 bg-image" data-background="assets/images/banner/banner-inner-pageee.png">
+                <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                </div>
+                <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                </div>
+                <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                </div>
+                <div class="container">
+                    <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">3º grado Secundaria</h2>
+                    <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <a href="index.php">Inicio</a>
+                        <span>
+                            <i class="fa-regular fa-angles-right mx-2"></i>
+                            3º grado Secundaria
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <!-- Page banner area end here -->
         <!-- Fullscreen search area start here -->
         <div class="search-wrap">
             <div class="search-inner">
@@ -77,7 +99,7 @@ include('includes/header.php');
                                 </div>
                             </div>
                             <h3 class="title mb-30">¿Que aprenderas en este curso ?</h3>
-                            <p class="mb-20"><?php echo $row['namefull']; ?></p>
+                            <p id="namefull" class="mb-20"><?php echo $row['namefull']; ?></p>
                             <br>
                             <?php
 include('btn_informacion.php');
@@ -97,7 +119,14 @@ include('header_secundaria.php');
 
                    
 
+<style>
 
+
+#namefull{
+
+    text-align: justify;
+}
+</style>
 
                 </div>
             </div>
