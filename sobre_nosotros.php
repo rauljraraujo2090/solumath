@@ -193,7 +193,7 @@ include('includes/header.php');
                                     <img src="assets/images/icon/service-icon1.png" alt="icon">
                                 </div>
                                 <h4>
-                                    <a href="service-details.html">Mision </a>
+                                    <a href="#">Mision </a>
                                 </h4>
                                 <p>Cambiar la vida de nuestros estudiantes y colaboradores, generándoles pasión por alcanzar sus metas.</p>
                             </div>
@@ -207,7 +207,7 @@ include('includes/header.php');
                                     <img src="assets/images/icon/service-icon2.png" alt="icon">
                                 </div>
                                 <h4>
-                                    <a href="service-details.html">Vision</a>
+                                    <a href="#">Vision</a>
                                 </h4>
                                 <p>Queremos hacer de la educación el vehículo para un mundo mejor y el cambio que nuestra sociedad necesita.</p>
                             </div>
@@ -221,7 +221,7 @@ include('includes/header.php');
                                     <img src="assets/images/icon/service-icon3.png" alt="icon">
                                 </div>
                                 <h4>
-                                    <a href="service-details.html">Valores</a>
+                                    <a href="#">Valores</a>
                                 </h4>
                                 <p>Promover la integridad, la ética profesional y la responsabilidad social entre estudiantes y personal.</p>
                             </div>

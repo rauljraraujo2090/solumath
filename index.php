@@ -1029,8 +1029,7 @@ include('includes/header.php');
                                 <button class="arry-next testimonial__arry-next active">
                                     <i class="fa-light fa-chevron-right"></i>
                                 </button>
-                            </div>
-                            <br>
+                            
     <br>
                         </div>
 
