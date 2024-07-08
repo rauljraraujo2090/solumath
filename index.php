@@ -1037,6 +1037,8 @@ include('includes/header.php');
         
     </main>
     <br>
+    <br>
+    <br>
     <!-- Footer area start here -->
     <?php
     include('includes/footer.php');
