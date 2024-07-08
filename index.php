@@ -1030,15 +1030,16 @@ include('includes/header.php');
                                     <i class="fa-light fa-chevron-right"></i>
                                 </button>
                             </div>
+                            <br>
+    <br>
                         </div>
 
 </center>
         <br>
         
     </main>
-    <br>
-    <br>
-    <br>
+    
+    
     <!-- Footer area start here -->
     <?php
     include('includes/footer.php');
