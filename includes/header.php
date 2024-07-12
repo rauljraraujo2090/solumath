@@ -150,9 +150,38 @@
                                     <a href="galeria.php">Galeria</a>
                                    
                                 </li>
+
+
+
+
+
+
+
+                                <li>
+                                    <a href="#0">Niveles</a>
+                                    <ul class="sub-menu">
+                                    <li>
+                                            <a href="1grado_primaria.php">Primaria</a>
+                                        </li>
+                                        <li>
+                                            <a href="1grado_secundaria.php">Secundaria</a>
+                                        </li>
+                                        <li>
+                                            <a href="1superior.php">Superior</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                               
+
+
+
+
+
+                                <!----
                                 <li>
                                     <a href="contactos.php">Contacto</a>
-                                </li>
+                                </li>---->
                                 <li class="ml-20 d-none d-lg-block">
                                     <a class="search-trigger" href="#0">
                                         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -171,8 +200,8 @@
                         </nav>
                     </div>
                     <div class="d-none d-lg-inline-block">
-                        <a  href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=5e3ce6c0-2b1f-4285-8d4b-75ee78787346&scope=openId%20profile%20openid%20offline_access&redirect_uri=https%3A%2F%2Fteams.microsoft.com%2Fv2&client-request-id=829b05a1-f2c9-4064-b683-bf1a31415b56&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=3.7.1&client_info=1&code_challenge=4YEdw0Ii9vru-EAUiUrAmXfz36Kza7hp9x4tTkhmDBs&code_challenge_method=S256&nonce=7a8f25a4-a3a5-435b-92b6-dde02b5f15a6&state=eyJpZCI6IjY3NjgxMjY5LWEyYzYtNDE4Zi05MWNkLTk1ZTQxMWIwNTQ1OCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&sso_reload=true" target="_blank"class="btn-one">
-                           Aula Virtual <i class="fa-regular fa-arrow-right-long"></i>
+                        <a  href="matricula_individual.php" target="_blank"class="btn-one">
+                           Matriculate en linea <i class="fa-regular fa-arrow-right-long"></i>
                         </a>
                     </div>
                     <div class="bars d-block d-lg-none">

@@ -205,6 +205,37 @@
     </a>
 
 </li>
+
+
+<li class="sidebar-title">Matriculas &amp; Individuales y Grupales</li>
+
+<li
+    class="sidebar-item  has-sub">
+    <a href="#" class='sidebar-link'>
+    <i class="bi bi-file-earmark-medical-fill"></i>
+        <span>Matriculas</span>
+    </a>
+    
+    <ul class="submenu ">
+        
+        <li class="submenu-item  ">
+            <a href="matricula_individual.php" class="submenu-link">Matricula Individual</a>
+            
+        </li>
+        
+        <li class="submenu-item  ">
+            <a href="matricula_grupal.php" class="submenu-link">Matricula Grupal</a>
+            
+        </li>
+        
+       
+        
+    </ul>
+    
+
+</li>
+
+
 <!-----
 <li
     class="sidebar-item  ">

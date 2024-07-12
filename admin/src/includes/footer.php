@@ -5,7 +5,7 @@
         </div>
         <div class="float-end">
             <p>Elaborado  <span class="text-danger"><i class="bi bi-heart-fill icon-mid"></i></span>
-                por <a href="https://www.facebook.com/alexis.torre.144?locale=es_LA" target="_blank">Raúl Jr</a></p>
+                por <a href="" target="_blank">Raúl Jr</a></p>
         </div>
     </div>
 </footer>

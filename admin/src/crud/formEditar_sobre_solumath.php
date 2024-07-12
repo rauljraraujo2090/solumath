@@ -29,7 +29,7 @@ die();
   <div class="row justify-content-md-center">
     <div class="col-md-12">
       <h1 class="text-center mt-3">
-        <a href="./">
+        <a href="#">
           <i class="bi bi-arrow-left-circle"></i>
         </a>
         Actualizar Datos

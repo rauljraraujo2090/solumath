@@ -12,7 +12,7 @@
   
   Swal.fire({
   
-    imageUrl:"https://www.unc.edu.pe/wp-content/uploads/2022/03/admision.jpeg",
+    imageUrl:"matricula_individual.php",
     width:600,
     Heigh:600,
     imageWidth:550,

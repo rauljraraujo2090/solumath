@@ -1,1 +1,1 @@
-<a  href="#" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
+<a  href="matricula_individual.php" class=" btn-one mt-0">Matricúlate<i class="fa-regular fa-arrow-right-long"></i></a>
