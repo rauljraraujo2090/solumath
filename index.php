@@ -1050,7 +1050,7 @@ include('includes/header.php');
 include('whatsap.php');
 ?>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="banner.js">
+    <script src="bannerr.js">
 
 
 </script>
