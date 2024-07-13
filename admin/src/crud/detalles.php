@@ -18,7 +18,12 @@
       <h1 class="text-center mt-3">Detalles del Alumno </h1>
       <hr class="mb-3">
     </div>
+    <style>
+  p{
+   font-size: 13px;
 
+  }
+</style>
 <?php
     include('config.php');
     $idAlumno      = ($_REQUEST['id']);

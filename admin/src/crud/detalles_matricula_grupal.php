@@ -69,7 +69,12 @@ die();
  </div>
 
 
+<style>
+  p{
+   font-size: 13px;
 
+  }
+</style>
   </div>
 </div>
 
