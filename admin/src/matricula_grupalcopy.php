@@ -261,6 +261,9 @@ die();
                   
                   
                   <td>
+                  <a href="crud/dowload_grupal.php?id=<?php echo $dataAlumno['id']; ?>" class="btn btn-primary mb-2"   title="Ver datos del alumno <?php echo $dataAlumno['namefull']; ?>">
+                  <i class="bi bi-tv"></i> Descargar</a>
+
                   <a href="crud/detalles_matricula_grupal.php?id=<?php echo $dataAlumno['id']; ?>" class="btn btn-warning mb-2"   title="Ver datos del alumno <?php echo $dataAlumno['namefull']; ?>">
                   <i class="bi bi-tv"></i> Ver</a>
                     

@@ -70,7 +70,7 @@
                     <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Matricula Individual</h2>
                     <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Para matricular estudiantes por grupos click en el siguiente boton</p>
                 </div>
-                <a class="wow fadeInUp btn-one mt-0" data-delay="1s" href="matricula_grupal.php">Matricula Grupal <i class="fa-regular fa-arrow-right-long"></i></a>
+                <a class="wow fadeInUp btn-one mt-0" data-delay="1s" href="matricula_grupalcopy.php">Matricula Grupal <i class="fa-regular fa-arrow-right-long"></i></a>
 
             </div>
 

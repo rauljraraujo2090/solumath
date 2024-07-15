@@ -164,7 +164,7 @@
                                             <a href="1grado_primaria.php">Primaria</a>
                                         </li>
                                         <li>
-                                            <a href="1grado_secundaria.php">Secundaria</a>
+                                            <a href="1secundaria.php">Secundaria</a>
                                         </li>
                                         <li>
                                             <a href="1superior.php">Superior</a>

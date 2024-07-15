@@ -308,14 +308,20 @@ text-align: justify;
  
                 </div>
             </div>
+            <?php
+include('boton_matricularse.php');
+?>
             </div>
+
+ 
+  
+       
         </section>
         <!-- Choose area end here -->
 
        
         
-       
-        
+ 
     </main>
 
     <!-- Footer area start here -->
