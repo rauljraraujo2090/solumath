@@ -1,0 +1,31 @@
+
+<table class="table tag" id="table1">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th scope="col">A_Paterno </th>
+                                                <th scope="col">A_Materno</th>
+                                                <th scope="col">Nombres</th>
+                                                <th scope="col">Direccion</th>
+                                              
+                                               
+                                                <th scope="col">Dni</th>
+                                               
+                                                <th scope="col">Contacto</th>
+                                                <th scope="col">Correo</th>
+                                              
+                                                <th scope="col">Yape</th>
+                                                
+                                                <th scope="col">Acciones</th> 
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <br />
+<b>Warning</b>:  Undefined variable $queryAlumnos in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>36</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, null given in C:\xampp\htdocs\solumath\admin\src\excel_grupal.php:36
+Stack trace:
+#0 C:\xampp\htdocs\solumath\admin\src\excel_grupal.php(36): mysqli_fetch_array(NULL)
+#1 {main}
+  thrown in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>36</b><br />

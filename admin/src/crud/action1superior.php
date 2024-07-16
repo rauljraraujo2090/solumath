@@ -58,10 +58,10 @@ if (!((strpos($tipo_foto, "PNG") || strpos($tipo_foto, "jpg") && ($tamano_foto <
 
     }
     closedir($miDir);
-    header("Location:../1superior.php?a=1");
+    header("Location:../matematica_superior.php?a=1");
 
   }else{
-    header("Location:../1superior.php?errorimg=1");
+    header("Location:../matematica_superior.php?errorimg=1");
   }
 }
 
@@ -110,11 +110,11 @@ if($metodoAction == 2){
             $resultFoto = mysqli_query($con, $updateFoto);
         }
     }else{
-        header("Location:../1superior.php?errorimg=1");
+        header("Location:../matematica_superior.php?errorimg=1");
     }
   }
 
-  header("Location:../1superior.php?update=1&id=$idAlumno");
+  header("Location:../matematica_superior.php?update=1&id=$idAlumno");
  }
 
 

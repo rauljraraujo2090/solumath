@@ -167,8 +167,8 @@
                     $resultFoto = mysqli_query($con, $updateFoto);
                 }
             } else {
-                header("Location:../matricula_individual.php?errorimg=1");
-            }
+                header("Location:../notificacion.php?errorimg=1");
+            } 
         }
 echo"error";
         //header("Location:../matricula_individual.php?update=1&id=$idAlumno");

@@ -9,7 +9,7 @@ if($ejecutar){
 
     
 
-header('location:../1superior.php');
+header('location:../matematica_superior.php');
 
 }
 ?>

@@ -86,6 +86,10 @@ include('includes/header.php');
 
 
 }
+#a:hover{
+    color:aliceblue
+    
+}
 
             </style>
 
@@ -143,8 +147,8 @@ include('includes/header.php');
 </center>
                                     <!---- <p class="text-white">Déjanos tus datos para que una asesora se comunique contigo.</p>---->
                                 </div>
-                                <form action="admin/src/crud/action_matricula_grupal.php"method="POST" enctype="multipart/form-data">
-                                <input type="text" name="metodo" value="1" hidden>
+                                <form action="admin/src/crud/action_matricula_grupalcopy.php"method="POST" enctype="multipart/form-data">
+                                <input type="text" name="archivo" value="1" hidden>
                                     <div class="row g-6">
                                         <div class="col-sm-6">
                                             <label for="name">Apellido Paterno*</label>
@@ -163,7 +167,7 @@ include('includes/header.php');
 
                                         <div class="col-sm-6">
                                             <label for="subject">Dirección*</label>
-                                            <input type="text" name="direccion"id="subject"   required>
+                                            <input type="text" name="direccion"id="subject"   >
                                         </div>
 
 
@@ -200,25 +204,33 @@ include('includes/header.php');
 
 
                                         
+                                        <div class="col-sm-12">
+                                            <label for="number">Archivo excel de los estudiantes*</label>
+                                            <input type="file"name="excel"id="number" accept=".xls,.xlsx" required >
+                                            <br>
+                                          
+                                            <a id ="a"href="descargar_excel_grupal.php">Descargar Formulario excel</a>
+                                        </div>
+                                        
                                        
                                         <!----
                                         <div class="col-sm-12">
                                             <label for="number">Archivo .excel de los estudiantes</label>
                                             <input type="file"name="foto"accept="jpg/png,image/jpeg"id="number"  require >
                                         </div>
------>
+----->  
                                         <div class="col-sm-12">
                                             <label for="number">Baucher de Pago*</label>
                                             <input type="file"name="foto"accept="jpg/png,image/jpeg"id="number"  required >
                                         </div>
 
-                                     
+                                    
                                        
 
 
                                      
                                     </div>
-                                    <button type="submit">Matricular</button>
+                                    <button type="submit" name="archivo">Matricular</button>
                                 </form>
                             </div>
                         </div>

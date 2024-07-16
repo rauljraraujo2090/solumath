@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es-es">
+
+<head>
+	<meta charset="utf-8">
+	<title>excel</title>
+
+	<head>
+
+	<body>
+		<br />
+<b>Warning</b>:  Undefined array key "foto" in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>54</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "foto" in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>54</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "foto" in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>54</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "foto" in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>54</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "foto" in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>54</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "foto" in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>54</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "foto" in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>54</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "foto" in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>54</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "foto" in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>54</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "foto" in <b>C:\xampp\htdocs\solumath\admin\src\excel_grupal.php</b> on line <b>54</b><br />
+<table border="1"><tr><td colspan="5">Tabla Lista de matriculados grupalmente</tr></tr><tr><td><b>ID</b></td><td><b>a_paterno</b></td><td><b>a_materno</b></td><td><b>Nombre</b></td><td><b>direccion</b></td><td><b>dni</b></td><td><b>celular</b></td><td><b>correo</b></td><td><b>foto</b></td><td><b>Fecha de registro</b></td></tr><tr><td>12</td><td>aaaa</td><td>aaa</td><td>aaaa</td><td>aaaa</td><td>111</td><td>111</td><td>rauljraraujo2090@gmail.com</td><td></td><td>12-07-2024 23:21:03 PM</td></tr><tr><td>13</td><td>ppppppppp</td><td>pppppp</td><td>pppp</td><td>ppp</td><td>453534</td><td>534543</td><td>rauljraraujo2090@gmail.com</td><td></td><td>12-07-2024 23:24:06 PM</td></tr><tr><td>14</td><td>raul</td><td>Santos</td><td>rauljraraujo2090@gmail.com</td><td>456 tres estrellas</td><td>74385650</td><td>453645346</td><td>rauljraraujo2090@gmail.com</td><td></td><td>12-07-2024 23:29:42 PM</td></tr><tr><td>15</td><td>raul</td><td>Santos</td><td>rauljraraujo2090@gmail.com</td><td>456 tres estrellas</td><td>74385650</td><td>978675666</td><td>rauljraraujo2090@gmail.com</td><td></td><td>16-07-2024 10:20:54 AM</td></tr><tr><td>16</td><td>lllllllllll</td><td>llllllll</td><td>lllllllllllllllllllll</td><td>llllllllllllllllllllllllllll</td><td>78667876</td><td>765567567</td><td>rauljraraujo2090@gmail.com</td><td></td><td>16-07-2024 10:36:48 AM</td></tr><tr><td>17</td><td>vvvvvvvv</td><td>vvvvvvvvvvvvvvvv</td><td>vvvvvvv</td><td>vvvvvvvvv</td><td>453345</td><td>345345</td><td>rauljraraujo2090@gmail.com</td><td></td><td>16-07-2024 10:39:06 AM</td></tr><tr><td>18</td><td>ccccccccc</td><td>cccccc</td><td>ccccccccccccccc</td><td>ccccccccccccccccccc</td><td>4332423</td><td>423423423</td><td>rauljraraujo2090@gmail.com</td><td></td><td>16-07-2024 10:40:50 AM</td></tr><tr><td>19</td><td>dfsaf</td><td>dsfsd</td><td>sdaf</td><td>sdafsda</td><td>435345</td><td>34534</td><td>rauljraraujo2090@gmail.com</td><td></td><td>16-07-2024 11:30:07 AM</td></tr><tr><td>20</td><td>vvvv</td><td>vvv</td><td>vv</td><td>vvv</td><td>34234</td><td>324234</td><td>rauljraraujo2090@gmail.com</td><td></td><td>16-07-2024 11:30:29 AM</td></tr><tr><td>21</td><td>pppp</td><td>pppp</td><td>ppp</td><td>ppp</td><td>65445645</td><td>45645645</td><td>rauljraraujo2090@gmail.com</td><td></td><td>16-07-2024 11:44:12 AM</td></tr>

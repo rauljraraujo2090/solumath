@@ -1,7 +1,7 @@
 
 <?php 
   include('admin/src/crud/config.php');
-  $query = "select * from primer_Superior";
+  $query = "select * from fisica_Superior";
   $resultado = mysqli_query($con,$query);
 ?>
 

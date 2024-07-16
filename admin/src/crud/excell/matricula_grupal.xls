@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="es-es">
+
+<head>
+	<meta charset="utf-8">
+	<title>excel</title>
+
+	<head>
+
+	<body>
+		<table border="1"><tr><td colspan="5">Tabla Lista de Contactos</tr></tr><tr><td><b>ID</b></td><td><b>a_paterno</b></td><td><b>a_materno</b></td><td><b>Nombre</b></td><td><b>direccion</b></td><td><b>dni</b></td><td><b>celular</b></td><td><b>correo</b></td><td><b>foto</b></td><td><b>Fecha de registro</b></td></tr><tr><td>6</td><td>ssaa</td><td>aaa</td><td>raul</td><td>456 tres estrellas</td><td>34234</td><td>324234</td><td>rauljraraujo2090@gmail.com</td><td>00026df8.jpg</td><td>12-07-2024 00:26:03 AM</td></tr><tr><td>7</td><td>fff</td><td>fff</td><td>ff</td><td>ff</td><td>453435</td><td>435345</td><td>rauljraraujo2090@gmail.com</td><td>f737cb7b.jpg</td><td>12-07-2024 00:27:54 AM</td></tr>

@@ -198,13 +198,42 @@
 
 
 <li
-    class="sidebar-item ">
-    <a href="1superior.php" class='sidebar-link'>
+    class="sidebar-item  has-sub">
+    <a href="#" class='sidebar-link'>
     <i class="bi bi-journal-check"></i>
-        <span>Superior</span>
+        <span>SUPERIOR</span>
     </a>
+    
+    <ul class="submenu ">
+        
+        <li class="submenu-item  ">
+            <a href="matematica_superior.php" class="submenu-link">Matemática </a>
+            
+        </li>
+        
+        <li class="submenu-item  ">
+            <a href="fisica_superior.php" class="submenu-link">Física</a>
+            
+        </li>
+        
+        <li class="submenu-item  ">
+            <a href="quimica_superior.php" class="submenu-link">Quimica</a>
+            
+        </li>
+        
+        <li class="submenu-item  ">
+            <a href="estadistica_superior.php" class="submenu-link">Estadistica</a>
+            
+        </li>
+        
+       
+       
+        
+    </ul>
+    
 
 </li>
+
 
 
 <li class="sidebar-title">Matriculas &amp; Individuales y Grupales</li>

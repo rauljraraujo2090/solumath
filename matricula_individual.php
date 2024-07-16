@@ -86,7 +86,7 @@
                     <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Matricula Individual</h2>
                     <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Para matricular estudiantes por grupos click en el siguiente boton</p>
                 </div>
-                <a class="wow fadeInUp btn-one mt-0" data-delay="1s" href="matricula_grupalcopy.php">Matricula Grupal <i class="fa-regular fa-arrow-right-long"></i></a>
+                <a class="wow fadeInUp btn-one mt-0" data-delay="1s" href="matricula_grupal.php">Matricula Grupal <i class="fa-regular fa-arrow-right-long"></i></a>
 
             </div>
 
@@ -181,7 +181,7 @@
 
                                     <div class="col-sm-6">
                                         <label for="subject">Dirección*</label>
-                                        <input type="text" name="direccion" id="subject" required>
+                                        <input type="text" name="direccion" id="subject" >
                                     </div>
 
 
@@ -217,11 +217,11 @@
                                             <option value="6 grado primaria">6 grado primaria</option>
                                             <option >_______________</option>
                                            
-                                            <option value="1 grado secundaria">1 año secundaria</option>
-                                            <option value="2 grado secundaria">2 año secundaria</option>
-                                            <option value="3 grado secundaria">3 año secundaria</option>
-                                            <option value="4 grado secundaria">4 año secundaria</option>
-                                            <option value="5 grado secundaria">5 año secundaria</option>
+                                            <option value="1 año secundaria">1 año secundaria</option>
+                                            <option value="2 año secundaria">2 año secundaria</option>
+                                            <option value="3 año secundaria">3 año secundaria</option>
+                                            <option value="4 año secundaria">4 año secundaria</option>
+                                            <option value="5 año secundaria">5 año secundaria</option>
                                             <option >_______________</option>
                                             <option value="superior">Superior</option>
 

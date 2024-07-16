@@ -47,7 +47,7 @@ die();
  <?php
     while ($dataAlumno = mysqli_fetch_array($queryAlumnos)) { ?>
     <div class="card" style="width: 30rem;">
-        <img src="primaria/<?php echo $dataAlumno['foto']; ?>" alt="foto perfil" class="card-img-top fotoPerfil">
+        <img src="foto_grupal/<?php echo $dataAlumno['foto']; ?>" alt="foto perfil" class="card-img-top fotoPerfil">
         <div class="card-body">
             <p class="card-text titleAlumno"><?php echo $dataAlumno['namefull']; ?></p>
         </div>

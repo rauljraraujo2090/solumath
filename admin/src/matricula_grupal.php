@@ -232,7 +232,7 @@ die();
                                                
                                                 <th scope="col">Contacto</th>
                                                 <th scope="col">Correo</th>
-                                              
+                                                <th scope="col">excel</th>
                                                 <th scope="col">Yape</th>
                                                 
                                                 <th scope="col">Acciones</th> 
@@ -256,11 +256,14 @@ die();
                
                   <td><?php echo $dataAlumno['celular']; ?></td>
                   <td><?php echo $dataAlumno['correo']; ?></td>
-               
+                  <td><?php echo $dataAlumno['excel']; ?></td>
                   <td><?php echo $dataAlumno['foto']; ?></td>
                   
                   
                   <td>
+                  <a href="crud/dowload_grupal.php?id=<?php echo $dataAlumno['id']; ?>" class="btn btn-primary mb-2"   title="Ver datos del alumno <?php echo $dataAlumno['namefull']; ?>">
+                  <i class="bi bi-tv"></i> Descargar</a>
+
                   <a href="crud/detalles_matricula_grupal.php?id=<?php echo $dataAlumno['id']; ?>" class="btn btn-warning mb-2"   title="Ver datos del alumno <?php echo $dataAlumno['namefull']; ?>">
                   <i class="bi bi-tv"></i> Ver</a>
                     
