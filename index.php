@@ -1,3 +1,13 @@
+
+<?php 
+  include('admin/src/crud/config.php');
+  $query = "select * from sobre_sulemath";
+  $resultado = mysqli_query($con,$query);
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -908,88 +918,30 @@ include('includes/header.php');
                             </div>
                             <div class="swiper testimonial__slider wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="swiper-wrapper">
+                                <?php foreach($resultado as $row){ ?>
                                     <div class="swiper-slide">
                                         <div class="testimonial__item">
                                             <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
                                             </svg>
                                             <div class="image mb-50">
-                                <img src="assets/images/service/service-single-image1.jpg" alt="image">
+                                            <img src="admin/src/crud/primaria/<?php echo $row['foto']; ?>" alt="image">
                                 <div class="service-single__video-btn">
                                     <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
                                         data-wow-duration="1500ms">
-                                        <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
+                                        <a class="video-popup" href="<?php echo $row['videos']; ?>"><i
                                                 class="fa-solid fa-play"></i></a>
                                     </div>
                                 </div>
                             </div>
 
                                      </div>
-                                       
+                                    
                                     </div>
-
-
-
-
-
-
-
-
-
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
-                                            </svg>
- 
-                                            <div class="image mb-50">
-                                <img src="assets/images/service/service-single-image1.jpg" alt="image">
-                                <div class="service-single__video-btn">
-                                    <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
-                                        data-wow-duration="1500ms">
-                                        <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
-                                                class="fa-solid fa-play"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                                           
-                                        </div>
-                                       
-                                    </div>
-
-
-
-
-
-
-
-
-
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
-                                            </svg>
+                                  
                                     
 
-                                            <div class="image mb-50">
-                                <img src="assets/images/service/service-single-image1.jpg" alt="image">
-                                <div class="service-single__video-btn">
-                                    <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
-                                        data-wow-duration="1500ms">
-                                        <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
-                                                class="fa-solid fa-play"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                                           
-                                        </div>
-                                       
-                                    </div>
+<?php }?>
 
 
 
@@ -1002,29 +954,21 @@ include('includes/header.php');
 
 
 
-                                    <div class="swiper-slide">
-                                        <div class="testimonial__item">
-                                            <svg class="coma" width="50" height="37" viewBox="0 0 50 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z" fill="#3C72FC"/>
-                                            </svg>
-                                            
-
-                                            <div class="image mb-50">
-                                <img src="assets/images/service/service-single-image1.jpg" alt="image">
-                                <div class="service-single__video-btn">
-                                    <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
-                                        data-wow-duration="1500ms">
-                                        <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
-                                                class="fa-solid fa-play"></i></a>
-                                    </div>
-                                </div>
-                            </div>
 
 
-                                           
-                                        </div>
-                                       
-                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                   
 
 
 

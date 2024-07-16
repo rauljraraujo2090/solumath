@@ -14,6 +14,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nivel Superior Física</title>
+        <link rel="shortcut icon" href="logo_ventana.png" >
         <!-- Favicon img -->
         <link rel="shortcut icon" href="logo_ventana.png" >
         <link rel="shortcut icon" href="assets/images/favicon.png">
