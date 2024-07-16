@@ -439,7 +439,7 @@ button:focus:not(:focus-visible) {
     outline: 0
 }
 
-button,input,optgroup,select,textarea {
+button,input,tgroupselect,textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;

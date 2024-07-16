@@ -108,7 +108,7 @@
         <header class="header-area">
             <div class="container header__container">
                 <div class="header__main">
-                    <a href="index.html" class="logo">
+                    <a href="index.php" class="logo">
                         <img src="logo2.png" class="f" alt="logo">
                     </a>
                      <!-- Header area start here 
@@ -142,6 +142,9 @@
                                         <li>
                                             <a href="ciclo3.php">Ciclo C</a>
                                         </li>
+                                        <li>
+                                            <a href="ciclo_u.php">Ciclo U</a>
+                                        </li>
                                         
                                     </ul>
                                 </li>
@@ -167,7 +170,7 @@
                                             <a href="1secundaria.php">Secundaria</a>
                                         </li>
                                         <li>
-                                            <a href="1superior.php">Superior</a>
+                                            <a href="1superior_matematica.php">Superior</a>
                                         </li>
                                         
                                     </ul>

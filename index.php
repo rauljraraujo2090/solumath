@@ -87,7 +87,7 @@ include('includes/header.php');
                                             <rect x="0.5" y="0.500183" width="25.6667" height="15" rx="7.5" stroke="white"/>
                                             <rect x="13.3334" y="0.000183105" width="26.6667" height="16" rx="8" fill="white"/>
                                         </svg>
-                                        Bienvenido  a Soluma Academy
+                                        Bienvenido  a Solumath Academy
                                 
                                     </h4>
                                     <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s" class="text-white">Trazando el camino hacia el exito 
@@ -157,7 +157,7 @@ include('includes/header.php');
                                             <rect x="0.5" y="0.500183" width="25.6667" height="15" rx="7.5" stroke="white"/>
                                             <rect x="13.3334" y="0.000183105" width="26.6667" height="16" rx="8" fill="white"/>
                                         </svg>
-                                        Bienvenido  a Soluma Academy
+                                        Bienvenido  a Solumath Academy
                                 
                                     </h4>
                                     <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s" class="text-white">Talleres   Grupales
@@ -299,7 +299,7 @@ include('includes/header.php');
                                         la maestría y el doctorado, así como por opciones terminales previas a la conclusión de la licenciatura.</p>
                                 </div>
                                 <br>
-                                <a  href="1superior.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
+                                <a  href="1superior_matematica.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
@@ -545,7 +545,7 @@ include('includes/header.php');
                 <div class="container">
                     
                     <div class="row g-4">
-                        <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+                        <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
                             <div class="service__item">
                                 <div class="service-shape">
                                     <img src="assets/images/shape/service-item-shape.png" alt="shape">
@@ -557,13 +557,13 @@ include('includes/header.php');
                                     <a href="service-details.html">Ciclo A</a>
                                 </h4>
                                 <p>Para iniciar en las matemáticas lo más importante es manejar los enteros y operaciones básicas con ellos,
-                                     en este ciclo se planteará las reglas claras para entender los números .</p>
+                                     en este ciclo se planteará las reglas claras para entender.</p>
                                       <br>
                                 <a  href="ciclo1.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                            
                         </div>
-                        <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                        <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
                             <div class="service__item active">
                                 <div class="service-shape">
                                     <img src="assets/images/shape/service-item-shape.png" alt="shape">
@@ -575,12 +575,12 @@ include('includes/header.php');
                                     <a href="service-details.html">Ciclo B</a>
                                 </h4>
                                 <p>Es un ciclo donde el estudiante aprende a generalizar y abstraer 
-                                     algunos conceptos matemáticos haciendo uso del álgebra elemental, aritmética razonada, la interrelación gráfica .</p>
+                                     algunos conceptos matemáticos haciendo uso del álgebra elemental, aritmética razonada.</p>
                                       <br>
                                 <a  href="ciclo2.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                        <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
                             <div class="service__item">
                                 <div class="service-shape">
                                     <img src="assets/images/shape/service-item-shape.png" alt="shape">
@@ -590,6 +590,26 @@ include('includes/header.php');
                                 </div>
                                 <h4>
                                     <a href="service-details.html">Ciclo C</a>
+                                </h4>
+                                <p>Es un ciclo donde el estudiante consolida sus conocimientos y domina los temas más fundamentales 
+                                    de toda la matemática, física, química y biología en un nivel preuniversitario. </p>
+                                     <br>
+                                <a  href="ciclo3.php" class=" btn-one mt-0">Mas Informacion<i class="fa-regular fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                            <div class="service__item">
+                                <div class="service-shape">
+                                    <img src="assets/images/shape/service-item-shape.png" alt="shape">
+                                </div>
+                                <div class="service__icon">
+                                    <img src="assets/images/icon/service-icon3.png" alt="icon">
+                                </div>
+                                <h4>
+                                    <a href="service-details.html">Ciclo U</a>
                                 </h4>
                                 <p>Es un ciclo donde el estudiante consolida sus conocimientos y domina los temas más fundamentales 
                                     de toda la matemática, física, química y biología en un nivel preuniversitario. </p>

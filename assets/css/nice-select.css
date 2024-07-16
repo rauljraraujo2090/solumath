@@ -1,6 +1,7 @@
 .nice-select {
 	-webkit-tap-highlight-color: transparent;
 	background-color: #fff;
+	color: black !important;
 	border-radius: 0px;
 	border: solid 1px #e8e8e8;
 	box-sizing: border-box;

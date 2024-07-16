@@ -111,7 +111,7 @@ samp {
 }
 button,
 input,
-optgroup,
+
 select,
 textarea {
   margin: 0;
@@ -175,9 +175,7 @@ legend {
 textarea {
   overflow: auto;
 }
-optgroup {
-  font-weight: bold;
-}
+
 table {
   border-spacing: 0;
   border-collapse: collapse;

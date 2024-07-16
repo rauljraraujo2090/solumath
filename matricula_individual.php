@@ -56,7 +56,23 @@
 
 
 
+        <style>
+            .nice-select {
 
+
+                background-color: var(--gradient-bg) !important;
+                border-color: aliceblue !important;
+                text-decoration-color: black !important;
+
+
+
+            }
+
+            optgroup {
+
+                color: black;
+            }
+        </style>
 
         <center>
 
@@ -86,6 +102,8 @@
 
 
             }
+
+          
         </style>
 
 
@@ -176,11 +194,59 @@
 
 
 
-
+                                    <!---
                                     <div class="col-sm-6">
                                         <label for="subject">Grado*</label>
                                         <input type="text" name="grado" id="subject" required>
                                     </div>
+                                    ---->
+
+
+                                    <div class="col-sm-6">
+                                        <label for="text">Grado......*</label>
+                                        <select multiple type="text" name="grado"id="subject" >
+                                            <option id="option1">-----Seleccione el Grado-----</option>
+                                   
+                                           
+
+                                            <option value="1 grado primaria">1 grado primaria</option>
+                                            <option value="2 grado primaria">2 grado primaria</option>
+                                            <option value="3 grado primaria">3 grado primaria</option>
+                                            <option value="4 grado primaria">4 grado primaria</option>
+                                            <option value="5 grado primaria">5 grado primaria</option>
+                                            <option value="6 grado primaria">6 grado primaria</option>
+                                            <option >_______________</option>
+                                           
+                                            <option value="1 grado secundaria">1 año secundaria</option>
+                                            <option value="2 grado secundaria">2 año secundaria</option>
+                                            <option value="3 grado secundaria">3 año secundaria</option>
+                                            <option value="4 grado secundaria">4 año secundaria</option>
+                                            <option value="5 grado secundaria">5 año secundaria</option>
+                                            <option >_______________</option>
+                                            <option value="superior">Superior</option>
+
+
+
+
+
+
+
+                                        </select>
+                                    </div>
+
+
+
+
+                                    
+
+
+
+
+
+
+
+
+
 
 
 
@@ -210,14 +276,25 @@
 
 
                                     <div class="col-sm-12">
-                                    <label for="text">Ciclo de Matrícula*</label>
-                                    <select type="text" name="me_matriculo" id="number" required class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                                        <option selected>Seleccione el ciclo</option>
-                                        <option value="1">Ciclo A</option>
-                                        <option value="2">Ciclo B</option>
-                                        <option value="3">Ciclo C</option>
-                                    </select>
+                                        <label for="text">Ciclo de Matrícula*</label>
+                                        <select type="text" name="me_matriculo">
+                                            <option>Seleccione el ciclo</option>
+                                            <option value="1">Ciclo A</option>
+                                            <option value="2">Ciclo B</option>
+                                            <option value="3">Ciclo C</option>
+                                            <option value="3">Ciclo U</option>
+                                        </select>
                                     </div>
+
+
+
+
+
+
+
+
+
+
 
                                     <!----
                                     <div class="col-sm-12">
@@ -279,6 +356,7 @@
     </main>
 
 
+
     <!-- Footer area start here -->
     <?php
     include('includes/footer.php');
@@ -289,6 +367,9 @@
     <?php
     include('whatsap.php');
     ?>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciclo A</title>
+    <title>Ciclo U</title>
     <!-- Favicon img -->
     <link rel="shortcut icon" href="logo_ventana.png">
     <link rel="shortcut icon" href="assets/images/favicon.png">
@@ -105,7 +105,7 @@
                                                 </svg>
                                                 Solumath
                                             </h5>
-                                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">CICLO A</h2>
+                                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">CICLO U</h2>
                                             <p>Para iniciar en las matemáticas lo más importante es manejar los enteros y operaciones básicas con ellos, en este ciclo se planteará las reglas claras para entender los números enteros, fracciones y decimales de manera más cómoda y asistencial, los estudiantes avanzan a su propio ritmo y de manera progresiva. Para afianzar una mejor compresión se planteará un reforzamiento fuera del horario de clase a aquellos estudiantes que realmente lo necesitan.
                                                 Nuestro ARES garantiza su aprendizaje haciendo que el estudiante participe de manera activa en la clase y se recomienda tomar la prueba de diagnóstico para poder ubicarle en un grupo de estudio adecuado.
                                             </p>
