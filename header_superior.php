@@ -1,6 +1,9 @@
 
 
-
+<?php 
+  include('conexion.php');
+  
+?>
 
 
 <div class="col-lg-4 order-1 order-lg-2">
