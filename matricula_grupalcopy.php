@@ -86,6 +86,10 @@ include('includes/header.php');
 
 
 }
+#a:hover{
+    color:aliceblue
+    
+}
 
             </style>
 
@@ -203,6 +207,9 @@ include('includes/header.php');
                                         <div class="col-sm-12">
                                             <label for="number">Archivo excel de los estudiantes*</label>
                                             <input type="file"name="excell"id="number" accept=".xls,.xlsx" required >
+                                            <br>
+                                          
+                                            <a id ="a"href="descargar_excel_grupal.php">Descargar Formulario excel</a>
                                         </div>
 
                                        
