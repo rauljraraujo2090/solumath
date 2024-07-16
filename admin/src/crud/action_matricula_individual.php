@@ -98,9 +98,9 @@
             }
             closedir($miDir);
             echo "exitosa";
-            header("Location:../../../matricula_individual.php?a=1");
+            header("Location:../../../notificacion.php?a=1");
         } else {
-            header("Location:../../../matricula_individual.php?errorimg=1");
+            header("Location:../../../notificacion.php?errorimg=1");
             echo "fallo exitosa";
         }
     }
@@ -167,7 +167,7 @@
                     $resultFoto = mysqli_query($con, $updateFoto);
                 }
             } else {
-                header("Location:../notificacion.php?errorimg=1");
+                header("Location:../matricula_individual.php?errorimg=1");
             } 
         }
 echo"error";
